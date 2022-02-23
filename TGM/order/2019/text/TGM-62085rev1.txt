@@ -1,0 +1,8 @@
+﻿TGM-62085 4I4D2R 1IP_CNT 2OP_AL
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง  4"
+TARGET : แผนการทำงาน มี Function Cycle Time
+ACTUAL : Counter Sensor NPN. PNP, Contact 1 Channel
+ACTUAL : Reaet Contact 1 Channel
+Alarm 1 : ทำงานเมื่อ ACTUAL >= SET POINT 1
+Alarm 2 : ทำงานเมื่อ ACTUAL >= SET POINT 2
+ตั้งค่าการทำงานด้วย Remote IF

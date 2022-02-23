@@ -1,0 +1,44 @@
+{
+  "ORDER": "TGM-64030",
+  "KEYWORD": "TGM-64030 2I5D1R 1IP_RPM",
+  "DISPLAY": {
+    "TYPE": "7 Segment",
+    "SIZE": "2.3\"",
+    "OTHER": ""
+  },
+  "INPUT": {
+    "TYPE": "-",
+    "OTHER": "RPM",
+    "CHANNEL": ""
+  },
+  "OUTPUT": {
+    "TYPE": "-",
+    "OTHER": "",
+    "CHANNEL": ""
+  },
+  "COMMUNICATION": {
+    "TYPE": "-",
+    "OTHER": "",
+    "CHANNEL": ""
+  },
+  "SUPPLY": {
+    "TYPE": "110-240 VAC/ 50-60Hz",
+    "OTHER": ""
+  },
+  "SOURCES": {
+    "TYPE": "12VDC 4A / SP 240VAC",
+    "OTHER": ""
+  },
+  "FUNCTION": [
+    ""
+  ],
+  "BODYSIZE": "400W x 200H x 100D",
+  "DATE": "2021-03-01",
+  "SALE": {
+    "NAME": "บัณฑิต",
+    "BRANCH": "สนง ใหญ่",
+    "CALL": "0867525848",
+    "EMAIL": "",
+    "CUSTOMER": ""
+  }
+}

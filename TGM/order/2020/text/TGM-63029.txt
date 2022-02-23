@@ -1,0 +1,9 @@
+﻿TGM-63029 4I5D2R 2AP_420 1IP_RST
+- 7 Segment Size  สีแดง 
+- รับ Input 4 – 20 mA  2 Channel จาก
+- สามารถตั้งค่า Scale High, Scale Low 
+- สามารถตั้งค่า Decimal Point ได้ 
+- Input Contact Reset 1 channel 
+- PV แสดงค่าที่รับได้ จาก Input 4-20 channel 1
+- TOTAL แสดงค่าที่รับได้ จาก Input 4-20 channel 2
+และจะ Hold ค่าสูงสุดไว้จนกว่าจะ Reset Contact

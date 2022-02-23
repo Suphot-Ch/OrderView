@@ -1,0 +1,53 @@
+{
+  "ORDER": "TGM-64038",
+  "KEYWORD": "TGM-64038 12I5D1R 1AP_420 3OP_AL",
+  "DISPLAY": {
+    "TYPE": "7 Segment",
+    "SIZE": "12\"",
+    "OTHER": ""
+  },
+  "INPUT": {
+    "TYPE": "Analog 4-20mA",
+    "OTHER": "",
+    "CHANNEL": "1"
+  },
+  "OUTPUT": {
+    "TYPE": "Relay Alarm",
+    "OTHER": "",
+    "CHANNEL": "3"
+  },
+  "COMMUNICATION": {
+    "TYPE": "-",
+    "OTHER": "",
+    "CHANNEL": ""
+  },
+  "SUPPLY": {
+    "TYPE": "110-240 VAC/ 50-60Hz",
+    "OTHER": ""
+  },
+  "SOURCES": {
+    "TYPE": "other",
+    "OTHER": "PM-012S-1.2"
+  },
+  "FUNCTION": [
+    "FUNCTION",
+    "- ตั้งค่า SCALE แสดงผลได้ -19999 – 99999",
+    "- ตั้งค่าให้แสดงทศนิยมได้ สูงสุด 3 ตำแหน่ง(-19.999 – 99.999)",
+    "- ตั้งค่าการทำงานของ Alarm ได้ 4 Mode แยกกัน 3 Channel",
+    "FEATURE",
+    "Mode Alarm ใช้งานได้ 4 Mode",
+    ". Alarm high low",
+    ". Alarm high",
+    ". Alarm low",
+    ". Alarm high low range"
+  ],
+  "BODYSIZE": "1400W x 450H x 100D",
+  "DATE": "2021-03-04",
+  "SALE": {
+    "NAME": "คุณ บัณฑิต (game)",
+    "BRANCH": "สนง. ใหญ่",
+    "CALL": "0908808240",
+    "EMAIL": "",
+    "CUSTOMER": ""
+  }
+}

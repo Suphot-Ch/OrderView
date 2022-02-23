@@ -1,0 +1,11 @@
+﻿TGM-63013 4I5D1R 4I4D1R 1IP_CNT 1IP_ENC
+- 7 Segment Size 4" สีแดง
+- Input Counter sensor[ NPN PNP ] 1 Channel
+- Input Reset Contect 1 Channel
+- Input Encoder sensor[ NPN PNP ] 1 Channel
+- ตั้งค่าการทำงานผ่าน Remote
+- TARGET : แสดงค่าเป้าหมายที่งตั้งค่าไว้
+- ACTUAL : แสดงค่า Input Counter 
+- SPEEN : แสดงค่าความเร็วที่รับได้จาก Input Encoder (ความเร็วต่ำ)
+- สามารถตั้งค่า ตัวคูณตัวหรา ได้
+- สามารถตั้งค่า ชดเชยระยะทางต่อรอบ ได้ หน่วยเป็น cm.

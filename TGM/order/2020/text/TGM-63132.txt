@@ -1,0 +1,18 @@
+﻿TGM-63132 2I6D4R RS485
+- Display 7 Segment
+- Size 2.3" สีแดง
+- Input Supply 220VAC 
+- Output Supply 12VDC / 2A
+- สามารถเชื่อมต่อ RS485 Modbus RTU ได้
+- สามารถตั้งค่าการทำงานผ่าน Remote ได้
+RS485 Modbus RTU 
+ - รองรับ Baudrate : 4800 9600 19200 38400 57600
+ - รองรับ Parity : None, Odd, Even
+ - รองรับ Stopbit : 1
+ - รองรับ Bits : 8
+ - รองรับ Modbus function : 
+  ** Read registers x03, x04
+  ** Type Int write function x06
+  ** Type long write function x10
+- ตัวเครื่องประกอบด้วย
+   (1) ชุด Display TGM สำหรับแสดงผลขนาดใหญ่

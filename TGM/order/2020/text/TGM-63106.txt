@@ -1,0 +1,22 @@
+﻿TGM-63106 8I RS485
+- 7 Segment Size 8" Red 
+- Input Switch Up/Down 4 Channel
+- Input Start/Stop Game 1 Channel
+- Input Reset 1 Channel
+- Communication Modbus RTU RS485
+- You can setting with the remote.
+- Supply 220VAC 
+TIME : แสดงเวลา ได้ 3 Mode
+    Mode 1 แสดงเวลาปัจจุบัน
+    Mode 2 แสดงเวลาแบบนับขึ้น SET เวลา STOP ได้
+    Mode 3 แสดงเวลาแบบนับลง SET เวลา START ได้
+GAME : แสดงจำนวน SET ที่ชนะ (แก้ไขผ่าน Remote ได้)
+  : สามารถป้อนค่า ตัวอักษรได้ (แก้ไขผ่าน Remote ได้)
+SCORE : สามารถกดนับขึ้นลงได้ผ่าน Input Up/Down
+RS485	- สามารถตั้งค่า Baud rate ได้ 4800 9600 19200 38400 57600
+	- สามารถตั้งค่า Parity ได้ none odd even
+MODBUS	- สามารถตั้งค่า Slave Address ได้ 1-240
+
+
+** Mode 2/3 เมื่อการนับเวลาสิ้นสุด จะแสดงเป็นจอกระพริบ สามารถเปิด/ปิด ได้
+** ฟังก์ชั่นต่างๆ สามารถสั่งงานจาก RS485 Modbus RTU ได้

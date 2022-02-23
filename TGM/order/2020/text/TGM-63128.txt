@@ -1,0 +1,12 @@
+﻿TGM-63128 2I6D1R RS485 slave
+- Display 7 Segment
+- Size 2.3" สีแดง
+- สามารถเชื่อมต่อ RS485 Modbus RTU
+- สามารถตั้งค่าการทำงานผ่าน Remote ได้
+- Input Supply 220VAC 
+- Output Supply 12VDC/2A
+- แสดงค่า ที่รับได้จาก Modbus RTU
+- สามารถตั้งค่า Slave Address ได้ 1 – 240
+- สามารถตั้งค่า Baudrate ได้ 4800 – 57600
+- ตัวเครื่องประกอบด้วย
+   (1) ชุด Display TGM สำหรับแสดงผลขนาดใหญ่

@@ -1,0 +1,50 @@
+{
+  "ORDER": "TGM-64013",
+  "KEYWORD": "TGM-64013 4I5D1R RS485 master CM-013",
+  "DISPLAY": {
+    "TYPE": "7 Segment",
+    "SIZE": "4\"",
+    "OTHER": ""
+  },
+  "INPUT": {
+    "TYPE": "-",
+    "OTHER": "",
+    "CHANNEL": ""
+  },
+  "OUTPUT": {
+    "TYPE": "-",
+    "OTHER": "",
+    "CHANNEL": ""
+  },
+  "COMMUNICATION": {
+    "TYPE": "RS485 MB RTU Master",
+    "OTHER": "CM-013-M",
+    "CHANNEL": ""
+  },
+  "SUPPLY": {
+    "TYPE": "110-240 VAC/ 50-60Hz",
+    "OTHER": ""
+  },
+  "SOURCES": {
+    "TYPE": "-",
+    "OTHER": ""
+  },
+  "FUNCTION": [
+    "FUNCTION",
+    "- ค่าตัวเลขอ่านค่ามากจาก RS485 Modbus RTU",
+    "- ตั้งค่า Slave address ได้ 1 – 240",
+    "- ตั้งค่า Baudrate ได้ 4800 9600 19200 38400 57600",
+    "FEATURE",
+    "- ใช้เชื่อมต่อเพื่ออ่าน Parameter PV ของ CM-013 เชื่อมต่อจากภายนอก",
+    "- เลือกตำแหน่งของ Register ที่ต้องการให้แสดงผลได้"
+  ],
+  "BODYSIZE": "650W x 250H x 100D",
+  "DATE": "2021-02-04",
+  "SALE": {
+    "NAME": "Weerachat",
+    "BRANCH": "ปทุมธานี",
+    "CALL": "0922825551",
+    "EMAIL": "weerachat@primusthai.com",
+    "CUSTOMER": ""
+  }
+}

@@ -1,0 +1,17 @@
+﻿TGM-63056
+
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง ขนาด 4 นิ้ว
+Input 4-20 mA 6 Channel รับอินพุตผ่าน PB-04
+Input Temp/Humi ผ่าน HM-006
+Relay Contact Output 6 Channel
+สามารถแสดงผล Clock, Date ได้
+PCH Pressure In 1, In 2 และ Out 1,2 
+	: รับอินพุต 4-20 mA
+PCH Temp In 1, In 2 และ Out 1,2 
+	: รับอินพุต 4-20 mA
+Temp Room / Humi Room รับข้อมูล HM-006
+Alarm Relay 4 Function 6 Channel Output
+Alarm Relay 4 Function 6 Channel Output
+  : ทำงานแยกจากกันแต่ละ Channel
+  : สามารถเลือก Input สำหรับ Control Alarm ได้ 
+*การทำงานของอุปกรณ์ต่อพ่วงทั้งหมดควบคุมการทำงานผ่าน RS485 Modbus RTU จาก Display Board

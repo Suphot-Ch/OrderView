@@ -1,0 +1,13 @@
+﻿TGM-62099 2M8D1R 2I4D3R 1IP_CNT 1IP_NG
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง 2.3"
+และตัวอักษร Matrix 5x7 8 หลัก สีแดง 2.3"
+รับอินพุต Counter Sensor [ pnp, npn ], contact switch ได้ 2 channel
+รับอินพุต Reset contact switch ได้ 2 Channel
+สามารถตั้งค่า/แก้ไขตัวอักษร ได้ด้วยรีโมท
+ตั้งค่าการทำงานด้วย Remote IR
+Target	 : ตั้งค่า/แก้ไขค่า ผ่านรีโมทไร้สาย Infrared มีฟังก์ชั่น Cycle Time
+Actual	 : รับอินพุต Counter 1 Channel ตั้งค่าตัวคูณตัวหารได้ + 1 Reset
+Ng	 : รับอินพุต Counter 1 Channel ตั้งค่าตัวคูณตัวหารได้ + 1 Reset
+Alarm 1 : ทำงานเมื่อ ACTUAL มากกว่าหรือเท่ากับ Set Point
+Alarm 2 : ทำงานเมื่อ NG มากกว่าหรือเท่ากับ ACTUAL
+Alarm 3 : ทำงานเมื่อ ACTUAL มากกว่าหรือเท่ากับ TARGET

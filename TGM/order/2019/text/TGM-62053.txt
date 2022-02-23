@@ -1,0 +1,19 @@
+﻿TGM-62053 2I2D1R 1AP_RTD RS485 PH-04
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง แสดงผล
+Input Temp รับอินพุต RTD 0 - 100 °C ผ่าน EM
+Input Pressure อ่านค่าผ่าน RS485 Modbus RTU จาก PH04
+Output Alarm Relay 1 Channel สำหรับ TEMP
+สามารถตั้งค่า สเกลการแสดงผลได้
+สามารถตั้งค่า Alarm High/Low ได้ 4 Function
+กำหนดอุปกรณ์สำหรับต่อรับอินพุต
+         - ใช้ PH-04 ตัวที่ 1 อ่านค่ามาแสดงที่ Pressure. 0A-7A
+         - ใช้ PH-04 ตัวที่ 2 อ่านค่ามาแสดงที่ Pressure. 0B-7B    
+ตั้งค่าการทำงานด้วย Remote IF
+
+Alarm Function
+ 1 : Alarm High Low
+ 2 : Alarm High
+ 3 : Alarm Low 
+ 4 : Alarm High Low Range
+
+Display เป็นตัว Master อ่านค่าจาก PH-04

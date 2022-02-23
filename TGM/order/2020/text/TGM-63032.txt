@@ -1,0 +1,10 @@
+﻿GM-63032 4I5D2R 1IP_RST RS485master CM-013
+- 7 Segment Size  สีแดง 
+- Input Contact Reset 1 channel
+- RS485 Modbus RTU master
+อ่านค่า PV จาก CM-013 มาแสดงผล
+- Kg แสดงค่าที่รับได้ จาก PV ของ CM-013
+- TOTAL แสดงค่ารวมของการวัด
+
+**เมื่อค่า Kg มากกว่า Set Point และหยุดนิ่งที่ค่าใดค่าหนึ่ง เป็นเวลา ชั่วขณะหนึ่งที่มีการตั้งไว้ ค่าจาก Kg จะบวกเพิ่มไปที่ TOTAL
+และจะ Hold ค่าสูงสุดไว้จนกว่าจะ Reset Contact**

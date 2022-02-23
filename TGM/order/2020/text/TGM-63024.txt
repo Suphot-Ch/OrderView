@@ -1,0 +1,16 @@
+﻿TGM-63024 2I3D1R 1AP_420 2I2D1R 1IP_CNT
+- 7 Segment Size 2.3" สีแดง 3 หลัก
+- INPUT  4-20 mA 1 channel
+- สามารถตั้งค่า Scale High /Low ได้
+- สามารถตั้งค่าทศนิยมได้
+- ตั้งค่าการทำงานผ่าน Remote
+- 7 Segment Size 2.3" สีแดง 2 หลัก
+- INPUT Counter sensor[NPN PNP contact] 1 channel
+- INPUT Reset contact 1 channel
+
+- *RS485 Modbus RTU master
+RS485 Modbus RTU
+- สามารถตั้งค่า Baudrate ได้ 4800 9600 19200 38400 57600
+- สามารถเลือก Address สำหรับ ส่งข้อมูลได้ 2 Channel
+    โดย Address ไม่ซ้ำกัน 1 – 240
+- ใช้งาน ร่วมกับ CMT-007A

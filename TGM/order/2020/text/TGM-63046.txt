@@ -1,0 +1,13 @@
+﻿TGM-63046 4I6D2R 1IP_CNT 1AP_420
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง 
+INPUT Counter sensor[NPN PNP] 1 Channel
+INPUT Reset contact 1 Channel
+INPUT 4 – 20 mA 1 Channel
+ตั้งค่าการทำงานผ่าน Remote
+SPEED        : รับ INPUT 4 – 20 mA
+	       : สามารถตั้งค่า Scale ได้ -199999  -  999999
+	       : สามารถตั้งค่าชดเชยได้
+	       : กำหนดตำแหน่งทศนิยมได้ 
+COUNTER   : INPUT Counter
+	       : สามารถตั้งค่า ตัวคูณตัวหารได้
+	       : กำหนดตำแหน่งทศนิยมได้

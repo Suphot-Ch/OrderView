@@ -1,0 +1,8 @@
+﻿TGM-62086 4I4D2R 1IP_CNT 2OP_AL
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง 2.3"
+ACTUAL : Counter Sensor NPN. PNP, Contact 1 Channel
+ACTUAL : Reset Contact 1 Channel
+TOTAL   : เก็บค่าผลรวมของ Input Actual มี Contact Reset 1 Channel
+Alarm 1 : ทำงานเมื่อ ACTUAL >= SET POINT 1
+Alarm 2 : ทำงานเมื่อ ACTUAL >= SET POINT 2
+ตั้งค่าการทำงานด้วย Remote IF

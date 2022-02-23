@@ -1,0 +1,5 @@
+﻿TGM-63033 4I6D1R Remote
+- 7 Segment 4" 6หลัก
+- ตั้งค่าตัวเลขผ่าน Remote
+- สามารถกด Clear ค่า ได้ ผ่าน Remote
+- เมื่อ Clear แล้วให้ แสดงผลเป็น Under ขีดด้านบน

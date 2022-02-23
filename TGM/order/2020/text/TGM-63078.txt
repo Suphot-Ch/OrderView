@@ -1,0 +1,12 @@
+﻿TGM-63078 8I4D2R 2 RS485 slave
+- 7 Segment Size 8" สีแดง 4 หลัก
+- อินพุต RS485 Modbus RTU 2 Channel
+- สามารถตั้งค่าการทำงานผ่าน Remote ได้
+- Supply 220VAC 
+RS485 Modbus RTU slave 2 Channel ทำงานแยกกัน
+- Slave address : 1 – 240
+- Baud rate : 4800, 9600, 19200, 38400, 57600
+- Communicate : b8n1, b8o1, b8e1
+	         > b8 : Bits 8
+	         > n, o, e : None, Odd, Even
+	         > 1 : Stop bit 1

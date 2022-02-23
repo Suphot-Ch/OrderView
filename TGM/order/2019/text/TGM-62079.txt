@@ -1,0 +1,8 @@
+﻿TGM-62078 2I5D3R M2I8D1R 1IP_CNT
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง 2.3"
+และตัวอักษร Matrix 8x8 สีแดง 2.3"
+รับอินพุต Counter Sensor [ pnp, npn ], contact switch ได้ 1 channel
+รับอินพุต Reset contact switch ได้ 1 Channel
+สามารถตั้งค่า Set Point Alarm ได้ 1 Channel
+สามารถตั้งค่า/แก้ไขตัวอักษร ได้ด้วยรีโมท
+ตั้งค่าการทำงานด้วย Remote IF

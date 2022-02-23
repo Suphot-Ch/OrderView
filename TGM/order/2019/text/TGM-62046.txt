@@ -1,0 +1,9 @@
+﻿TGM-62046 4I3D1R 1IP_CNT_UD
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง COUNTER 4"
+รับอินพุต Sensor (PNP,NPN, Contact ) นับขึ้น 1 Channel
+รับอินพุต Sensor (PNP,NPN, Contact ) นับลง 1 Channel
+รับอินพุต Contact Reset 1 Channel
+สามารถตั้งค่า ตัวคูณ ตัวหาร อินพุตได้
+สามารถตั้งค่า ทศนิยม ได้
+Supply Output 24 VDC
+ตั้งค่าการทำงานด้วย Remote IF

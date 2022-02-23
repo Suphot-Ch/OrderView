@@ -1,0 +1,19 @@
+﻿TGM-63119rev1 2I4D1R 2M7D1R 2I5D3R 2M3D1R 1IP_CNT 3IP_STATUS
+- 7 Segment / Matrix 5x7
+- Size 2.3" สีแดง
+- Input Counter sensor npn pnp 1 ch
+- Input Reset Counter 1 ch
+- Input Status 3 ch
+- สามารถตั้งค่าการทำงานผ่าน Remote ได้
+- Input Supply 220VAC 
+- Output Supply 12VDC/2A
+- ตั้งค่า ตัวคูณตั้งหาร Input ได้ 1 - 9999
+- สามารถตั้งค่า ทศนิยมได้
+- Model : สามารถแก้ไขค่าตัวอักษรได้ 
+- Plan : สามารถแก้ไขค่าได้ ผ่าน Remote
+- Actual : แสดงค่าที่รับได้จาก Input\
+- EFF% : (Actual / Target) x 100
+- Status : แบ่งเป็น 3 Input ได้แก่
+      (1) Status RUN : จะแสดงผมเป็น RUN
+      (1) Status STOP : จะแสดงผมเป็น STP
+      (1) Status BREAK DOWN : จะแสดงผมเป็น BKD

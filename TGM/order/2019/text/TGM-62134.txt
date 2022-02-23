@@ -1,0 +1,11 @@
+﻿TGM-62134 2I4D8R 6AP_420 CLOCK DATE
+- 7 Segment Size 2.3" สีแดง 4 หลัก
+- PCH..Pressure (In) :  Input 4-20mA 1 Channel 
+- PCH..Pressure (Out):  Input 4-20mA 1 Channel 
+- PCH..Temp (In):  Input 4-20mA 1 Channel 
+- PCH..Temp (Out):  Input 4-20mA 1 Channel 
+- Temp (Room):  Input 4-20mA 1 Channel 
+- Humidity (Room):  Input 4-20mA 1 Channel 
+- Input Analog 4-20mA 6 Channel
+- สามารถตั้งค่า Scale High , Scale Low ได้
+- สามารถตั้งค่าทศนิยมได้ 2 ตำแหน่ง

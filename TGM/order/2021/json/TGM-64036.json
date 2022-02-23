@@ -1,0 +1,50 @@
+{
+  "ORDER": "TGM-64036",
+  "KEYWORD": "TGM-64036 4I4D2R 1AP_420 TC-K EM-00N",
+  "DISPLAY": {
+    "TYPE": "7 Segment",
+    "SIZE": "4\"",
+    "OTHER": ""
+  },
+  "INPUT": {
+    "TYPE": "Analog 4-20mA",
+    "OTHER": "EM-00N-I-O-220(0-100) / TSK-01-4.8 30cm",
+    "CHANNEL": "1"
+  },
+  "OUTPUT": {
+    "TYPE": "-",
+    "OTHER": "",
+    "CHANNEL": ""
+  },
+  "COMMUNICATION": {
+    "TYPE": "-",
+    "OTHER": "",
+    "CHANNEL": ""
+  },
+  "SUPPLY": {
+    "TYPE": "110-240 VAC/ 50-60Hz",
+    "OTHER": ""
+  },
+  "SOURCES": {
+    "TYPE": "-",
+    "OTHER": ""
+  },
+  "FUNCTION": [
+    "FUNCTION",
+    "- ตั้งค่า SCALE แสดงผลได้ -1999 – 9999",
+    "- ตั้งค่าให้แสดงทศนิยมได้ สูงสุด 2 ตำแหน่ง(-19.99 – 99.99)",
+    "- ตั้งค่า/แก้ไขเวลาได้",
+    "FEATURE",
+    "Temp : แสดงค่าที่อ่านได้จาก TC-K ผ่านอุปกรณืแปลงสัญญาณ EM000N-I-O-220",
+    "Time : แสดงผลเวลาปัจจุบัน"
+  ],
+  "BODYSIZE": "950W x 450H x 100D",
+  "DATE": "2021-03-02",
+  "SALE": {
+    "NAME": "ไพรวัลล์ สะมะดะธัญกรณ์",
+    "BRANCH": "ชลบรี",
+    "CALL": "0901979589",
+    "EMAIL": "phaiwan@primusthai.com",
+    "CUSTOMER": ""
+  }
+}

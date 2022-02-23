@@ -1,0 +1,54 @@
+{
+  "ORDER": "TGM-64047",
+  "KEYWORD": "TGM-64047 4I3D6R 6AP_420 7OP_AL RS485 slave (2board)",
+  "DISPLAY": {
+    "TYPE": "7 Segment",
+    "SIZE": "4\"",
+    "OTHER": ""
+  },
+  "INPUT": {
+    "TYPE": "Analog 4-20mA",
+    "OTHER": "",
+    "CHANNEL": "6"
+  },
+  "OUTPUT": {
+    "TYPE": "Relay Alarm",
+    "OTHER": "",
+    "CHANNEL": "7"
+  },
+  "COMMUNICATION": {
+    "TYPE": "RS485 MB RTU Slave",
+    "OTHER": "",
+    "CHANNEL": "2"
+  },
+  "SUPPLY": {
+    "TYPE": "110-240 VAC/ 50-60Hz",
+    "OTHER": ""
+  },
+  "SOURCES": {
+    "TYPE": "-",
+    "OTHER": ""
+  },
+  "FUNCTION": [
+    "FUNCTION",
+    "- สามารถตั้งค่า Scale high low ได้  -199 – 999",
+    "- สามารถตั้งค่า ทศนิยมได้ (0, 0.0)",
+    "- สามารถตั้งค่า Alarm ได้ 4 function",
+    "FEATURE",
+    "- Output Ch 1-6 Alarm ทำงานตามการตั้งค่า",
+    "        Alarm high low",
+    "        Alarm high",
+    "        Alarm low",
+    "        Alarm high low range",
+    "- Output Ch 7 ทำงานเมื่อ Ch 1-6 ช่องใดช่องหนึ่งทำงาน"
+  ],
+  "BODYSIZE": "1000W x 1100H x 100D",
+  "DATE": "2021-03-12",
+  "SALE": {
+    "NAME": "คุณ บัณฑิต (game)",
+    "BRANCH": "สนง. ใหญ่",
+    "CALL": "0908808240",
+    "EMAIL": "",
+    "CUSTOMER": ""
+  }
+}

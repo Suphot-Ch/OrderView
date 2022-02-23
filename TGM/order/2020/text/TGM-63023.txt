@@ -1,0 +1,7 @@
+﻿TGM-63023 1I4D1R 2I5D2R 1IP_CNT
+- CLOCK Segment 1.2" แสดงเวลา [ HH:MM ]
+- PLAN Segment 2.3" แสดงค่า เป้าหมาย ตั้งค่าจาก Remote
+- ACTUAL Segment 2.3" แสดงค่าที่รับได้จาก INPUT
+- INPUT Counter sensor[NPN PNP] 1 Channel
+- INPUT Reset contact 1 Channel
+- ตั้งค่าการทำงานผ่าน Remote

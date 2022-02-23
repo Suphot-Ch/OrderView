@@ -1,0 +1,16 @@
+﻿TGM-63122 2I2D1R 1IP_CNT ProductionLine
+- Display 7 Segment / Matrix
+- Size 1.2"/2.3" สีแดง
+- Input Counter pnp npn 1 ch
+- Input Reset Counter 1 ch
+- สามารถตั้งค่าการทำงานผ่าน Remote ได้
+- Input Supply 220VAC 
+- Output Supply 12VDC/2A
+- ตั้งค่า ตัวคูณตัวหาร Input ได้ 1 ถึง 9999
+- Model ตั้งค่าตัวอักษรต่อเนื่องได้ 15 ตัวอักษร
+- Plan ตั้งผ่านรีโมท
+- Actual แสดงค่าที่รับได้จาก Input Counter
+- Ratio = (Actual / Plan) x 100
+
+- ตัวเครื่องประกอบด้วย
+   (1) ชุด Display TGM สำหรับแสดงผลขนาดใหญ่

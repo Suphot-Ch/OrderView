@@ -1,0 +1,7 @@
+﻿TGM-63050\TGM-63054 4I3D3R 1IP_CNT
+- 7 Segment Size  4"  สีแดง 
+- INPUT Counter sensor PNP NPN 1 channel
+- INPUT Contact Reset 1 channel
+- TARGET	: ตั้งค่าด้วยรีโมท
+- ACTUAL	: รับค่า Sensor , Contact , NPN , PNP
+- DIFF.	: ACTUAL - TARGET

@@ -1,0 +1,13 @@
+﻿TGM-63061 2I5D1R 1AP_TCR EM_Converter 2IP_Contact
+- 7 Segment Size 2.3" สีแดง 5 หลัก
+- Input Thermocouples type R (0 – 1400) "C
+- Input Contact Trig 2 Channel
+- Output Buzzer 1 Channel
+- แปลงสัญญาณ ผ่าน EM-02N-I ติดตั้งภายในตัว Display
+- ตั้งค่าการทำงานผ่าน Remote
+- สามารถแก้ไข/ตั้งค่า Scale ได้ 
+- สามารถแก้ไข/ตั้งค่า ค่าชดเชย ได้ 
+- สามารถแก้ไข/ตั้งค่า จุดทศนิยม ได้  1 ตำแหน่ง
+***เงื่อนไข
+ - เมื่อกด View ค่า Peak max จะแสดง เมื่อกดอีกครั้ง จะแสดงผล PV ปกติ
+- เมื่อกด Reset ค่า Peak max จะเริ่มต้นรับใหม่

@@ -1,0 +1,15 @@
+﻿TGM-62130 4I9D1R 4I5D4R 4IP_CNT RS485
+- 7 Segment Size 4"  red color
+- Input Counter Sensor NPN, PNP, Contact 4 Channel
+- TOTAL : แสดงผลรวม NO1 + NO2 + NO3 + NO4
+- NO1 : Counter Sensor NPN, PNP, Contact 1 Channel
+- NO2 : Counter Sensor NPN, PNP, Contact 1 Channel
+- NO3 : Counter Sensor NPN, PNP, Contact 1 Channel
+- NO4 : Counter Sensor NPN, PNP, Contact 1 Channel
+- RS485 Modbus RTU 
+ - Support read holding registers 03
+ - Support read input registers 04
+ - Support preset multi registers 16
+- Baudrate 4800 9600 19200 38400 57600
+- Parity none odd even
+- Address 1 - 240

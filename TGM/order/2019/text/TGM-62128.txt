@@ -1,0 +1,5 @@
+﻿TGM-62128 4I4D1R 4I2D1R 1AP TEMP CLOCK
+- 7 Segment Size 4"  red color
+- Input Temp 0 – 99C รับอุณหภูมิจาก HM-005
+- Clock แสดงผลเป็น นาฬิกา ชั่วโมง :  นาที
+- Input Supply 220V AC

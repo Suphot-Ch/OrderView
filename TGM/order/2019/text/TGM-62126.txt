@@ -1,0 +1,19 @@
+﻿TGM-62126 8I4D1R 1AP-420 2OP_AL RS485
+- 7 Segment Size 8"  red color
+- Input Current 4-20mA 1 Channel
+- Output Alarm 4 Function 2 Channel
+- RS485 Modbus RTU 
+- Input Supply 220V AC
+Alarm 4 Function 2 Channel
+- Alarm High Low
+- Alarm High
+- Alarm Low
+- Alarm High Low Range
+RS485 Modbus RTU
+ - Support read holding registers 03
+ - Support read input registers 04
+ - Support preset single register 06
+ - Support preset multi registers 16
+- Baudrate 4800 9600 19200 38400 57600
+- Parity none odd even
+- Address 1 - 240

@@ -1,0 +1,8 @@
+﻿TGM-62045 8I 5D 1R 1AP_420
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง  8"
+อินพุต 4 – 20 mA 1 Channel
+สามารถตั้งค่า SCALE High สูงสุดที่ 99999
+สามารถตั้งค่า SCALE Low ต่ำสุดที่ -19999
+สามารถตั้งค่า Decimal Point ได้
+Supply Output : 24 VDC 1 Channel
+ตั้งค่าการทำงานด้วย Remote IF

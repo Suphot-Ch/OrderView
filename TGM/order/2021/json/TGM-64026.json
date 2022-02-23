@@ -1,0 +1,57 @@
+{
+  "ORDER": "TGM-64026",
+  "KEYWORD": "TGM-64026 8I4D1R 1IP_HOLD_TIMER 2IP_RST 3OP_AL",
+  "DISPLAY": {
+    "TYPE": "7 Segment",
+    "SIZE": "8\"",
+    "OTHER": ""
+  },
+  "INPUT": {
+    "TYPE": "Contact Timer",
+    "OTHER": "",
+    "CHANNEL": "3"
+  },
+  "OUTPUT": {
+    "TYPE": "Relay Alarm",
+    "OTHER": "",
+    "CHANNEL": "3"
+  },
+  "COMMUNICATION": {
+    "TYPE": "-",
+    "OTHER": "",
+    "CHANNEL": ""
+  },
+  "SUPPLY": {
+    "TYPE": "24VDC >1A",
+    "OTHER": ""
+  },
+  "SOURCES": {
+    "TYPE": "-",
+    "OTHER": ""
+  },
+  "FUNCTION": [
+    "FUNCTION",
+    "- ตั้งค่า Mode การนับขึ้นหรือลงได้ สามารถนับได้ 00:00 – 99:59",
+    "- ตั้งค่า Type การนับ เป็น HH:MM (HH MM) หรือ MM:SS (MM ss) ได้",
+    "- กำหนดค่าสำหรับ Reset ค่าเริ่มต้นได้",
+    "- ตั้งค่า Alarm ได้ 3 Channel แยกกัน ",
+    "- ตั้งค่า Alarm ได้ 3 Mode คือ Hold on(HL), Recycle(RC) และ Interval(IT)",
+    "- ตั้งค่า Delay สำหรับ Alarm Mode Recycle และ Interval ได้",
+    "FEATURE",
+    "การกำหนดค่า Reset เริ่มต้น",
+    "- เมื่อตั้งค่า Reset เริ่มต้น 10:00 หากมี Input Reset ทำให้หน้าจอ Reset เป็น 10:00",
+    "การกำหนดค่า Mode Alarm",
+    "- Hold on : เมื่อถึงเวลาที่ตั้งค่าไว้ Alarm ON ค้างจนกว่าจะมี Reset Alarm",
+    "- Recycle : เมื่อถึงเวลาที่ตั้งค่าไว้ Alarm ON กระพริบจนกว่าจะมี Reset Alarm",
+    "- Interval : เมื่อถึงเวลาที่ตั้งค่าไว้ Alarm ON ค้างจนครบ Delay จากนั้น Alarm OFF"
+  ],
+  "BODYSIZE": "1450W x 300H x 100D",
+  "DATE": "2021-02-19",
+  "SALE": {
+    "NAME": "Boom Copeeor",
+    "BRANCH": "พระราม 2",
+    "CALL": "0982795785",
+    "EMAIL": "",
+    "CUSTOMER": ""
+  }
+}

@@ -1,0 +1,14 @@
+﻿TGM-62073 2I3D5R 3AP_PT100 2AP_420 RS485
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง 
+แสดงผลเป็นอุณหภูมิ และแรงดัน
+TEMP อ่านค่า RTD PT100 ผ่าน Converter TM-012 0 – 100 °C 3 ช่อง
+Pressure อ่านค่า 4-20mA  2 ช่อง
+สามารถปรับ Scale high Low ได้ สำหรับ 4-20mA
+สามารถตั้งค่า ทศนิยมได้
+ตั้งค่าการทำงานด้วย Remote IF 
+สามารถเชื่องต่อข้อมูล RS485 Modbus RTU ได้ ( Temp, Pressure ตั้ง Address แยกกัน )
+RS485 : Baud Rate 4800 9600 19200 38400 57600
+RS485 : Parity none odd even
+RS485 : Address 1 – 255
+RTU : Function Read Register 03h 04h
+RTU : Function Write Register 06h 10h

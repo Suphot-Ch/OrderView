@@ -1,0 +1,12 @@
+﻿TGM-63075 2I6D1R 2IP_START_STOP_RESET
+- 7 Segment Size 2.3" สีแดง 6 หลัก
+- อินพุต Contact  3 Channel
+     : START Input
+     : STOP Input
+     : RESET Input
+- Supply 220VAC 
+- เมื่อมีการ Trig Input Start จะเริ่มนับเวลา หน่วยเป็น วินาที
+- เมื่อมีการ Trig Input Stop จะหยุดนับเวลา และค้างค่าไว้
+- เมื่อมีการ Trig Input Reset จะ Set เวลาให้เป็นค่าที่ กำหนดไว้
+- สามารถเลือกให้นับขึ้นหรือนับลงได้
+- สามารถกำหนดค่าเริ่มต้นได้ 1 ค่า

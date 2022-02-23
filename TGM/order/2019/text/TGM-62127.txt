@@ -1,0 +1,15 @@
+﻿TGM-62127 8I3D1R 1IP_RPS RS485
+- 7 Segment Size 8"  red color
+- Input frequency Type sensor PNP, NPN, Contact
+- สามารถตั้งค่า รอบความถี่การวัดได้  1 วินาที –  60 วินาที หรือ 1 นาที
+- สามารถตั้งค่า เชื่อมต่อ RS485 Modbus RTU
+- สามารถเรียกดูค่า Counter ผ่าน Modbus RTU ค่า Over Flow 0 - 4000000000
+- Input Supply 220V AC
+RS485 Modbus RTU
+ - Support read holding registers 03
+ - Support read input registers 04
+ - Support preset single register 06
+ - Support preset multi registers 16
+- Baudrate 4800 9600 19200 38400 57600
+- Parity none odd even
+- Address 1 - 240

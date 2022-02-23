@@ -1,0 +1,9 @@
+﻿TGM-62090rev1 2I4D4R 1IP_CNT TimeOnOff
+7 Segment Size 2.3" สีแดง 4 หลัก Digital Counter
+Digital Input Sensor PNP, NPN, Contact Switch 1 Channel 
+Contact Reset 1 Channel
+Function ตัวคูณ ตัวหาร Input
+Function Cycle Time Plan เพิ่มค่า Plan ทุกรอบเวลา ตั้งได้ ( 999.9 ) วินาที
+Function Cycle Time Target เพิ่มค่า Target ทุกรอบเวลา ตั้งได้ ( 999.9 ) วินาที
+Function Time On/Off ปิด/เปิดหน้าจอตามเวลาสามารถตั้งได้ Function ละ 10 โปรแกรม 
+เมื่ออยู่ในช่วง Off หน้าจอจะปิดยกเว้นนาฬิกา 

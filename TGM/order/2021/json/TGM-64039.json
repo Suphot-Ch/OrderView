@@ -1,0 +1,56 @@
+{
+  "ORDER": "TGM-64039",
+  "KEYWORD": "TGM-64039 4I5D1R2F 1AP_0_10 1OP_AL",
+  "DISPLAY": {
+    "TYPE": "7 Segment",
+    "SIZE": "4\"",
+    "OTHER": ""
+  },
+  "INPUT": {
+    "TYPE": "Analog 0-10VDC",
+    "OTHER": "",
+    "CHANNEL": "1"
+  },
+  "OUTPUT": {
+    "TYPE": "Relay Alarm",
+    "OTHER": "",
+    "CHANNEL": "1"
+  },
+  "COMMUNICATION": {
+    "TYPE": "-",
+    "OTHER": "",
+    "CHANNEL": ""
+  },
+  "SUPPLY": {
+    "TYPE": "110-240 VAC/ 50-60Hz",
+    "OTHER": ""
+  },
+  "SOURCES": {
+    "TYPE": "other",
+    "OTHER": "PM-012-1.2"
+  },
+  "FUNCTION": [
+    "FUNCTION",
+    "- ตั้งค่า SCALE แสดงผลได้ -19999 – 99999",
+    "- ตั้งค่าให้แสดงทศนิยมได้ สูงสุด 3 ตำแหน่ง(-19.999 – 99.999)",
+    "- ตั้งค่าชดเชยได้ -1999 – 9999",
+    "- ตั้งค่าการทำงานของ Alarm ได้ 4  mode",
+    "- ตั้งค่าการ Hysteresis Alarm ได้",
+    "- ตั้งค่ากำหนด Delay time On/Off Alarm ได้ 0 – 60 วินาที",
+    "FEATURE",
+    "Mode Alarm ใช้งานได้ 4 Mode",
+    ". Alarm high low",
+    ". Alarm high",
+    ". Alarm low",
+    ". Alarm high low range"
+  ],
+  "BODYSIZE": "500W x 300H x 100D",
+  "DATE": "2021-03-04",
+  "SALE": {
+    "NAME": "คุณ กวินภพ (benz)",
+    "BRANCH": "พระราม 2",
+    "CALL": "0901979587",
+    "EMAIL": "khawinpop@primusthai.com",
+    "CUSTOMER": ""
+  }
+}

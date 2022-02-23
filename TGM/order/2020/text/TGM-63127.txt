@@ -1,0 +1,14 @@
+﻿TGM-63127
+- Display 7 Segment
+- Size 4" สีแดง
+- Input Contact Switch 2 channel ( Start Stop )
+- สามารถตั้งค่าการทำงานผ่าน Remote ได้
+- Input Supply 220VAC 
+- Output Supply 12VDC/2A
+- แสดงค่า Counter Timer
+- เมื่อ Trig Contact Start 1 ครั้ง Counter จะนับขึ้นทุกๆ 1 วินาที 
+จนกว่าจะ Trig Contact Stop จึงจะหยุดนับเวลา   
+และแสดงค่าเดิมค้างจนกว่าจะ Trig Contact Start อีกครั้ง 
+จึงจะทำการ Reset Counter เป็น 0 และเริ่มนับใหม่อีกครั้ง
+- ตัวเครื่องประกอบด้วย
+   (1) ชุด Display TGM สำหรับแสดงผลขนาดใหญ่

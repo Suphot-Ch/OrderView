@@ -1,0 +1,55 @@
+{
+  "ORDER": "TGM-64029",
+  "KEYWORD": "TGM-64029 2I5D3R 8IP_CNT 2OP_AL ( PLAN ACTUAL DIFF) RS485 slave",
+  "DISPLAY": {
+    "TYPE": "7 Segment",
+    "SIZE": "2.3\"",
+    "OTHER": ""
+  },
+  "INPUT": {
+    "TYPE": "Sensor NPN PNP Contact Counter",
+    "OTHER": "",
+    "CHANNEL": "8"
+  },
+  "OUTPUT": {
+    "TYPE": "Relay Alarm",
+    "OTHER": "",
+    "CHANNEL": "2"
+  },
+  "COMMUNICATION": {
+    "TYPE": "RS485 MB RTU Slave",
+    "OTHER": "",
+    "CHANNEL": "1"
+  },
+  "SUPPLY": {
+    "TYPE": "110-240 VAC/ 50-60Hz",
+    "OTHER": ""
+  },
+  "SOURCES": {
+    "TYPE": "12VDC 4A / SP 240VAC",
+    "OTHER": ""
+  },
+  "FUNCTION": [
+    "FUNCTION",
+    "- ตั้งค่า ตัวคูณตัวหาร 1 – 999",
+    "- ตั้งค่า โหมดการนับ ขึ้น/ลง ได้",
+    "- ตั้งค่า Cycle Time สำหรับเพิ่มจำนวน PLAN ทุกๆรอบตามเวลาที่ตั้งค่าได้",
+    "- ตั้งค่า Set Point Alarm ได้ 0 – 99999",
+    "- ตั้งค่า Slave address ได้ 1 – 240 ",
+    "- ตั้งค่า Baudrate ได้ 4800 9600 19200 38400 57600",
+    "FEATURE",
+    "- PLAN : แสดงค่าเป้าหมาย ตั้งค่าได้ผ่าน Remote",
+    "- ACTUAL : แสดงค่าผลที่รับได้จาก Input",
+    "- DIFF. : แสดงค่าผลต่าง  PLAN - ACTUAL",
+    "- ALARM ทำงานเมื่อ ACTUAL ≥ SETPOINT (Contact NC NO COM)"
+  ],
+  "BODYSIZE": "500W x 350H x 100D",
+  "DATE": "2021-02-24",
+  "SALE": {
+    "NAME": "weerachat",
+    "BRANCH": "ปทุุมธานี",
+    "CALL": "0922825551",
+    "EMAIL": "",
+    "CUSTOMER": ""
+  }
+}

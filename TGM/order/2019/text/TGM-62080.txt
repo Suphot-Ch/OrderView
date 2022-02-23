@@ -1,0 +1,7 @@
+﻿TGM-62080 12I6D1R 3IP TIME_COUNTER
+แสดงผลผ่านหน้าจอ 7 Segment สีแดง 3 หลัก
+Input Start : เริ่มนับเวลาเมื่อมีการ Trig ที่ Input Start
+Input Stop : หยุดนับเวลาเมื่อมีการ Trig ที่ Input Stop
+Input Reset : ทำการ Reset ค่าเป็นค่าเริ่มต้น เป็น 0
+Alarm : Contact Relay 5A 250VAC 
+         : ทำงานเมื่อ Timer มีค่ามากกว่าหรือเท่ากับ Set Point 

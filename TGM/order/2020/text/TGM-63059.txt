@@ -1,0 +1,11 @@
+﻿TGM-63059 4I4D2R TEMP HUMI HM_006 2OP_AL
+- 7 Segment Size 4" สีแดง 4 หลัก
+- INPUT : Temp (0 – 100)°C  ±0.3 °C
+- INPUT : Humi (0 – 100)% (ย่านทำงาน 5 - 95 %RH)
+-            : ±2 % RH ที่ 10-90 %RH
+- แปลงสัญญาณ ผ่าน HM-006-00 ติดตั้งภายในตัว Display
+- ตั้งค่าการทำงานผ่าน Remote
+- OUTPUT : ALARM Contact 2 Channel
+- สามารถแก้ไข/ตั้งค่า Alarm function ได้ 4 รูปแบบ 2 Channel
+- สามารถแก้ไข/ตั้งค่า จุดทศนิยม ได้  1 ตำแหน่ง
+รวมราคา HM-006-00 แล้ว

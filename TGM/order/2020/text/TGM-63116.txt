@@ -1,0 +1,9 @@
+﻿TGM-63116 4I2D1R 1IP_CNT
+- 7 Segment Size 4" สีแดง 2 หลัก
+- Input Counter sensor npn pnp 1 ch
+- Input Reset contact 1 ch
+- สามารถตั้งค่าการทำงานผ่าน Remote ได้
+- Input Supply 220VAC 
+- Output Supply 24VDC
+- ตั้งค่าผ่าน Remote ได้ 0 ถึง 99
+- SHOT แสดงค่าที่รับได้ จาก Input Counter

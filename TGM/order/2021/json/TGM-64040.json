@@ -1,0 +1,52 @@
+{
+  "ORDER": "TGM-64040",
+  "KEYWORD": "TGM-64040 2I5D1R 3OP_AL RS485 master CM-013-M",
+  "DISPLAY": {
+    "TYPE": "7 Segment",
+    "SIZE": "2.3\"",
+    "OTHER": ""
+  },
+  "INPUT": {
+    "TYPE": "-",
+    "OTHER": "",
+    "CHANNEL": ""
+  },
+  "OUTPUT": {
+    "TYPE": "-",
+    "OTHER": "",
+    "CHANNEL": ""
+  },
+  "COMMUNICATION": {
+    "TYPE": "RS485 MB RTU Master",
+    "OTHER": "CM-013-M",
+    "CHANNEL": "1"
+  },
+  "SUPPLY": {
+    "TYPE": "110-240 VAC/ 50-60Hz",
+    "OTHER": ""
+  },
+  "SOURCES": {
+    "TYPE": "-",
+    "OTHER": ""
+  },
+  "FUNCTION": [
+    "FUNCTION",
+    "- ตั้งค่า Baudrate ได้ 4800 9600 19200 38400 57600.",
+    "- ตั้งค่า Parity ได้ None Odd Even.",
+    "- ตั้งค่า Slave Address ได้ 1 – 240",
+    "- กำหนดค่า Register address ที่ต้องการอ่านค่าได้",
+    "- ตั้งค่า Alarm Setpoint ได้ 3 Channel แยกกัน",
+    "FEATURE",
+    "- อ่านข้อมูลจาก CM-013-M แสดงผลบนหน้าจอ Big display",
+    "- Alarm อ้างอิงค่าบนหน้าจอ ทำงานเมื่อค่าบนหน้าจอ มากกว่า ค่า Set Point"
+  ],
+  "BODYSIZE": "300W x 150H x 100D",
+  "DATE": "2021-03-04",
+  "SALE": {
+    "NAME": "คุณ เดชา แดงอ่อน",
+    "BRANCH": "บางบ่อ",
+    "CALL": "0982795787",
+    "EMAIL": "dacha@primusthai.com",
+    "CUSTOMER": ""
+  }
+}

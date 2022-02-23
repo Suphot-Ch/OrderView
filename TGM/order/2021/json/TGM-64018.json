@@ -1,0 +1,54 @@
+{
+  "ORDER": "TGM-64018",
+  "KEYWORD": "TGM-64018 8I4D1R 4M1D1R 1AP_420 1OP_AL",
+  "DISPLAY": {
+    "TYPE": "7 Segment / Matrix",
+    "SIZE": "8\" / 4\" 5x7",
+    "OTHER": "4 Digit / 1 Digit"
+  },
+  "INPUT": {
+    "TYPE": "Analog 4-20mA",
+    "OTHER": "",
+    "CHANNEL": "1"
+  },
+  "OUTPUT": {
+    "TYPE": "Relay Alarm",
+    "OTHER": "",
+    "CHANNEL": "1"
+  },
+  "COMMUNICATION": {
+    "TYPE": "-",
+    "OTHER": "",
+    "CHANNEL": ""
+  },
+  "SUPPLY": {
+    "TYPE": "110-240 VAC/ 50-60Hz",
+    "OTHER": ""
+  },
+  "SOURCES": {
+    "TYPE": "-",
+    "OTHER": ""
+  },
+  "FUNCTION": [
+    "FUNCTION",
+    "- ตั้งค่า Scale ได้ -1999 – 9999",
+    "- ตั้งค่าทศนิยมได้ 2 ตำแหน่ง",
+    "- ใช้งาน Alarm ได้ 1 Channel",
+    "- ตั้งค่า Alarm ได้ 4 Mode",
+    "FEATURE",
+    "Mode Alarm ใช้งานได้ 4 Mode",
+    ". Alarm high low",
+    ". Alarm high",
+    ". Alarm low",
+    ". Alarm high low range"
+  ],
+  "BODYSIZE": "950W x 300H x 100D",
+  "DATE": "2021-02-11",
+  "SALE": {
+    "NAME": "วิรัช กิมิพันธ์",
+    "BRANCH": "ปทุมธานี",
+    "CALL": "0901979592",
+    "EMAIL": "",
+    "CUSTOMER": ""
+  }
+}

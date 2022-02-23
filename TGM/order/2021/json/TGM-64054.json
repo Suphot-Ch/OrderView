@@ -1,0 +1,52 @@
+{
+  "ORDER": "TGM-64054",
+  "KEYWORD": "TGM-64054 4I4D4R RS485 master",
+  "DISPLAY": {
+    "TYPE": "7 Segment",
+    "SIZE": "4\"",
+    "OTHER": ""
+  },
+  "INPUT": {
+    "TYPE": "-",
+    "OTHER": "",
+    "CHANNEL": ""
+  },
+  "OUTPUT": {
+    "TYPE": "-",
+    "OTHER": "",
+    "CHANNEL": ""
+  },
+  "COMMUNICATION": {
+    "TYPE": "RS485 MB RTU Master",
+    "OTHER": "",
+    "CHANNEL": "1"
+  },
+  "SUPPLY": {
+    "TYPE": "110-240 VAC/ 50-60Hz",
+    "OTHER": ""
+  },
+  "SOURCES": {
+    "TYPE": "-",
+    "OTHER": ""
+  },
+  "FUNCTION": [
+    "FUNCTION",
+    "- ตั้งค่า Baudrate ได้ 4800 9600 19200 38400 57600",
+    "- ตั้งค่า Parity ได้ None Odd Even",
+    "- ตั้งค่า Device Address 4 devices",
+    "- กำหนดตำแหน่ง Register PV และ Register DP กำหนดแยกกัน 4 devices",
+    "FEATURE",
+    "- เชื่อมต่อรับข้อมูลผ่าน RS485 Modbus RTU ",
+    "- สามารถเชื่อมต่อ Device ได้ ไม่เกิน 4 devices",
+    "- สามารถเชื่อมต่อเพื่ออ่านข้อมูลได้ 2 function (03h 04h)"
+  ],
+  "BODYSIZE": "1350W x 550H x 100D",
+  "DATE": "2021-03-24",
+  "SALE": {
+    "NAME": "Wasan",
+    "BRANCH": "",
+    "CALL": "",
+    "EMAIL": "",
+    "CUSTOMER": ""
+  }
+}

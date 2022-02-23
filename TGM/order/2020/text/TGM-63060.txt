@@ -1,0 +1,8 @@
+﻿TGM-63060 2I3D2R TEMP HUMI 2AP_420 2OP_AL
+- 7 Segment Size 2.3" สีแดง 3 หลัก
+- INPUT : 4 - 20 mA 2 channel
+- OUTPUT : Alarm Contact 2 Channel
+- ตั้งค่าการทำงานผ่าน Remote
+- สามารถแก้ไข/ตั้งค่า Scale แสดงผลได้ 2 Channel
+- สามารถแก้ไข/ตั้งค่า Alarm function ได้ 4 รูปแบบ 2 Channel
+- สามารถแก้ไข/ตั้งค่า จุดทศนิยม ได้  1 ตำแหน่ง

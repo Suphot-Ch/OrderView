@@ -1,0 +1,14 @@
+﻿TGM-63135 4I4D1R 1AP_PT100 EM-07N-0-M conveter
+- Display 7 Segment
+- Size 4" สีแดง
+- Input PT100 1 ch.
+- Input Supply 220VAC 
+- Output Supply 12VDC / 2A
+- สามารถตั้งค่าการทำงานผ่าน Remote ได้
+แปลงสัญญาณ INPUT ผ่าน EM-07N-0-M
+- แสดงผลเป็น ทศนิยม 1 ตำแหน่ง
+- ตัวเครื่องประกอบด้วย
+   (1) ชุด Display TGM สำหรับแสดงผลขนาดใหญ่
+   (2) แปลงสัญญาณ INPUT EM-07N-0-M
+
+***EM-07N-0-M เสนอเพิ่มเติมแยกจากราคา TGM-Series

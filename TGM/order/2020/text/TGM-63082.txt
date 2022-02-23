@@ -1,0 +1,20 @@
+﻿TGM-63082 4I3D3R 2IP_TIMER
+- 7 Segment Size 4" สีแดง 3 หลัก
+- Input Sensor pnp npn 2 ch
+- Input Switch 1 ch
+- Output Alarm 2 ch
+- สามารถตั้งค่าการทำงานผ่าน Remote ได้
+- Supply 220VAC 
+Target : ตั้งค่าจาก Remote 
+NOW 	- เมื่อ input 1 trig hold ทำการ NOW นับค่าขึ้นไปเรื่อยๆ หน่วยเป็นวินาที
+	- เมื่อ input 1 หยุดทำทำงาน NOW จะค้างค่าที่นับได้ไว้
+	- เมื่อ input 1 trig hold อีกครั้ง ค่า NOW จะรีเซ็ตเป็น 0 และเริ่มนับใหม่
+
+BEFORE 	- เมื่อ input 2 trig hold ทำการ BEFORE นับค่าขึ้นไปเรื่อยๆ หน่วยเป็นวินาที
+	- เมื่อ input 2 หยุดทำทำงาน BEFORE จะค้างค่าที่นับได้ไว้
+	- เมื่อ input 2 trig hold อีกครั้ง ค่า BEFORE จะรีเซ็ตเป็น 0 และเริ่มนับใหม่
+SWITCH
+- กด 1 ครั้ง เพื่อ เริ่มทำงาน / หยุดทำงาน
+ALARM 
+- เมื่อ ค่า NOW ค่ามากกว่าหรีอเท่ากับ TARGET ให้ Alarm 1 ทำงาน
+- เมื่อ ค่า BEFORE ค่ามากกว่าหรือเท่ากับ TARGET ให้ Alarm 2 ทำงาน

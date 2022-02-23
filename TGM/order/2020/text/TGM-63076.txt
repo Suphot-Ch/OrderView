@@ -1,0 +1,9 @@
+﻿TGM-63076 4I4D1R 1IP_RUN TIMER RS485 slave
+- 7 Segment Size 4" สีแดง 4 หลัก
+- อินพุต Contact  1 Channel
+     : RUN Input
+- Supply 220VAC 
+- เมื่อมีการ Hold Input RUN จะเริ่มนับเวลา หน่วยเป็น วินาที
+- เมื่อ ปลด Input RUN จะหยุดนับเวลา และค้างค่าไว้
+- เมื่อ Hold Input RUN อีกครั้ง ค่าจะ Reset เวลาให้เป็น 0
+- สามารถใช้แสดงเป็นนาฬิกาได้

@@ -1,0 +1,7 @@
+﻿TGM-63053 4I4D1R 1AP_PT100
+- 7 Segment Size 4" สีแดง 4 หลัก
+- Input PT100 1 Channel
+- สามารถตั้งค่า จุดทศนิยมได้  1 ตำแหน่ง
+- ตั้งค่าการทำงานผ่าน Remote
+แปลงสัญญาณ INPUT ผ่าน IM-Series
+รหัสอุปกรณ์ IM-A-O-M

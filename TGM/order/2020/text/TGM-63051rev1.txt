@@ -1,0 +1,13 @@
+﻿TGM-63051rev1 2I1D1R 4D1R RS485 slave
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง 
+RS485 Modbus RTU slave mode
+ตั้งค่าการทำงานผ่าน Remote
+RS485 Modbus RTU
+ *Slave mode
+สามารถตั้งค่า Address ได้ 1 – 240
+สามารถตั้งค่า Baudrate ได้ 4800 9600 19200 38400 57600
+สามารถตั้งค่า Parity ได้ None Odd Even
+                 Bits fix : 8
+                 Stop bit : 1
+ติดตั้ง RM-012-IP-485 ภายในตัวเครื่อง และเปิดข่องสำหรับหน้าจอและช่องสาย Lan ไว้ด้านข้าง
+กรุณาเสนอราคา RM-012-IP-485 เพิ่มเติมในใบสั่งซื้อ

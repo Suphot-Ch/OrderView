@@ -1,0 +1,52 @@
+{
+  "ORDER": "TGM-64050",
+  "KEYWORD": "TGM-64050 2I5D2R RS485 slave",
+  "DISPLAY": {
+    "TYPE": "7 Segment",
+    "SIZE": "2.3\"",
+    "OTHER": ""
+  },
+  "INPUT": {
+    "TYPE": "-",
+    "OTHER": "",
+    "CHANNEL": ""
+  },
+  "OUTPUT": {
+    "TYPE": "-",
+    "OTHER": "",
+    "CHANNEL": ""
+  },
+  "COMMUNICATION": {
+    "TYPE": "RS485 MB RTU Slave",
+    "OTHER": "",
+    "CHANNEL": "1"
+  },
+  "SUPPLY": {
+    "TYPE": "110-240 VAC/ 50-60Hz",
+    "OTHER": ""
+  },
+  "SOURCES": {
+    "TYPE": "-",
+    "OTHER": ""
+  },
+  "FUNCTION": [
+    "FUNCTION",
+    "- ตั้งค่า Slave Address ได้ 1 – 240",
+    "- ตั้งค่า Baudrate ได้ 4800 9600 19200 38400 57600",
+    "- ตั้งค่า Parity ได้ None Odd Even",
+    "FEATURE",
+    "- เชื่อมต่อรับข้อมูลผ่าน RS485 Modbus RTU ",
+    "- สามารถอ่านข้อมูลได้ Function 03h และ 04h",
+    "- สามารถเขียนข้อมูลได้ Function 10h",
+    "- สามารถกำหนดค่าทศนิยมได้แยกกัน 2 แถว"
+  ],
+  "BODYSIZE": "650W x 250H x 100D",
+  "DATE": "2021-03-15",
+  "SALE": {
+    "NAME": "คุณ สถาพร",
+    "BRANCH": "สนง. ใหญ่",
+    "CALL": "0908808246",
+    "EMAIL": "",
+    "CUSTOMER": ""
+  }
+}

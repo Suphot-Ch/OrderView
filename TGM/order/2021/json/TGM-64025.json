@@ -1,0 +1,54 @@
+{
+  "ORDER": "TGM-64025",
+  "KEYWORD": "TGM-64025 2I5D1R RS485 master",
+  "DISPLAY": {
+    "TYPE": "7 Segment",
+    "SIZE": "2.3\"",
+    "OTHER": ""
+  },
+  "INPUT": {
+    "TYPE": "-",
+    "OTHER": "",
+    "CHANNEL": ""
+  },
+  "OUTPUT": {
+    "TYPE": "-",
+    "OTHER": "",
+    "CHANNEL": ""
+  },
+  "COMMUNICATION": {
+    "TYPE": "RS485 MB RTU Master",
+    "OTHER": "",
+    "CHANNEL": ""
+  },
+  "SUPPLY": {
+    "TYPE": "110-240 VAC/ 50-60Hz",
+    "OTHER": ""
+  },
+  "SOURCES": {
+    "TYPE": "-",
+    "OTHER": ""
+  },
+  "FUNCTION": [
+    "FUNCTION",
+    "- หน้าจอแสดงผล 5 หลัก 0 – 99999",
+    "- ความเร็วการอ่านได้ 100 – 1000 mS",
+    "- ตั้งค่า Address ได้ 1 – 240",
+    "- ตั้งค่า Baudrate ได้ 4800 9600 19200 38400 57600",
+    "- ตั้งค่า Parity ได้ None Odd Even",
+    "FEATURE",
+    "- เชื่อมต่อผ่าน RS485 Modbus RTU เพื่ออ่านข้อมูลแสดงบนจอ Segment",
+    "- เลือกให้อ่านได้ ทั้ง 16bits และ 32bits กำหนดลำดับ Byte ได้",
+    "- กรณี 16bits เลือกเป็น AB หรือ BA",
+    "- กรณี 32bits เลือกเป็น AB CD หรือ BA DC หรือ CD AB หรือ DC BA"
+  ],
+  "BODYSIZE": "400W x 200H x 100D",
+  "DATE": "2021-02-19",
+  "SALE": {
+    "NAME": "Narubes",
+    "BRANCH": "พระราม 2",
+    "CALL": "0982795786",
+    "EMAIL": "",
+    "CUSTOMER": ""
+  }
+}

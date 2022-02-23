@@ -1,0 +1,52 @@
+{
+  "ORDER": "TGM-64022",
+  "KEYWORD": "TGM-64022 4I5D1R 1IP_RPM RS485 slave",
+  "DISPLAY": {
+    "TYPE": "7 Segment",
+    "SIZE": "4\"",
+    "OTHER": ""
+  },
+  "INPUT": {
+    "TYPE": "-",
+    "OTHER": "Speed Counter",
+    "CHANNEL": "1"
+  },
+  "OUTPUT": {
+    "TYPE": "-",
+    "OTHER": "",
+    "CHANNEL": ""
+  },
+  "COMMUNICATION": {
+    "TYPE": "RS485 MB RTU Slave",
+    "OTHER": "",
+    "CHANNEL": ""
+  },
+  "SUPPLY": {
+    "TYPE": "110-240 VAC/ 50-60Hz",
+    "OTHER": ""
+  },
+  "SOURCES": {
+    "TYPE": "-",
+    "OTHER": ""
+  },
+  "FUNCTION": [
+    "FUNCTION",
+    "- หน้าจอแสดงผล 5 หลัก 0 – 99999",
+    "- ความเร็วการแสดงผล 300 – 1000 mS",
+    "- กำหนดค่าตัวคูณได้ 1 - 3600",
+    "- ตั้งค่า Address ได้ 1 – 240",
+    "- ตั้งค่า Baudrate ได้ 4800 9600 19200 38400 57600",
+    "- ตั้งค่า Parity ได้ None Odd Even",
+    "FEATURE",
+    "- หน้าจอแสดงผลรับ ความถี่จาก Input แสดงเป็น Hz หากต้องการให้แสดงค่า RPM ให้กำหนดค่าตัวคูณเป็น 60"
+  ],
+  "BODYSIZE": "700W x 250H x 100D",
+  "DATE": "2021-02-19",
+  "SALE": {
+    "NAME": "Narubes",
+    "BRANCH": "พระราม 2",
+    "CALL": "0982795786",
+    "EMAIL": "",
+    "CUSTOMER": ""
+  }
+}

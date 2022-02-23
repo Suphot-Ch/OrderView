@@ -1,0 +1,14 @@
+﻿TGM-62091 4M10D1R 4I6D4R 1IP_CNT 1AP_TC_K
+7 Segment Size 4" Red 6 Digit
+Alphabet Matrix 5x7 4" Red 10 Char
+Hw. : Digital Input Sensor PNP, NPN, Contact Switch 1 Channel 
+       : Contact Reset 1 Channel
+       : Analog Input 4-20mA รับค่าจาก EM-00 TC. K. ( 0 – 1300 °C )
+Fw. : Function ตัวคูณ ตัวหาร Input
+       : Function Cycle Time เพิ่มค่า Plan ทุกรอบเวลา
+       : Function Edit/Set alphabet 10 point
+       : Function RS485 Modbus RTU for connect Computer or PLC
+           : RS485 ( baud rate 4800, 9600, 19200, 38400, 57600 )
+           : RS485 ( Parity None Odd Even )
+           : RTU ( Read Support 03h 04h )
+           : RTU ( Write Support 10h )

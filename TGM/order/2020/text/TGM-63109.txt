@@ -1,0 +1,11 @@
+﻿TGM-63109 4I3D1R 1D1R RS485
+- 7 Segment Size 4" สีแดง
+- Communication Modbus RTU RS485
+- สามารถตั้งค่าการทำงานผ่าน Remote ได้
+- Supply Input AC ~110V-220V 
+- Supply Output DC 12V/2A
+RS485	- สามารถตั้งค่า Baud rate ได้ 4800 9600 19200 38400 57600
+	- สามารถตั้งค่า Parity ได้ none odd even
+MODBUS	- สามารถตั้งค่า Slave Address ได้ 1-240
+
+ติดตั้ง ห่วงสำหรับแขวน

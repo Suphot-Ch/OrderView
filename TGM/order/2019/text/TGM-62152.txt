@@ -1,0 +1,4 @@
+﻿TGM-62152 2M6D1R Keypad
+แสดงตัวอักษร Matrix 5x7 สีแดง 2.3"
+ตั้งค่าการทำงานด้วย Remote Key Pad
+STATUS : แสดงผล PLAN / NO PLAN เลือกจากรีโมท

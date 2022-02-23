@@ -1,0 +1,9 @@
+﻿TGM-62103 2I5D4R 1IP_CNT Clock
+7 Segment Size 2.3" สีแดง 5 หลัก Digital Counter
+Digital Input Sensor PNP, NPN, Contact Switch 1 Channel 
+Contact Reset 1 Channel
+Function ตัวคูณ ตัวหาร Input
+Function Cycle Time Target เพิ่มค่า Target ทุกรอบเวลา
+TARGET : แสดงค่าเป้าหมายแก้ไขค่าได้
+ACTUAL : แสดงค่าที่รับได้จากอินพุต
+Diff : แสดงค่าผลต่าง ACTUAL - TARGET

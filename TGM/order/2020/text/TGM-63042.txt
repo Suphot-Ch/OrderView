@@ -1,0 +1,10 @@
+﻿TGM-63042 4I3D3R 3IP_UpDw 3IP_RST
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง 
+INPUT Counter sensor[NPN PNP] 3 Channel
+INPUT Reset contact 3 Channel
+ตั้งค่าการทำงานผ่าน Remote
+Input 3 แสดงผลแยกกัน 3 แถว
+- สามารถตั้งค่า Mode Count Up, Count Down ได้
+Reset Count สามารถกำหนดค่าสำหรับ Reset ได้
+- เช่น ตั้งค่า Reset เป็น “0” เมื่อกด RESET ค่า Count จะเป็น “0”
+หรือ ตั้งค่า Reset เป็น “100” เมื่อกด RESET ค่า Count จะเป็น “100”

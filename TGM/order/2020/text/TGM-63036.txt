@@ -1,0 +1,11 @@
+﻿TGM-63036 main 2TIM94B
+- 7 Segment Size 4" สีแดง
+- อุปกรณ์ วัดและแสดงผลค่าสัญญาณอะนาล็อกมาตราฐาน, ค่าอุณหภูมิ, ความ ชื้น, Pressure และ Process ต่างๆ
+- มี Alarm Relay สำหรับกำหนดเงื่อนไขการใช้งานได้
+- สื่อสารผ่าน Computer โดย RS-485 Modbus RTU Protocol
+- มี Option Transfer Output 4-20mA / 0-10VDC
+- รับสัญญาณอินพุตประเภท
+     - Thermocouple
+     - RTD (PT100)
+     - Current Analog : 0-20 mA, 4-20 mA
+     - Voltage Analog : Technical Specification

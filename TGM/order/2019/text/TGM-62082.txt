@@ -1,0 +1,13 @@
+﻿TGM-62082 1I5D1R 1AP_420 1OP_AL
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง
+Input 4-20 mA 1 Channel
+Output Alarm Relay 1 Channel
+สามารถตั้งค่าทศนิยมได้ 1 ตำแหน่ง
+สามารถตั้งค่า Scale High / Low / Offset ได้
+ตั้งค่าการทำงานด้วย Remote IF
+Output Alarm Relay
+	- 0 >> Alarm not active
+	- 1 >> Alarm active high low
+	- 2 >> Alarm active high
+	- 3 >> Alarm active low
+	- 4 >> Alarm active high low range	

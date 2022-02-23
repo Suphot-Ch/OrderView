@@ -1,0 +1,22 @@
+{
+    "KEYWORD": "TGM-63138rev2 4I5D1R 1AP_TC Transmitter with EM-AN-0-M",
+    "DISPLAY": " 7 Segment",
+    "SIZE": "4 Inc Red",
+    "INPUT": {
+        "TYPE": "Thermocouple",
+        "CH": "1"
+    },
+    "SUPPLY": "Supply 220VAC",
+    "OUTPUT": {
+        "TYPE": "",
+        "CH": ""
+    },
+    "SOURCE": "source 12VDC / 2A",
+    "FUNCTION": [
+        {
+            "DETAIL": "- บอร์ดใช้ Transmitter EM-AN-0-M ในการรับ Thermocouple"
+        }
+    ],
+    "Size": "250W x 200H x 100D mm.",
+    "DATE": "27/10/2020"
+}

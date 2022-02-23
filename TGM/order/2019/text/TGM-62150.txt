@@ -1,0 +1,19 @@
+﻿TGM-62150 2M6D1R 2I5D5R 1IP_CNT 4IP_SW Keypad
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง 2.3"
+และตัวอักษร Matrix 8x8 สีแดง 2.3"
+รับอินพุต Counter Sensor [ pnp, npn ], contact switch ได้ 1 Channel
+รับอินพุต Loss Time contact switch 4 channel
+รับอินพุต Reset contact switch ได้ 1 Channel
+สามารถตั้งค่า/แก้ไขตัวอักษร ได้ด้วยรีโมท
+ตั้งค่าการทำงานด้วย Remote Key Pad
+STATUS : แสดงผล PLAN / NO PLAN เลือกจากรีโมท
+M/C : แสดงหมายเลยเครื่องตั้งค่าจาก รีโมท
+TARGET : แสดงค่าเป้าหมายตั้งค่าผ่าน รีโมท
+ACTUAL : แสดงค่า Counter ที่รับได้จาก Input
+DIFF : แสดงค่าผลต่าง เมื่อ ACTUAL – TARGET
+LOSS TIME : แสดงแสดงเวลาเมื่อ Contact Switch ทำงาน
+LOSS TIME แบ่งเป็น 4 Input
+1. แสดง [ IC ] เมื่อ Contact IC ทำงาน พร้อมนับเวลา
+2. แสดง [ MC ] เมื่อ Contact MC ทำงาน พร้อมนับเวลา
+3. แสดง [ QC ] เมื่อ Contact QC ทำงาน พร้อมนับเวลา
+4. แสดง [ MS ] เมื่อ Contact MS ทำงาน พร้อมนับเวลา

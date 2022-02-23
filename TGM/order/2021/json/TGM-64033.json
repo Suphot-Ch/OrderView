@@ -1,0 +1,49 @@
+{
+  "ORDER": "TGM-64033",
+  "KEYWORD": "TGM-64033 2I4D1R 2I3D1R 1IP_CNT 2OP_AL",
+  "DISPLAY": {
+    "TYPE": "7 Segment",
+    "SIZE": "2.3\"",
+    "OTHER": ""
+  },
+  "INPUT": {
+    "TYPE": "Sensor NPN PNP Contact Counter",
+    "OTHER": "",
+    "CHANNEL": "1"
+  },
+  "OUTPUT": {
+    "TYPE": "Relay Alarm",
+    "OTHER": "",
+    "CHANNEL": "2"
+  },
+  "COMMUNICATION": {
+    "TYPE": "-",
+    "OTHER": "",
+    "CHANNEL": ""
+  },
+  "SUPPLY": {
+    "TYPE": "110-240 VAC/ 50-60Hz",
+    "OTHER": ""
+  },
+  "SOURCES": {
+    "TYPE": "24VDC 130mA / SP 240VAC",
+    "OTHER": ""
+  },
+  "FUNCTION": [
+    "FUNCTION",
+    "- ตั้งค่าตัวคูณตัวหารได้ 1 - 999",
+    "- ตั้งค่า Alarm Setpoint ได้ ",
+    "FEATURE",
+    "- ค่าเฉลีย 3600 วินาที เริ่มนับเมื่อมี Input เข้า และแสดงค่าที่รับได้ในช่วง 3600 วินาที จากปัจจุบัน",
+    "- ค่าเฉลีย 360 วินาที เริ่มนับเมื่อมี Input เข้า และแสดงค่าที่รับได้ในช่วง 360 วินาที จากปัจจุบัน"
+  ],
+  "BODYSIZE": "450W x 350H x 100D",
+  "DATE": "2021-03-01",
+  "SALE": {
+    "NAME": "thanongsak",
+    "BRANCH": "-",
+    "CALL": "-",
+    "EMAIL": "",
+    "CUSTOMER": ""
+  }
+}

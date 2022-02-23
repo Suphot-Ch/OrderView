@@ -1,0 +1,5 @@
+﻿TGM-62101 4I2D1R 1IP_CNT
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง แสดงผล
+Input Sensor NPN PNP Contact Switch
+สามารถตั้งค่า ตัวคูณตัวหาร
+ตั้งค่าการทำงานด้วย Remote IF

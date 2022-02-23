@@ -1,0 +1,15 @@
+﻿TGM-63080 2I4D2R 2AP_420 2OP_AL
+- Segment  2.3 นิ้ว 4 หลัก
+- ติดสติกเกอร์ Kg 
+- input Analog 4-20 mA 2 channel
+- Output Alarm 2 channel
+- Input Analog การตั้งค่า แยกกัน 2 ch
+- สามารถตั้งค่า Scale High Low ได้
+- สามารถตั้งค่า Inverse Scale ได้
+- สามารถตั้งค่าทศนิยมได้
+- Output Alarm การตั้งค่า แยกกัน 2 ch
+- สามารถตั้งค่าการทำงานได้ 4 function
+   1. Alarm high, low
+   2. Alarm high
+   3. Alarm low
+   4. Alarm high, low range

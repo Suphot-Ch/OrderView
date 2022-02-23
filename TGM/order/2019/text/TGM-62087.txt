@@ -1,0 +1,27 @@
+﻿TGM-62087 1I4D6R 2I4D4R 1IP_CNT 1IP_TIME 3OP_AL
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง 
+TARGET	 : สามารถตั้งค่าได้ด้วยรีโมท นับขึ้นทุกๆรอบ Tact Time เมื่อมีค่ากกว่า 0
+ACTUAL	 : Counter Sensor NPN. PNP, Contact 1 Channel
+ACTUAL	 : Reset Contact 1 Channel
+DIFF		 : ACTUAL - TARGET
+TACT TIME	 : ตั้งค่าจากรีโมท แสดงค่าเวลาการทำงานต่อชิ้น หน่วย วินาที
+Start/Stop Wk	 : แสดงเวลา เริ่มต้นและสิ้นสุด ระยะเวลาการทำงานของวัน
+Run/Stop Time : แสดงเวลาการทำงานของเครื่องจักร Input Contact 1 Channel
+Clock		 : แสดงเวลาปัจจุบัน
+%EFF	 : แสดงเปอร์เซ็น ระหว่าง ( Actual / Target ) x 100
+Alarm	 : ทำงานเมื่อค่า %EFF อยู่ในช่วงที่กำหนด มี 3 Channel
+สามารถตั้งค่า Time On/ Time Off/ Time Reset ได้ 10 ช่วง
+สามารถเชื่อมต่อ RS485 Modbus RTU เพื่อเชื่อมต่อ Software ได้
+สามารถเก็บข้อมูลแบบ DataLog
+ตั้งค่าการทำงานด้วย Remote IF
+Communication
+RS485
+Baud Rate	: 4800, 9600, 19200, 38400, 57600
+Parity 	: None, Odd, Even
+Address	: Can use 1 – 254
+MODBUS RTU
+Read Support	: Holding Registers 03h
+		: Input Registers 04h
+Write Support	: Single Register 06h
+		: Multiple Registers 10h
+Size/Register	: 16bits : 2 Bytes : 1 Word

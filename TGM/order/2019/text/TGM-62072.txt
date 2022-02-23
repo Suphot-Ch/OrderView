@@ -1,0 +1,6 @@
+﻿TGM-62072 2I4D5R 1AP_PT100
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง 
+แสดงผลเป็นอุณหภูมิ
+อ่านค่า RTD/TC ผ่าน Converter TIM-94-4CH ด้วย Modbus RTU
+Converter ติดตั้งภายใน สามารถตั้งค่าผ่านหน้าจอ Big Display ได้
+ตั้งค่าการทำงานด้วย Remote IF 

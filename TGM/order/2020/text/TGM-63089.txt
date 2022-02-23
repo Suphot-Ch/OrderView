@@ -1,0 +1,14 @@
+﻿TGM-63089 4I4D2R 2AP_420 HM-005-00 TLW-02-R
+Segment :- Size 4"
+	- 3 หลัก ( 3 Digit)
+INPUT:	- Temp / Humi HM-005-00    1 Ch
+OUTPUT:	- Alarm 2 Ch
+- สามารถตั้งค่าการทำงานผ่าน Remote ได้
+- Supply 220VAC 
+ALARM OUTPUT
+	- ตั้งค่าการทำงานได้ 4 รูปแบบ
+	- ตั้งค่า Alarm High Low ได้
+
+ติดตั้ง HM-005-00 สำหรับวัดค่า อุณหภูมิและความชื้น
+ติดตั้ง TLW-02-R สาหรับ ALARM Output
+ราคาไม่รวม HM และ TLW

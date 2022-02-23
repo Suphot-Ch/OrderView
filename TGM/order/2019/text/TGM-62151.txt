@@ -1,0 +1,11 @@
+﻿TGM-62151 2M6D1R 2I5D5R 1IP_CNT Keypad
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง 2.3"
+และตัวอักษร Matrix 8x8 สีแดง 2.3"
+รับอินพุต Counter Sensor [ pnp, npn ], contact switch ได้ 1 Channel
+รับอินพุต Reset contact switch ได้ 1 Channel
+สามารถตั้งค่า/แก้ไขตัวอักษร ได้ด้วยรีโมท
+ตั้งค่าการทำงานด้วย Remote Key Pad
+STATUS : แสดงผล PLAN / NO PLAN เลือกจากรีโมท
+TARGET : แสดงค่าเป้าหมายตั้งค่าผ่าน รีโมท
+ACTUAL : แสดงค่า Counter ที่รับได้จาก Input
+DIFF : แสดงค่าผลต่าง เมื่อ ACTUAL – TARGET

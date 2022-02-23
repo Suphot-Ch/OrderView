@@ -1,0 +1,18 @@
+﻿TGM-63042rev1 4I3D3R 3IP_UpDw 3IP_RST RS485
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง 
+INPUT Counter sensor[NPN PNP] 3 Channel
+INPUT Reset contact 3 Channel
+RS485 Modbus RTU slave mode
+ตั้งค่าการทำงานผ่าน Remote
+Input 3 แสดงผลแยกกัน 3 แถว
+- สามารถตั้งค่า Mode Count Up, Count Down ได้
+Reset Count สามารถกำหนดค่าสำหรับ Reset ได้
+- เช่น ตั้งค่า Reset เป็น “0” เมื่อกด RESET ค่า Count จะเป็น “0”
+หรือ ตั้งค่า Reset เป็น “100” เมื่อกด RESET ค่า Count จะเป็น “100”
+RS485 Modbus RTU
+ *Slave mode
+สามารถตั้งค่า Address ได้ 1 – 240
+สามารถตั้งค่า Baudrate ได้ 4800 9600 19200 38400 57600
+สามารถตั้งค่า Parity ได้ None Odd Even
+                 Bits fix : 8
+                 Stop bit : 1

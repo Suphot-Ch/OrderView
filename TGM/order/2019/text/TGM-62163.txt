@@ -1,0 +1,14 @@
+﻿TGM-62163 4I4D4R 2IP_CNT 2OP_TL
+
+- 7 Segment Size 4" สีแดง 4 หลัก
+- Input Counter [ sensor PNP NPN Contact ]
+- สามารถเชื่องต่อ RS485 Modbus RTU ได้ * Slave mode
+- ตั้งค่าการทำงานผ่าน Remote
+***Input support 9 – 25 VDC
+1.  TARGET แสดงค่า เป้าหมายตั้งค่าด้วย Remote
+2.  TOTAL แสดงค่าผลรวม OK + NG
+3.  OK แสดงค่า Counter ที่รับได้จาก INPUT OK
+5.  NG แสดงค่า Counter ที่รับได้จาก INPUT NG
+- การทำงาน ของ Tower Light 
+ - สีเขียวติดเมื่อ TOTAL  > TARGET
+ - สีแดงติดเมื่อ TOTAL  < TARGET

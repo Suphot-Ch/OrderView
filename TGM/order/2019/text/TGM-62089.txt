@@ -1,0 +1,14 @@
+﻿TGM-62089 4I7D1R 2I5D1R 2I3D1R RS485
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง
+สามารถเชื่อมต่อ RS485 Modbus RTU ได้
+สามารถเชื่อมต่อกับ Computer หรือ PLC ที่ใช้งาน Protocol Modbus RTU   
+ตั้งค่าการทำงานด้วย Remote IF
+RS485 
+Baud rate	: 4800, 9600, 19200, 38400, 57600
+Parity		: None Odd Even
+Modbus RTU
+	Read	: Holding Registers 03h
+		: Input Registers 04h
+	Write	: Multiple Registers 10h
+Size Parameter Register 32bits
+Read or Write at least 2 words

@@ -1,0 +1,48 @@
+{
+  "ORDER": "TGM-64045",
+  "KEYWORD": "TGM-64045 4I2D1R 1IP_TIMERCNT",
+  "DISPLAY": {
+    "TYPE": "7 Segment",
+    "SIZE": "4\"",
+    "OTHER": ""
+  },
+  "INPUT": {
+    "TYPE": "Sensor NPN PNP Contact Timer",
+    "OTHER": "",
+    "CHANNEL": "1"
+  },
+  "OUTPUT": {
+    "TYPE": "-",
+    "OTHER": "",
+    "CHANNEL": ""
+  },
+  "COMMUNICATION": {
+    "TYPE": "-",
+    "OTHER": "",
+    "CHANNEL": ""
+  },
+  "SUPPLY": {
+    "TYPE": "110-240 VAC/ 50-60Hz",
+    "OTHER": ""
+  },
+  "SOURCES": {
+    "TYPE": "24VDC 130mA / SP 240VAC",
+    "OTHER": ""
+  },
+  "FUNCTION": [
+    "FUNCTION",
+    "- แสดงผลตัวเลข 0 – 99",
+    "- ตั้งค่า Mode การนับ ขึ้น/ลง ได้",
+    "FEATURE",
+    "1) เมื่อมี Input เวลาเริ่มนับตามโหมดการทำงานที่ตั้งค่าไว้ เมื่อไม่มี Input เวลาจะหยุดนับและแสดงเวลาเดิมไว้ หากมี Input อีก Reset เวลาและเริ่มนับใหม่"
+  ],
+  "BODYSIZE": "500W x 250H x 100D",
+  "DATE": "2021-03-10",
+  "SALE": {
+    "NAME": "Veerasak",
+    "BRANCH": "ชลบุรี",
+    "CALL": "",
+    "EMAIL": "",
+    "CUSTOMER": ""
+  }
+}

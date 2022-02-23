@@ -1,0 +1,12 @@
+﻿TGM-63028 8I3D2R 2AP_420 2OP_AL  TL
+- 7 Segment Size  สีแดง 
+- รับ Input 4 – 20 mA  2 Channel จาก HM-005
+- สามารถตั้งค่า Scale High, Scale Low 
+- สามารถตั้งค่า Decimal Point ได้ 
+- สามารถตั้งค่า Alarm Output Relay ได้ 2 Channe
+- Alarm Function Mode
+     : 0 >> OFF MODE
+     : 1 >> High Low Alarm
+     : 2 >> High Alarm
+     : 3 >> Low Alarm
+     : 4 >> High Low Range Alarml

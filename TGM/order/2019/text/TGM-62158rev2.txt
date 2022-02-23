@@ -1,0 +1,21 @@
+﻿TGM-62158rev1 2M4I1R 2M7D1R 1I4D1R 1I5D3R 1IP_CNT 6IP_SW PH02 4OP_RL PH07
+
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง 1.2"
+และตัวอักษร Matrix 5x7 สีแดง 2.3"
+รับอินพุต Counter Sensor [ pnp, npn ], contact switch ได้ 1 Channel
+รับอินพุต Reset contact switch ได้ 1 Channel
+สามารถตั้งค่า/แก้ไขตัวอักษร ได้ด้วยรีโมท
+Input Remote รับข้อมูลผ่าน PH-02
+Relay Output ผ่าน PH-07
+
+STATUS : สามารถเก็บค่าตัวอักษรได้ 3 ชุด และเลือกมาแสดงได้
+PRODUCTIVITY : แสดงค่าความเร็วของอินพุตที่รับได้ ชิ้น/ชั่วโมง
+TARGET : แสดงค่าเป้าหมายตั้งค่าผ่าน รีโมท
+ACTUAL : แสดงค่า Counter ที่รับได้จาก Input
+DIFF : แสดงค่าผลต่าง เมื่อ ACTUAL – TARGET
+
+ตั้งค่าการทำงานผ่าน Contact Switch ใช้งานผ่าน PH-02
+READY : กด 1 ครั้งเพื่อเริ่มการทำงาน OUTPUT สีเขียวทำงาน
+STOP : กด 1 ครั้งหยุดนับอินพุต และ อีก 1 ครั้งเพื่อ standby mode
+SETUP : กด 1 ครั้งเข้าหน้าตั้งค่า และหยุดการนับอินพุต และ อีก 1 ครั้งเพื่อ standby mode
+DELETE ALL : กด 1 ครั้งเพื่อลบค่าที่แสดงบนหน้าจอ

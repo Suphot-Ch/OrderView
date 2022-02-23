@@ -1,0 +1,7 @@
+﻿TGM-62124 4I5D1R 1IP_CNT
+- 7 Segment Size  สีแดง 
+- รับ Input Sensor PNP, NPN, Contact  1  Channel >> Counter นับได้ตั้งแต่ -19999 – 99999
+- สามารถตั้งค่าตัวคูณ ตัวหาร อินพุตได้ 
+- สามารถตั้งค่าทศนิยมได้ 4 ตำแหน่ง 
+- สามารถตั้งค่า Alarm Set Point 2 Channel Output
+- Relay Alarm  5A250VAC / 5A/30VDC

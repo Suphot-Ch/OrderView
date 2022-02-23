@@ -1,0 +1,52 @@
+{
+  "ORDER": "TGM-64048",
+  "KEYWORD": "TGM-64048 4I3D6R RS485 master",
+  "DISPLAY": {
+    "TYPE": "7 Segment",
+    "SIZE": "4\"",
+    "OTHER": ""
+  },
+  "INPUT": {
+    "TYPE": "-",
+    "OTHER": "",
+    "CHANNEL": ""
+  },
+  "OUTPUT": {
+    "TYPE": "Relay Alarm",
+    "OTHER": "",
+    "CHANNEL": "7"
+  },
+  "COMMUNICATION": {
+    "TYPE": "RS485 MB RTU Master",
+    "OTHER": "",
+    "CHANNEL": "1"
+  },
+  "SUPPLY": {
+    "TYPE": "110-240 VAC/ 50-60Hz",
+    "OTHER": ""
+  },
+  "SOURCES": {
+    "TYPE": "-",
+    "OTHER": ""
+  },
+  "FUNCTION": [
+    "FUNCTION",
+    "- ตั้งค่า Slave Address สำหรับอ่านข้อมูล ได้ 2 address",
+    "- ตั้งค่า Baudrate ได้ 4800 9600 19200 38400 57600",
+    "- ตั้งค่า Timeout และ Delay การอ่านได้ 200 – 5000 ms",
+    "FEATURE",
+    "- ทำงานคู่กับ TGM-64047",
+    "- อ่านข้อมูลที่แสดงผลบนจอ TGM-64047 มาแสดงผล",
+    "- อ่านข้อมูลสถานะของ Alarm TGM-64047 มาควบคุม Alarm Output ภายในตัวบอร์ด",
+    "- มีแสดงสถานะการเชื่อมต่อกรณีที่สัญาณขาดหาย"
+  ],
+  "BODYSIZE": "1000W x 1100H x 100D",
+  "DATE": "2021-03-12",
+  "SALE": {
+    "NAME": "คุณ บัณฑิต (game)",
+    "BRANCH": "สนง. ใหญ่",
+    "CALL": "0908808240",
+    "EMAIL": "",
+    "CUSTOMER": ""
+  }
+}

@@ -1,0 +1,8 @@
+﻿TGM-62118 4I4D2R 1IP_CNT
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง ขนาด 4 นิ้ว
+Input Counter Sensor type NPN, PNP, Contact 1 Channel
+Input Reset for ตัว 1 Channel
+Input Reset for Total 1 Channel
+สามารถตั้งค่าตัวคูณตัวหารได้ แบบแยก กันระหว่าง ตัวและ Total
+สามารถตั้งค่า Alarm Set Point ได้ ทั้ง ตัวและ Total แยกกัน
+Alarm Relay Contact 250VAC 5A / 30VDC 5A

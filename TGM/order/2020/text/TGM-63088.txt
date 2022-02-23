@@ -1,0 +1,12 @@
+﻿TGM-63088 2I3D1R 1AP_PT100 EM-coonversw 24V
+Segment :- Size 2.3"
+	- 3 หลัก ( 3 Digit)
+INPUT:	- PT100 ( EM-07N-I-24 Converse)
+- สามารถตั้งค่าการทำงานผ่าน Remote ได้
+- Supply 24VAC 
+PV :	- ตั้งค่า Scale ชดเชยได้ -199 - 999
+	- ตั้งค่า Scale High Low ได้ -199 - 999
+	- สามารถตั้งค่า กำหนดทศนิยมได้
+
+ติดตั้ง Converter EM-07N-I-24 สำหรับแปลงสัญญาณ
+แบบ ไม่รวมราคา Converter

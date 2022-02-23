@@ -1,0 +1,5 @@
+﻿TGM-63030 4I4D1R 2I2D1R 1AP_420
+- 7 Segment Size  สีแดง 
+- รับ Input 4 – 20 mA 1 Channel
+- สามารถตั้งค่า Scale High, Scale Low 
+- สามารถตั้งค่า Decimal Point ได้ 

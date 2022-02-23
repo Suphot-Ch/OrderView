@@ -1,0 +1,11 @@
+﻿TGM-63017 2I6D3R 1IP_CNT 1OP_AL TiME_RESET
+- 7 Segment Size 2.3" สีแดง 5 หลัก Digital Counter
+- Digital Input Sensor PNP, NPN, Contact Switch 1 Channel 
+- Contact Reset 1 Channel
+- Output Alarm Function Set Point 1 Channel
+- สามารถตั้งเวลา RESET ได้ 10 Function
+- TARGET	: แสดงค่า เป้าหมายแก้ไขค่าได้ด้วย Remote
+- ACTUAL	: แสดงต่าที่รับได้จาก Input
+- DIFF	: แสดงความแตกต่าง << ACTUAL – TARGET
+- Function Cycle Time เพิ่มค่า TARGET ทุกรอบเวลา
+- Function ตัวคูณ ตัวหาร Input

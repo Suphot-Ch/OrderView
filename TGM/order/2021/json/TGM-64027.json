@@ -1,0 +1,52 @@
+{
+  "ORDER": "TGM-64027",
+  "KEYWORD": "TGM-64027 1I4D2R 2AP_420 2OP_420 EM-09-I-220",
+  "DISPLAY": {
+    "TYPE": "7 Segment",
+    "SIZE": "1.2\"",
+    "OTHER": ""
+  },
+  "INPUT": {
+    "TYPE": "Analog 4-20mA",
+    "OTHER": "",
+    "CHANNEL": "2"
+  },
+  "OUTPUT": {
+    "TYPE": "-",
+    "OTHER": "Analog 4-20mA  EM-09-I-220",
+    "CHANNEL": "2"
+  },
+  "COMMUNICATION": {
+    "TYPE": "-",
+    "OTHER": "",
+    "CHANNEL": ""
+  },
+  "SUPPLY": {
+    "TYPE": "110-240 VAC/ 50-60Hz",
+    "OTHER": ""
+  },
+  "SOURCES": {
+    "TYPE": "-",
+    "OTHER": ""
+  },
+  "FUNCTION": [
+    "FUNCTION",
+    "- ตั้งค่า Scale ได้ -1999 – 9999.",
+    "- ตั้งค่าทศนิยมได้ 2 ตำแหน่ง.",
+    "FEATURE",
+    "- แสดงค่าที่อ่านได้จาก Input Analog 4 – 20 mA",
+    "- สูตร",
+    "   PV = [ (IN - ZERO) / (SPAN - ZERO) ] * (SLH - SLL)   SLL",
+    "   PV = [ (12.00 - 4.00) / (20.00 - 4.00) ] * (1000 - 0)   0",
+    "   PV = 500"
+  ],
+  "BODYSIZE": "250W x 200H x 100D",
+  "DATE": "2021-02-23",
+  "SALE": {
+    "NAME": "Noppadon",
+    "BRANCH": "",
+    "CALL": "",
+    "EMAIL": "",
+    "CUSTOMER": ""
+  }
+}

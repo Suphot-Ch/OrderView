@@ -1,0 +1,13 @@
+﻿TGM-63102 8I4D1R 1IP_START 1IP_RESET 4IP_STOP TIMER
+Segment :- Size 8"
+	- 4 หลัก ( 4 Digit)
+INPUT:	- Sensor PNP NPN 6 Channel
+	- Start 1 ch, Reset 1 ch, Stop 4 ch
+	- สามารถตั้งค่า นับขึ้นลงได้
+- สามารถตั้งค่าการทำงานผ่าน Remote ได้
+- Supply 220VAC 
+**เงื่อนไข
+(1) เมื่อ แตะ INPUT Start เวลาเริ่มนับหน่วย (วินาที)
+(2) ขณะที่นับเวลา 
+     - แตะ Stop ใดๆก็ได้ เพื่อหยุดเวลา
+     - แตะ Reset เพื่อ Stop และ Reset เป็นค่าเริ่มต้น

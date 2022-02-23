@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+	<title id="FormYears">TGM Order</a></title>
+	<link rel = "icon" href =  
+"https://www.primusthai.com/assets/img/logo-w.png" 
+        type = "image/x-icon"> 
+	<!-- <link rel="stylesheet" href="Them-w3.css"> -->
+	<script src="order.js"></script>
+	<script language="JavaScript" src="https://www.primusthai.com/Rddocs/TGM/search.js"></script>
+	<style>
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		/* Full-width input fields */
+		input[type=text],
+		input[type=password] {
+			width: 100%;
+			padding: 5px 10px;
+			margin: 8px 0;
+			display: inline-block;
+			border: 1px solid #ccc;
+			box-sizing: border-box;
+		}
+
+		input[type=button] {
+			background-color: rgb(73, 218, 150);
+			;
+			color: white;
+			padding: 14px 20px;
+			margin: 8px 0;
+			width: 100%;
+		}
+
+		/* Set a style for all buttons */
+		button {
+			background-color: rgb(0, 185, 99);
+			;
+			color: white;
+			padding: 10px 50px;
+			margin: 16px 0;
+			border: none;
+			cursor: pointer;
+			width: 100%;
+		}
+
+		button:hover {
+			opacity: 0.8;
+		}
+
+		.Download {
+			background-color: rgb(73, 218, 150);
+			;
+			color: white;
+			padding: 10px 40px;
+			margin: 5px 0;
+			border: none;
+			cursor: pointer;
+			width: 100%;
+		}
+
+		/* Extra styles for the cancel button */
+		.cancelbtn {
+			width: 100%;
+			padding: 10px 18px;
+			background-color: #f44336;
+		}
+
+		/* Center the image and position the close button */
+		.imgcontainer {
+			text-align: center;
+			margin: 24px 0 12px 0;
+			position: relative;
+		}
+
+		img.avatar {
+			width: 40%;
+			border-radius: 50%;
+		}
+
+		.container {
+			padding: 16px;
+		}
+
+		span.psw {
+			float: right;
+			padding-top: 16px;
+		}
+
+		/* The Modal (background) */
+		.modal {
+			/*display: none; */
+			position: fixed;
+			z-index: 1;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 20%;
+			overflow: auto;
+			background-color: #fefefe;
+			padding-top: 60px;
+		}
+
+		.block-head-a {
+			position: fixed;
+			left: 0;
+			top: 0;
+			right: 0;
+			background-color: #49D796;
+			color: #fefefe;
+			border: solid 1px;
+		}
+
+		.block-head-d {
+			position: absolute;
+			left: 0;
+			top: 70px;
+			right: 0;
+			width: 1400px;
+			height: 100%;
+		}
+
+		;
+
+		.block-head-01 {
+			margin: 15px 5px;
+			top: 100px;
+			width: 180px;
+			height: 40px;
+			color: #000000;
+			background-color: rgb(73, 218, 150);
+		}
+
+		;
+
+		.block-head-02 {
+			top: 100px;
+			width: 180px;
+			height: 40px;
+			color: #000000;
+			background-color: rgb(73, 218, 150);
+		}
+
+		;
+
+		.block-head-03 {
+			top: 100px;
+			width: 600px;
+			height: 40px;
+			color: #fefefe;
+			background-color: rgb(73, 218, 150);
+		}
+
+		;
+
+		.block-head-11 {
+			top: 100px;
+			width: 180px;
+			height: 40px;
+			color: #000000;
+			background-color: rgb(73, 218, 150);
+		}
+
+		;
+
+		.block-head-12 {
+			top: 100px;
+			width: 600px;
+			height: 40px;
+			color: #fefefe;
+			background-color: rgb(73, 218, 150);
+		}
+
+		;
+
+		.tbody-head-a {
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 20px;
+			background-color: white;
+			color: black;
+			padding-top: auto;
+		}
+
+		.body-main {
+			/*position: relative;*/
+			/*min-height: 100%; */
+			top: 0px;
+			background-color: rgba(172, 230, 174, 0.575);
+		}
+
+		.Text-hear-a {
+			position: absolute;
+			left: 100px;
+			top: 150px;
+		}
+
+		/* Modal Content/Box */
+		.modal-content {
+			background-color: #fefefe;
+			margin: 5% auto 15% auto;
+			border: 1px solid #888;
+			width: 80%;
+		}
+
+		/* The Close Button (x) */
+		.close {
+			position: absolute;
+			right: 25px;
+			top: 0;
+			color: #000;
+			font-size: 35px;
+			font-weight: bold;
+		}
+
+		.close:hover,
+		.close:focus {
+			color: red;
+			cursor: pointer;
+		}
+
+		/* Add Zoom Animation */
+		.animate {
+			-webkit-animation: animatezoom 0.6s;
+			animation: animatezoom 0.6s
+		}
+
+		@-webkit-keyframes animatezoom {
+			from {
+				-webkit-transform: scale(0)
+			}
+
+			to {
+				-webkit-transform: scale(1)
+			}
+		}
+
+		@keyframes animatezoom {
+			from {
+				transform: scale(0)
+			}
+
+			to {
+				transform: scale(1)
+			}
+		}
+
+		/* Change styles for span and cancel button on extra small screens */
+		.year-button-1 {
+			display: block;
+		}
+
+		.year-button-2 {
+			display: none;
+		}
+
+		.button-head {
+			background-color: rgb(0, 185, 99);
+			;
+			color: white;
+			padding: 10px 50px;
+			margin: 15px 5px;
+			border: none;
+			cursor: pointer;
+			width: 100%;
+		}
+
+		@media only screen and (max-width: 900px) {
+			.block-head-d {
+				width: 700px;
+			}
+
+			;
+
+			.block-head-02 {
+				display: none;
+			}
+
+			.block-head-03 {
+				display: none;
+			}
+
+			.button-head {
+				padding: 5px 10px;
+				margin: 15px 5px;
+			}
+		}
+
+		table#t01 {
+			width: 100%;
+		}
+
+		table#t01 th {
+			color: white;
+			width: auto;
+		}
+
+		table#t02 {
+			width: 100%;
+			color: white;
+		}
+
+		.container-main {
+			position: sticky;
+			float: left;
+			width: 305px;
+			padding: 11px;
+		}
+
+		.container {
+			position: sticky;
+			float: left;
+			width: 300px;
+			margin: auto;
+			padding: 10px;
+			background-color: white;
+		}
+
+		.row {
+			height: auto;
+			margin-bottom: 20px;
+			position: relative;
+		}
+
+		.order-name {
+			height: 10%;
+			padding: 2px;
+			background-color: rgb(73, 218, 150);
+			color: white
+		}
+
+		.order-picture {
+			height: 200px;
+			background-color: rgb(73, 218, 150);
+		}
+
+		.order-detail {
+			height: 50px;
+			width: auto;
+			padding: 5px;
+			background-color: rgb(73, 218, 150);
+		}
+
+		.order-detail-type {
+			float: left;
+			width: 15%;
+		}
+
+		.order-detail-data {
+			float: left;
+			width: 70%;
+		}
+
+		.order-detail-ch {
+			float: right;
+			width: 15%;
+		}
+
+		.order-view-detial {
+			height: 20px;
+			width: 100px;
+			padding: 1px;
+		}
+
+		.order-download {
+			height: 20px;
+			width: 150px;
+			padding: 1px;
+		}
+
+		.left {
+			float: left;
+		}
+
+		.center {
+			float: left;
+			margin: 0 5%;
+		}
+
+		.right {
+			float: right;
+		}
+
+		.blank {
+			float: left;
+			height: 10px;
+			width: 10px;
+		}
+
+		.a-button {
+			background-color: rgb(73, 218, 150);
+			color: white;
+			padding: 10px 20px;
+			margin: 5px 0;
+			border: none;
+			cursor: pointer;
+			width: 100%;
+		}
+
+		.a-button:hover {
+			color: black;
+			opacity: 0.8;
+		}
+	</style>
+	<style>
+	</style>
+</head>
+
+<body class="body-main" onpageshow="tableRun(64)">
+	<center>
+		<div class="block-head-d">
+			<center>
+				<!--div id="order">Please wait...</div-->
+				<!--div id="order">Please wait...</div-->
+				<div id="order"><br><br>
+					<h2>เกิดข้อบกพร่องการแสดงผล ไม่สามารถใช้งานได้ชั่วคราว อยู่ระหว่างการปรับปรุง</h2>
+					<label>กรุณาเข้าใช้งานผ่านระบบ Login</label><br>
+					<a href="http://180.183.244.91:8001/redmine/issues/2155">Order 2018</a><br>
+					<a href="http://180.183.244.91:8001/redmine/issues/1436">Order 2019</a><br>
+					<a href="http://180.183.244.91:8001/redmine/issues/1487">Order 2020</a><br>
+					<a href="http://180.183.244.91:8001/redmine/issues/2612">Order 2021</a><br>
+					</div>
+			</center>
+		</div>
+		<div class="block-head-a">
+			<div class="block-head-01 left">
+				<div style="color: white; padding: 20px ">Order <a id="FormYear">-</a></div>
+			</div>
+			<div class="block-head-10">
+				<div class="block-head-02 left">
+					<button class="button-head" onclick='tableRun(60)' style='width:auto'>2017</button>
+				</div>
+				<div class="block-head-02 left">
+					<button class="button-head" onclick='tableRun(61)' style='width:auto'>2018</button>
+				</div>
+				<div class="block-head-02 left">
+					<button class="button-head" onclick='tableRun(62)' style='width:auto'>2019</button>
+				</div>
+				<div class="block-head-02 left">
+					<button class="button-head" onclick='tableRun(63)' style='width:auto'>2020</button>
+				</div>
+				<div class="block-head-02 left">
+					<button class="button-head" onclick='tableRun(64)' style='width:auto'>2021</button>
+				</div>
+				<div class="block-head-02 left">
+					<button class="button-head" onclick='window.open("https://bit.ly/3g0RQnp");' style='width:auto'>Spec</button>
+				</div>
+				<div class="block-head-03 right">
+					<form action="javascript:void();" onSubmit="if(this.t1.value!='')parent.findString(this.t1.value);"
+						return(false);>
+						<table>
+							<tr>
+								<td><input type="text" id="t1" name="t1" placeholder="Ctrl+F Search" size="30"></td>
+								<td><button type="submit" name="b1">Search</button></td>
+							</tr>
+						</table>
+					</form>
+				</div>
+			</div>
+		</div>
+	</center>
+	<script>
+		///////////////////////////////////////////////////////////////////////////////////////////////// Run
+		var revOrder2017 = [//0 1 2 3 4 5 6 7 8 9
+			0, 0, 0, 0, 1, 1, 0, 3, 0, 0, //  00
+			0, 1, 1, 2, 0, 0, 0, 1, 0, 0, //  10
+			0, 0, 0, 0, 0, 0, 1, 0, 0, 0, //  20
+			0, 0, 0, 3, 0, 0, 0, 0, 0, 0, //  30
+			0, 0, 0, 0, 0, 0, 2, 0, 0, 0, //  40
+			0, 0, 1, 1, 0, 1, 1, 0, 1, 1, //  50
+			2, 0, 2, 0, 0, 2, 0, 0, 0, 0, //  60
+			0, 0, 0, 0, 0, 0, 2, 1, 0, 0, //  70
+			0, 0, 0, 3, 0, 0, 1, 0, 0, 1, //  80
+			1, 0, 0, 1, 1, 1, 0, 0, 1, 1, //  90
+			2, 0, 1, 0, 0, 0, 0, 0, 0, 1, // 100
+			0, 0, 0, 1, 0, 0, 1, 1, 0, 0, // 110
+			1, 0, 3, 0, 0, 0, 1, 0, 0, 1, // 120
+			0, 0, 1, 1, 1, 1, 1, 0, 1, 0, // 130
+			1, 1, 0, 1, 0, 0, 0, 0, 0, 4, // 140
+			0, 0, 0, 0, 3, 0, 0, 0, 0, 1, // 150
+			0, 0, 0, 0, 0, 0, 0, 0, 0, 0, // 160
+		];
+		var revOrder2018 = [//0 1 2 3 4 5 6 7 8 9	
+			0, 0, 0, 1, 0, 1, 0, 1, 0, 3, //  00
+			0, 1, 1, 0, 1, 2, 0, 0, 2, 1, //  10
+			0, 1, 0, 0, 0, 1, 0, 1, 2, 0, //  20
+			1, 0, 0, 1, 1, 1, 1, 2, 0, 3, //  30
+			0, 0, 1, 0, 0, 1, 0, 0, 0, 0, //  40
+			0, 0, 0, 0, 0, 0, 0, 0, 2, 1, //  50
+			1, 3, 0, 0, 0, 0, 0, 0, 1, 0, //  60
+			1, 1, 0, 0, 0, 0, 1, 1, 5, 0, //  70
+			1, 0, 1, 0, 2, 0, 0, 3, 0, 0, //  80
+			2, 1, 0, 0, 0, 0, 0, 1, 0, 1, //  90
+			0, 0, 1, 0, 1, 0, 0, 1, 0, 0, // 100
+			0, 0, 0, 0, 0, 0, 1, 0, 0, 0, // 110
+			0, 0, 0, 0, 0, 0, 0, 0, 0, 0, // 120
+			0, 0, 1, 0, 0, 0, 0, 0, 0, 0, // 130
+			2, 0, 0, 0, 0, 1, 1, 0, 0, 2, // 140
+			1, 1, 1, 1, 0, 1, 0, 1, 3, 0, // 150
+			0, 0, 0, 0, 0, 1, 0, 0, 0, 1, // 160
+			0, 1, 2, 1, 1, 0, 0, 0, 0, 0, // 170
+		];
+
+		var revOrder2019 = [//0 1 2 3 4 5 6 7 8 9	
+			0, 1, 0, 1, 0, 0, 0, 0, 0, 0, //  00
+			0, 0, 0, 0, 0, 3, 0, 1, 1, 1, //  10
+			1, 1, 0, 0, 0, 0, 0, 0, 1, 1, //  20
+			1, 0, 0, 1, 2, 0, 0, 0, 1, 1, //  30
+			1, 0, 0, 1, 1, 0, 0, 1, 0, 0, //  40
+			0, 0, 0, 0, 0, 1, 1, 0, 1, 0, //  50
+			0, 0, 1, 0, 0, 0, 0, 0, 0, 1, //  60
+			0, 0, 0, 1, 0, 0, 0, 0, 0, 0, //  70
+			0, 0, 0, 0, 1, 1, 0, 0, 0, 0, //  80
+			2, 0, 0, 0, 0, 0, 0, 0, 0, 0, //  90
+			1, 0, 0, 0, 0, 0, 0, 0, 0, 0, // 100
+			0, 0, 0, 0, 0, 0, 0, 0, 1, 0, // 110
+			0, 0, 0, 0, 0, 0, 0, 0, 0, 0, // 120
+			0, 0, 0, 0, 0, 0, 0, 1, 0, 0, // 130
+			0, 0, 0, 0, 0, 0, 0, 0, 0, 0, // 140
+			0, 0, 0, 0, 0, 0, 0, 0, 2, 0, // 150
+		];
+		var revOrder2020 = [
+		/*  0  1  2  3  4  5  6  7  8  9	 */
+			0, 1, 0, 0, 1, 1, 0, 0, 0, 1, //  00
+			0, 0, 1, 0, 1, 0, 0, 0, 0, 0, //  10
+			0, 0, 2, 0, 0, 0, 0, 0, 0, 0, //  20
+			0, 0, 0, 0, 1, 1, 0, 0, 0, 0, //  30
+			0, 0, 1, 0, 1, 1, 0, 0, 2, 0, //  40
+			0, 2, 0, 0, 0, 0, 0, 0, 1, 0, //  50
+			1, 1, 0, 0, 1, 0, 1, 0, 0, 0, //  60
+			0, 0, 0, 0, 0, 0, 0, 0, 0, 0, //  70
+			0, 0, 1, 0, 0, 0, 1, 0, 0, 0, //  80
+			0, 0, 0, 1, 0, 0, 0, 1, 0, 0, //  90
+			0, 0, 0, 0, 0, 0, 0, 0, 0, 1, // 100
+			0, 0, 0, 0, 0, 0, 0, 0, 1, 1, // 110
+			0, 0, 0, 1, 0, 0, 0, 0, 0, 0, // 120
+			0, 0, 0, 0, 0, 0, 0, 0, 2, 0, // 130
+			0, 0, 0, 1, 0, 0, 0, 3, 0, 1, // 140
+			0, 0, 0, 1, 1, 0, 0, 0, 0, 0, // 150
+			0, 0, 0, 0, 1, 0, 0, 0, 0, 0, // 160
+			0, 0, 0, 0, 0, 0, 0, 0, 0, 0, // 170
+			0, 0, 0, 0, 0, 0, 0, 0, 0, 0, // 180
+		];
+		var revOrder2021 = [
+		/*  0  1  2  3  4  5  6  7  8  9	 */
+			0, 0, 0, 0, 0, 0, 0, 0, 0, 0, //  00
+			0, 0, 0, 0, 0, 0, 0, 0, 0, 0, //  00
+			0, 0, 2, 0, 0, 0, 0, 0, 0, 0, //  20
+			0, 0, 0, 0, 0, 0, 0, 0, 0, 0, //  30
+			0, 0, 0, 0, 0, 0, 0, 0, 2, 0, //  40
+			0, 2, 0, 0, 0, 0, 0, 0, 0, 0, //  50
+			0, 0, 0, 0, 0, 0, 0, 0, 0, 0, //  60
+			0, 0, 0, 0, 0, 0, 0, 0, 0, 0, //  70
+			0, 0, 0, 0, 0, 0, 0, 0, 0, 0, //  80
+			0, 0, 0, 0, 0, 0, 0, 0, 0, 0, //  90
+			0, 0, 0, 0, 0, 0, 0, 0, 0, 0, // 100
+			0, 0, 0, 0, 0, 0, 0, 0, 0, 0, // 110
+			0, 0, 0, 0, 0, 0, 0, 0, 0, 0, // 120
+			0, 0, 0, 0, 0, 0, 0, 0, 2, 0, // 130
+			0, 0, 0, 0, 0, 0, 0, 3, 0, 0, // 140
+			0, 0, 0, 0, 0, 0, 0, 0, 0, 0, // 150
+			0, 0, 0, 0, 0, 0, 0, 0, 0, 0, // 160
+			0, 0, 0, 0, 0, 0, 0, 0, 0, 0, // 170
+			0, 0, 0, 0, 0, 0, 0, 0, 0, 0, // 180
+		];
+		var htmx = '';
+		var TxOrder;
+		var codeNumber;
+		var i;
+		var k;
+		var j = 1;
+		var txOrder;
+		var year_ex;
+		var text_ex = 0;
+        var headWeb = "https://www.primusthai.com/Rddocs/TGM/";
+
+		var myVar = setInterval(function () {
+			//tableRun();
+		}, 500);
+		function loadtext(year) {
+			if (text_ex == 1) text_ex = 0;
+			else text_ex = 1;
+			tableRun(year);
+		}
+		function tableRun(year) {
+			var Years;
+			j = 1;
+			if (j > 0) {
+				if (year == 60) {
+					codeNumber = 160;
+				}
+				if (year == 61) {
+					codeNumber = 176;
+				}
+				if (year == 62) {
+					codeNumber = 164;
+				}
+				if (year == 63) {
+					codeNumber = 166;
+				}
+				if (year == 64) {
+					codeNumber = 1;
+				}
+				year_ex = year;
+				Years = (2500 + year) - 543;
+				htmx = "";
+				for (i = codeNumber; i > 0; i--) {
+					if (year == 60) {
+						txOrder = revOrder2017[i];
+					}
+					if (year == 61) {
+						txOrder = revOrder2018[i];
+					}
+					if (year == 62) {
+						txOrder = revOrder2019[i];
+					
+					if (year == 63) {
+						txOrder = revOrder2020[i];
+					}
+					if (year == 64) {
+						txOrder = revOrder2021[i];
+					}
+					TxOrder = (1000 * year) + i;
+					htmx += "<div class='container-main'>";
+					htmx += "	<div class='container'>";
+					htmx += "		<div class='row order-name'><h2>TGM-" + TxOrder + "</h2></div>";
+					htmx += "		<div class='row order-picture'><img src='" + Years + "/images/TGM-" + TxOrder + ".png' width='300' height='200' ></div>";
+
+					htmx += "		<div class='row order-detail'>";
+					htmx += "			<div class='order-detail-type left'><a class='left'>Input</a></div>";
+					htmx += "			<div class='order-detail-data left'><a class='left'>: - </a></div>";
+					htmx += "			<div class='order-detail-ch right'><a class='right'> - ch</a></div>";
+
+					htmx += "			<div class='order-detail-type left'><a class='left'>Output</a></div>";
+					htmx += "			<div class='order-detail-data left'><a class='left'>: - </a></div>";
+					htmx += "			<div class='order-detail-ch right'><a class='right'> - ch</a></div>";
+
+					htmx += "			<div class='order-detail-type left'><a class='left'>Comm</a></div>";
+					htmx += "			<div class='order-detail-data left'><a class='left'>: - </a></div>";
+					htmx += "			<div class='order-detail-ch right'><a class='right'> - ch</a></div>";
+					htmx += "		</div>";
+
+					htmx += "		<div class='row'>";
+					htmx += "			<div class='order-view-detial left'>";
+					htmx += "				<a class='a-button' href='" + Years + "/images/TGM-" + TxOrder + ".png' target='_blank'>Detial</a>";
+					htmx += "			</div>";
+					htmx += "			<div class='order-download right'>";
+					htmx += "				<a class='a-button' href='" + Years + "/file/TGM-" + TxOrder + ".pdf' target='_blank'>Download</a>";
+					htmx += "			</div>";
+					htmx += "		</div>";
+					htmx += "	</div>";
+					htmx += "</div>";
+					if (txOrder > 0) {
+						for (k = 1; k < txOrder + 1; k++) {
+							htmx += "<div class='container-main'>";
+							htmx += "	<div class='container'>";
+							htmx += "		<div class='row order-name'><h2>TGM-" + TxOrder + "rev" + k + "</h2></div>";
+							htmx += "		<div class='row order-picture'><img src='" + headWeb + "order/" + Years + "/images/TGM-" + TxOrder + "rev" + k + ".png' width='300' height='200' ></div>";
+
+							htmx += "		<div class='row order-detail'>";
+							htmx += "			<div class='order-detail-type left'><a class='left'>Input</a></div>";
+							htmx += "			<div class='order-detail-data left'><a class='left'>: - </a></div>";
+							htmx += "			<div class='order-detail-ch right'><a class='right'> - ch</a></div>";
+
+							htmx += "			<div class='order-detail-type left'><a class='left'>Output</a></div>";
+							htmx += "			<div class='order-detail-data left'><a class='left'>: - </a></div>";
+							htmx += "			<div class='order-detail-ch right'><a class='right'> - ch</a></div>";
+
+							htmx += "			<div class='order-detail-type left'><a class='left'>Comm</a></div>";
+							htmx += "			<div class='order-detail-data left'><a class='left'>: - </a></div>";
+							htmx += "			<div class='order-detail-ch right'><a class='right'> - ch</a></div>";
+							htmx += "		</div>";
+
+							htmx += "		<div class='row'>";
+							htmx += "			<div class='order-view-detial left'>";
+							htmx += "				<a class='a-button' href='" + headWeb + "order/" + Years + "/images/TGM-" + TxOrder + "rev" + k + ".png' target='_blank'>Detial</a>";
+							htmx += "			</div>";
+							htmx += "			<div class='order-download right'>";
+							htmx += "				<a class='a-button' href='" + headWeb + "order/" + Years + "/file/TGM-" + TxOrder + "rev" + k + ".pdf' target='_blank'>Download</a>";
+							htmx += "			</div>";
+							htmx += "		</div>";
+							htmx += "	</div>";
+							htmx += "</div>";
+						}
+					}
+					// htmx +=	"<div class='blank'>.</div>";
+				}
+
+				// htmx += 	"</table>";
+				document.getElementById("FormYear").innerHTML = Years;
+				document.getElementById("FormYears").innerHTML = "TGM Order " + Years;
+				document.getElementById("order").innerHTML = htmx;
+				j = 0;
+			}
+			else {
+				j = 0;
+			}
+		}
+		function PictureView() {
+
+		}
+
+	</script>
+
+</body>
+
+</html>

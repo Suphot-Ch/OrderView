@@ -1,0 +1,14 @@
+﻿TGM-62153 2M8D1R 2I5D4R 1IP_CNT
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง 2.3"
+และตัวอักษร Matrix 5x7 สีแดง 2.3"
+รับอินพุต Counter Sensor [ pnp, npn ], contact switch ได้ 1 Channel
+รับอินพุต Reset contact switch ได้ 1 Channel
+สามารถตั้งค่า/แก้ไขตัวอักษร ได้ด้วยรีโมท
+ตั้งค่าการทำงานด้วย Remote Infrared
+MODEL : แสดงผล ตัวอักษรตั้งค่าผ่านรีโมท
+PLAN : แสดงค่าเป้าหมายตั้งค่าผ่าน รีโมท
+ACTUAL : แสดงค่า Counter ที่รับได้จาก Input
+DIFF. : แสดงค่าผลต่าง เมื่อ ACTUAL – TARGET
+EFF. : แสดงค่า % ผลต่าง เมื่อ  ( ACTUAL / TARGET ) x 100
+สามารถตั้งค่า ตัวคูณ/ตัวหารได้
+สามารถกำหนดทศนิยมได้

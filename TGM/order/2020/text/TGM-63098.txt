@@ -1,0 +1,10 @@
+﻿TGM-63098 2I4D2R 2AP_0_10 TEMP HUMI
+Segment :- Size 2.3"
+	- 5 หลัก ( 5 Digit)
+INPUT:	- Analog 0 – 10 VDC 2 Ch
+- สามารถตั้งค่าการทำงานผ่าน Remote ได้
+- Supply 220VAC 
+TEMP	- แสดงค่าที่รับได้จาก INPUT 1
+HUMI	- แสดงค่าที่รับได้จาก INPUT 2
+	- สามารถตั้งค่า SCALE HIGH/LOW ได้
+	- สามารถตั้งค่า Decimal Point ได้

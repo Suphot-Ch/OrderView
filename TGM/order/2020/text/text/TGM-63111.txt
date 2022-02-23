@@ -1,0 +1,19 @@
+﻿TGM-63110 2I4D2R 2D2R 2IP_CNT RS485 KM-18
+- 7 Segment Size 2.3" สีแดง 
+- Input Counter Sensor pnp npn 2 ch
+- Input Switch Reset 2 ch
+- Communication Modbus RTU RS485
+- สามารถตั้งค่าการทำงานผ่าน Remote ได้
+- Supply 220VAC 
+Counter	- สามารถแก้ไขค่าได้, ตั้งค่าตัวคูณ/ตัวหารได้, ตั้งค่านับ ขึ้น/ลง ได้
+LINE 1	- แสดงค่าที่รับได้จาก Input Counter 1
+LINE 2	- แสดงค่าที่รับได้จาก Input Counter 2
+T1	- เริ่มนับเวลาเมิ่อ Input 1 On และหยุดนับเมื่อ Input 1 Off ค้างค่าไว้
+T2	- เริ่มนับเวลาเมิ่อ Input 2 On และหยุดนับเมื่อ Input 2 Off ค้างค่าไว้
+ALARM	– สามารถตั้งค่า mode ได้ 4 Mode
+RS485	- สามารถตั้งค่า Baud rate ได้ 4800 9600 19200 38400 57600
+	- สามารถตั้งค่า Parity ได้ none odd even
+MODBUS	- สามารถตั้งค่า Slave Address ได้ 1-240
+
+ติดตั้ง ห่วงสำหรับแขวน
+ติดตั้ง KM-18 ด้านข้าง (*กรุณาเสนอราคาเพิ่มเติม)

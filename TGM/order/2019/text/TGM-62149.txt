@@ -1,0 +1,11 @@
+﻿TGM-62149 12I4D2R 2AP_420 2OP_RL
+- 7 Segment Size 12" สีแดง 4 หลัก
+- INPUT 4-20mA  2 Channel
+- OUTPUT Relay  2 Channel
+- สามารถตั้งค่า SCALE ได้ -1999 ถึง 9999
+- สามารถตั้งค่า กำหนดตำแหน่ง ทศนิยมได้ 2 ตำแหน่ง
+- สามารถตั้งค่า Alarm ได้ 4 Function
+    I  . Alarm High Low
+    II . Alarm High
+    III. Alarm Low
+    IV. Alarm High Low Range

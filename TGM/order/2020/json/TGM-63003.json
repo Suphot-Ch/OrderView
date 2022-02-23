@@ -1,0 +1,39 @@
+{
+    "NAME": "TGM-63003",
+    "KEYWORD": "TGM-63003 2I4D2R 3AP_420 3OP_AL",
+    "DISPLAY": "7 Segment",
+    "SIZE": "2.3 INC",
+    "INPUT": {
+        "TYPE": "Digital Counter",
+        "CH": "2"
+    },
+    "OUTPUT": {
+        "TYPE": "Alarm Relay(NC/NO/COM)",
+        "CH": "3"
+    },
+    "COMMUNICATION": {
+        "TYPE": "",
+        "CH": ""
+    },
+    "SUPPLY": "110-240 VAC",
+    "SOURCE": "",
+    "FUNCTION": [
+        {
+            "DETAIL": "- สามารถตั้งค่า Scale high low ได้  -1999 – 9999"
+        },
+        {
+            "DETAIL": "- สามารถตั้งค่า ทศนิยมได้ (0, 0.0, 0.00)"
+        },
+        {
+            "DETAIL": "- สามารถตั้งค่า Alarm ได้ 4 function"
+        }
+    ],
+    "BODYSIZE": "500W x 350H x 100D mm.",
+    "DATE": "04/11/2020",
+    "PRICE": "19100",
+    "SALE": {
+        "NAME": "Anurut",
+        "BRANCH": "",
+        "CUSTOMER": ""
+    }
+}

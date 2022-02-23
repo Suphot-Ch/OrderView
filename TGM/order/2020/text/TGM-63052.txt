@@ -1,0 +1,11 @@
+﻿TGM-63052 8I5D1R 1AP_420 RS485 slave M3
+- 7 Segment Size 8" สีแดง 5 หลัก
+- Input 4-20 mA 1 Channel
+- สามารถตั้งค่า Scale High/ Low ได้ -19999 - 99999
+- สามารถตั้งค่า กำหนดจุดทศนิยมได้ 0, 0.0, 0.00, 0.000
+- ตั้งค่าการทำงานผ่าน Remote
+RS485 Modbus RTU
+ *Slave mode
+สามารถตั้งค่า Address ได้ 1 – 240
+สามารถตั้งค่า Baudrate ได้ 4800 9600 19200 38400 57600
+สามารถตั้งค่า Parity ได้ None Odd Even

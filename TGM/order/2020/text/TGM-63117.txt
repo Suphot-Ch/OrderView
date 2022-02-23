@@ -1,0 +1,19 @@
+﻿TGM-63117 4I5D6R 6AP_420 6OP_AL RS485
+- 7 Segment Size 4" สีแดง 6 หลัก
+- Input current 4-20mA  6 ch
+- Output Relay Alarm 6 ch
+- สามารถเชื่อมต่อ RS485 Modbus RTU
+- สามารถตั้งค่าการทำงานผ่าน Remote ได้
+- Input Supply 220VAC 
+- Output Supply 12VDC/2A.
+- ตั้งค่า Scale min / max ได้ -19999 ถึง 99999
+- สามารถตั้งค่า ทศนิยมได้ 0.000, 0.00, 0.0, 0
+- Alarm สามารถตั้งค่า mode ได้ 4 รูปแบบ
+  (1)Alarm high low (2)Alarm high (3)Alarm low (4)Alarm high low Range 
+RS485	: สามารถตั้งค่า Baud rate ได้ 4800 9600 19200 38400 57600
+	: สามารถตั้งค่า Parity ได้ none odd even
+MODBUS	: สามารถตั้งค่า Slave Address ได้ 1-240
+	: สามารถ อ่านได้ ผ่าน Function RTU 03h / 04h
+	: สามารถ เขียนได้ ผ่าน Function RTU 10h
+
+Modbus แยก 2 Slave address คือ 3 แถวบน และ 3 แถวล่าง

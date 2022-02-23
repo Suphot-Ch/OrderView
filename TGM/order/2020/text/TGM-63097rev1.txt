@@ -1,0 +1,18 @@
+﻿TGM-63097 4I 5D2R 6D2R 1IP_CNT
+Segment :- Size 4"
+	- 5 หลัก ( 5 Digit)
+INPUT:	- Counter sensor pnp npn contact 1 ch
+	- Reset Counter 1 ch
+	- CT cycle time 1 ch
+- สามารถตั้งค่าการทำงานผ่าน Remote ได้
+- Supply 220VAC 
+Counter
+	- สามารถตั้งค่า การนับ ขึ้นหรือลงได้
+	- สามารถตั้งค่าตัวคูณตัวหารได้
+CT cycle time
+	- สามารถตั้งหน่วงเวลาได้ 0.00-99.99 หน่วงวินาที
+	- เมื่อ Input Hold CT เริ่มนับเวลา
+Plan : แก้ไขตั้งค่าผ่าน Remote
+Actual : แก้ไขตั้งค่าผ่าน Remote
+           : แสดงค่าที่รับได้จาก Input Counter
+%Eff : แสดงค่า % ผลต่าง เมื่อ (Actual / Plan) * 100

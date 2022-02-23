@@ -1,0 +1,57 @@
+{
+  "ORDER": "TGM-64046",
+  "KEYWORD": "TGM-64046 2I3D1R 1AP_420 2OP_AL",
+  "DISPLAY": {
+    "TYPE": "7 Segment",
+    "SIZE": "2.3\"",
+    "OTHER": ""
+  },
+  "INPUT": {
+    "TYPE": "Analog 4-20mA",
+    "OTHER": "",
+    "CHANNEL": "1"
+  },
+  "OUTPUT": {
+    "TYPE": "Relay Alarm",
+    "OTHER": "",
+    "CHANNEL": "2"
+  },
+  "COMMUNICATION": {
+    "TYPE": "-",
+    "OTHER": "",
+    "CHANNEL": ""
+  },
+  "SUPPLY": {
+    "TYPE": "24VDC >1A",
+    "OTHER": ""
+  },
+  "SOURCES": {
+    "TYPE": "-",
+    "OTHER": ""
+  },
+  "FUNCTION": [
+    "FUNCTION",
+    "- ตั้งค่า Scale ได้ -199 – 999.",
+    "- ตั้งค่า ทศนิยมได้ สูงสุด 2 ตำแหน่ง (-1.99 – 9.99).",
+    "- ตั้งค่า การทำงานของ Alarm ได้ 4 Mode (แยกกัน 2 channel)",
+    "FEATURE",
+    "สูตร",
+    "PV = [ (IN - ZERO) / (SPAN - ZERO) ] * (SLH - SLL) SLL",
+    "PV = [ (12.00 - 4.00) / (20.00 - 4.00) ] * (1000 - 0) 0",
+    "PV = 500",
+    "Mode Alarm ใช้งานได้ 4 Mode",
+    ". Alarm high low",
+    ". Alarm high",
+    ". Alarm low",
+    ". Alarm high low range"
+  ],
+  "BODYSIZE": "250W x 150H x 100D",
+  "DATE": "2021-03-11",
+  "SALE": {
+    "NAME": "คุณ พิทักชัย (P' โหน่ง)",
+    "BRANCH": "",
+    "CALL": "0993517414",
+    "EMAIL": "",
+    "CUSTOMER": ""
+  }
+}

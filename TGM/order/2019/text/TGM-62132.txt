@@ -1,0 +1,14 @@
+﻿TGM-62132 4I5D3R 2IP_CNT 2OP_AL RS485
+7 Segment 5 หลัก สีแดง
+Input Counter Sensor PNP,NPN, Contact
+Input A เป็นบวก Input B เป็นลบ
+Output Alarm Contact Relay 5A250VAC
+สามารถตั้งค่า ตัวคูณ/ตัวหาร และดูค่าผลลัพธ์ได้
+สามารถเชื่อต่อ RS485 Modbus RTU ได้
+สามารถตั้งค่า Alarm Set point 1 เมื่อ ACTUAL มากกว่า Set Point 1 ให้ Alarm 1 ทำงาน
+สามารถตั้งค่า Alarm Set point 2 เมื่อ ACTUAL มากกว่า Set Point 2 ให้ Alarm 2 ทำงาน
+สามารถตั้งค่า ACTUAL มากกว่า TARGET ให้ Alarm 3 ทำงาน
+RTU		> Support Read Function 03h 04h
+RTU		> Support Write Function 10h
+RS485	> Support Baud Rate 4800 9600 19200 38400 57600 
+RS485	> Support Parity none odd even

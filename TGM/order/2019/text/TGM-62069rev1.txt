@@ -1,0 +1,9 @@
+﻿TGM-62069 4I6D1R RS485
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง 
+รับอินพุต RS485 Modbus RTU 
+RS485  ตั้งค่า Address ได้ 1 - 255
+RS485  ตั้งค่า Baud Rate ได้ 4800 9600 19200 38400 57600
+RS485  ตั้งค่า Parity ได้ None Odd Even
+RTU     รองรับ Function Read Register 03h 04h
+RTU     รองรับ Function Write Register 10h
+ตั้งค่าการทำงานด้วย Remote IF

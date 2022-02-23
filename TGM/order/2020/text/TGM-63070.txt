@@ -1,0 +1,11 @@
+﻿TGM-63070 2I6D3R 2IP_CNT 2OP_AL
+แสดงผลผ่านหน้าจอ 7 Segment สีแดง
+Counter Input sensor [npn pnp], Contact 2 Channel
+Reset Counter Contact 2 Channel
+Output Alarm Relay 2 Channel
+ตั้งค่าการทำงาน ผ่านรีโมท
+สามารถตั้งค่า การนับขึ้น/นับลงได้
+สามารถตั้งค่า ตัวคูณ/ตัวหารได้
+สามารถตั้งค่า ทศนิยมได้
+สามารถตั้งค่า Setpoint ได้ 2 ช่องแยกกัน
+สามารถเลือก Sources ที่ใช้ในการทำงานของ Alarm ได้

@@ -1,0 +1,9 @@
+﻿TGM-62084 4I5D3R 4I4D3R RS485
+Display : 7 Segment 4"
+RS485	: Baud Rate 4800, 9600, 19200, 38400, 57600
+	: Parity None, Even, Odd
+	: Address  1 – 254 
+Modbus 
+RTU 	: Function Read Support 03h 04h
+	: Function Write Support 10h
+	: Registers 32 bit / 4 byte / 2 word

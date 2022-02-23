@@ -1,0 +1,52 @@
+{
+  "ORDER": "TGM-64015",
+  "KEYWORD": "TGM-64015 4I4D1R 5IP_CNT 1IP_RST",
+  "DISPLAY": {
+    "TYPE": "7 Segment",
+    "SIZE": "4\"",
+    "OTHER": ""
+  },
+  "INPUT": {
+    "TYPE": "Sensor NPN PNP Contact Counter",
+    "OTHER": "",
+    "CHANNEL": "5"
+  },
+  "OUTPUT": {
+    "TYPE": "-",
+    "OTHER": "",
+    "CHANNEL": ""
+  },
+  "COMMUNICATION": {
+    "TYPE": "-",
+    "OTHER": "",
+    "CHANNEL": ""
+  },
+  "SUPPLY": {
+    "TYPE": "110-240 VAC/ 50-60Hz",
+    "OTHER": ""
+  },
+  "SOURCES": {
+    "TYPE": "12VDC 4A / SP 240VAC",
+    "OTHER": ""
+  },
+  "FUNCTION": [
+    "FUNCTION",
+    "- ตั้งค่าตัวคูณตัวหารได้ ตั้งค่าผ่านรีโมท แยกกัน 5 Channel",
+    "- ตั้งค่าการนับ ขึ้น( ) ลง(-) ได้ ตั้งค่าผ่านรีโมท",
+    "- เลือก Type input ได้โดยการจั้ม Select บน Terminal",
+    "- Source output 12 VDC",
+    "",
+    "FEATURE",
+    "- รับ Input Counter 5 Channel แสดงผลรวมบนจอเดียว",
+    ""
+  ],
+  "BODYSIZE": "450W x 250H x 100D",
+  "DATE": "2021-02-08",
+  "SALE": {
+    "NAME": "บัณฑิต",
+    "BRANCH": "สำนักงานใหญ่",
+    "CALL": "0867525848/0908808240",
+    "EMAIL": "",
+    "CUSTOMER": ""
+  }
+}

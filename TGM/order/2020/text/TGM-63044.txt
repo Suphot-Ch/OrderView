@@ -1,0 +1,19 @@
+﻿TGM-63044 4I4D3R 1IP_CNT
+- 7 Segment Size  4"  สีแดง 
+- INPUT Counter sensor PNP NPN 1 channel
+- INPUT Contact Reset 1 channel
+- TARGET	: ตั้งค่าด้วยรีโมท
+- ACTUAL	: รับค่า Sensor , Contact , NPN , PNP
+- BALANCE	: ACTUAL - TACT TIME
+- INPUT Contact Hold 1 channel
+- TACT TIME : เป็นค่าที่นับขึ้นตามเวลา
+เช่น ตั้ง 5 วินาที ค่าจะเพิ่มขึ้นที่ละ 1 ค่า ทุกๆ 5 วินาที 
+เริ่มทำงานเมื่อกดรีโมท หรือ Contact แตะ 1 ครั้ง  
+(ทำงานพื้นหลัง สามารถกด Remote ดูค่าได้)
+ *สามารถตั้งค่า Break Time ได้ 10 Function 
+    : เมื่อ Break Time ON 
+      - Cycle Time หยุดนับ
+      - Tact Time หยุดนับ    
+    : เมื่อ Break Time OFF 
+      - Cycle Time ทำงานต่อ
+      - Tact Time ทำงานต่อ

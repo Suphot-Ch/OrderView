@@ -1,0 +1,7 @@
+﻿TGM-62112 4I3D6R 4M8D2R RS485
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง ขนาด 2.3 นิ้ว
+สามารถเชื่อมต่อ RS485 ได้ 1 Channel 
+Address	: ตั้งค่า ได้  1-255 
+Baud Rate	: ตั้งค่า ได้ 4800, 9600, 19200, 38400, 57600
+Data Format	: Value 16 Bits
+Protocol	: Modbus RTU read(0x03,0x04) , write(0x10)

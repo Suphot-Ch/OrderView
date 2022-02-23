@@ -1,0 +1,7 @@
+open www.primusthai.com 77 
+user rdprimus
+P@ssw0rd
+dir
+cd /TGM/order
+send H:\PMCloud\Web\TGM\order\index.html
+quit

@@ -1,0 +1,15 @@
+A
+B C D
+G H I
+L M N
+Q R S
+V W X
+
+7 - 12
+
+A7:A12
+B7:D12
+G7:I12
+L7:N12
+Q7:S12
+V7:X12

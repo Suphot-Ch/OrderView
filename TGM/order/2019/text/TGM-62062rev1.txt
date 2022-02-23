@@ -1,0 +1,15 @@
+﻿TGM-62062 1I3D1R 1AP_PT100 3OP_AL RS485
+7 Segment Size สีแดง
+แสดงผลผ่านหน้าจอ7 Segment สีแดง 3 หลัก
+Input RTD PT100 ผ่าน EM 0 – 100 °C
+สามารถตั้งค่า Set Point Alarm Output 3 Channel
+สามารถเชื่อมต่อ RS485 Modbus RTU ได้
+รองรับ Baud Rate 4800 9600 19200 38400 57600
+รองรับ Parity None Odd Even
+รองรับ RTU Function 03h 04h 06h 10h
+Alarm Limit 4 Function 3 Output Tower Light
+0 >> OFF Mode
+1 >> Value High and Low Limit
+2 >> Value High Limit
+3 >> Value Low Limit
+4 >> High and Low Limit Range 

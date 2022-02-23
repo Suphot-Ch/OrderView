@@ -1,0 +1,11 @@
+﻿TGM-63118 1I3D1R 1AP_420 1OP_AL
+- 7 Segment Size 1.2" สีแดง 3 หลัก
+- Input current 4-20mA  1 ch
+- Output Relay Alarm 1 ch
+- สามารถตั้งค่าการทำงานผ่าน Remote ได้
+- Input Supply 220VAC 
+- Output Supply 12VDC/2A
+- ตั้งค่า Scale min / max ได้ -199 ถึง 999
+- สามารถตั้งค่า ทศนิยมได้ 0.00, 0.0, 0
+- Alarm สามารถตั้งค่า mode ได้ 4 รูปแบบ
+  (1)Alarm high low (2)Alarm high (3)Alarm low (4)Alarm high low Range 

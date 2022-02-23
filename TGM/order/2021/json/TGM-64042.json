@@ -1,0 +1,58 @@
+{
+  "ORDER": "TGM-64042",
+  "KEYWORD": "TGM-64042 4I4D1R 1IP_TIMERCNT 3OP_AL",
+  "DISPLAY": {
+    "TYPE": "7 Segment",
+    "SIZE": "4\"",
+    "OTHER": ""
+  },
+  "INPUT": {
+    "TYPE": "Contact Timer",
+    "OTHER": "220V",
+    "CHANNEL": "1"
+  },
+  "OUTPUT": {
+    "TYPE": "Relay Alarm",
+    "OTHER": "",
+    "CHANNEL": "3"
+  },
+  "COMMUNICATION": {
+    "TYPE": "-",
+    "OTHER": "",
+    "CHANNEL": ""
+  },
+  "SUPPLY": {
+    "TYPE": "110-240 VAC/ 50-60Hz",
+    "OTHER": ""
+  },
+  "SOURCES": {
+    "TYPE": "-",
+    "OTHER": ""
+  },
+  "FUNCTION": [
+    "FUNCTION",
+    "- ตั้งค่า Mode การทำงานได้ 3 แบบ  ( Hour, Minute, Second )",
+    "- ตั้งค่า Mode การนับ ขึ้น/ลง ได้",
+    "- กำหนดค่า Reset ได้ 0 – 9999",
+    "- กำหนด Mode การ Reset ได้ 3 แบบ",
+    "- ตั้งค่า Alarm Setpoint ได้ (แยกกัน 3 channels)",
+    "FEATURE",
+    "1) เมื่อมี Input (ค้าง) เวลาเริ่มนับตามโหมดการทำงานที่ตั้งค่าไว้ เมื่อไม่มี Input (ปลด) เวลาจะหยุดนับและแสดงเวลาเดิมไว้ หากมี Input (ค้าง) อีกนับเวลาต่อจากเดิม",
+    "2) รูปแบบการ Reset เลือกได้ 3 แบบ",
+    "- Reset เมื่อค่าที่นับเท่ากับค่าที่กำหนดไว้",
+    "- Reset เมื่อเวลาปัจจุบัน เท่ากับ เวลาที่กำหนดไว้",
+    "- Reset เมื่อ Input เริ่มทำงานใหม่",
+    "3) Alarm Setpoint อ้างอิงโหมดการทำงานตาม Mode Input",
+    "- หากนับขึ้น เวลา มากกว่าหรือเท่า Setpoint จะเกิด Alarm",
+    "- หากนับลง เวลา น้อยกว่าหรือเท่า Setpoint จะเกิด Alarm"
+  ],
+  "BODYSIZE": "450W x 250H x 100D",
+  "DATE": "2021-03-09",
+  "SALE": {
+    "NAME": "คุณ อรัญญา (P' เล็ก)",
+    "BRANCH": "",
+    "CALL": "0901979615",
+    "EMAIL": "",
+    "CUSTOMER": ""
+  }
+}

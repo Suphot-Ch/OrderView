@@ -1,0 +1,49 @@
+{
+    "ORDER": "TGM-64003",
+    "KEYWORD": "TGM-64003",
+    "DISPLAY": "7 Segment",
+    "SIZE": "2.3 INC",
+    "INPUT": {
+        "TYPE": "Contact Timer / Counter",
+        "OTHER": "",
+        "CH": "8"
+    },
+    "OUTPUT": {
+        "TYPE": "",
+        "OTHER": "",
+        "CH": ""
+    },
+    "COMMUNICATION": {
+        "TYPE": "RS485 Modbus RTU slave",
+        "OTHER": "",
+        "CH": "1"
+    },
+    "SUPPLY": "110-240 VAC",
+    "SOURCE": "",
+    "FUNCTION": [
+        "FUNCTION",
+        "- ตั้งค่า Time On/Off ได้ 10 Program ผ่าน Remote",
+        "- ตั้งค่า คัวคูณ/ตัวหาร Pulse Counter ได้",
+        "- รีเซ็ตค่า Counter / Stop Time ผ่าน Remote",
+        "FEATURE",
+        "กรณีที่ อยู่ในเขตเวลา on – off ใดๆ",
+        "   1. หากมี Input stop ทำงาน Counter นับขึ้น และเริ่มนับเวลา Stop Time นับต่อเนื่องจากค่าเดิมท่ค้างไว้ ขึ้นทุกๆ 1 วินาที",
+        "   2. เมื่อ Input stop หยุดทำงาน หรือเวลาปัจจุบันไม่ได้อยู่ในเขตเวลาใดๆที่ตั้งค่าไว้ก่อนใช้งาน Stop Time หยุดนับและค้างค่าไว้",
+        "กรณีที่ ไม่อยู่เขตเวลา on – off ใดๆ",
+        "   Counter และ Stop Time หยุดการทำงาน และหยุดการนับค่าใดๆ",
+        "กรณีที่ กำลังออกเขตเวลา on – off ใดๆ",
+        "   Stop Time หยุดการทำงานทันทีและค้างค่าเดิมไว้",
+        "กรณีที่ กลับเข้าเขตเวลา on – off ใดๆ",
+        "   Stop Time จะยังไม่ทำงานต่อ จนกว่าจะ Hold Contact Stop อีกครั้ง"
+    ],
+    "BODYSIZE": "800W x 950H x 100D mm.",
+    "DATE": "05/01/2021",
+    "PRICE": "115600",
+    "SALE": {
+        "NAME": "Wirat",
+        "BRANCH": "",
+        "CALL": "",
+        "EMAIL": "",
+        "CUSTOMMER": ""
+    }
+}

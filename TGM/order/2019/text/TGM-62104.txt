@@ -1,0 +1,8 @@
+﻿TGM-62104 2I2D1R 4I2D1R 2IP_CNT 2OP_RL
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง แสดงผล
+Input Contact Switch 3 Channel
+แสดงเป็นนาฬิกานับเวลาลง สามารถตั้งค่าเริ่มต้นได้
+เมื่อ Trig Input 1 เวลาจะเริ่มนับลง จนถึง 0 ให้ Alarm 1 ON หลังจาก Alarm 1 ON 
+เมื่อ Trig Input 2 ให้หน่วงเวลาตามต่าที่กำหนด เมื่อครบกำหนดเวลา Alarm 1 OFF และ Alarm 2 ON
+เมื่อ Trig Input 3 ให้ Reset เป็นค่าเริ่มต้น
+ตั้งค่าการทำงานด้วย Remote IF

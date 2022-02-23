@@ -1,0 +1,6 @@
+﻿TGM-63041 8I4D1R 1IP_CNT 1OP_AL
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง 
+INPUT Counter sensor[NPN PNP] 1 Channel
+INPUT Reset contact 1 Channel
+ตั้งค่าการทำงานผ่าน Remote
+Output Alarm Set Point 1 Channel

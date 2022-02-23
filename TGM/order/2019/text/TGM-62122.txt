@@ -1,0 +1,7 @@
+﻿TGM-62122 4I3D1R 1AP_420 Pressure
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง 
+รับอินพุต 4-20 mA 1 Channel
+	- สามารถตั้งค่า Scale High limit, Scale Low Limit ได้
+สามารถตั้งค่า Decimal Point ได้สูงสุด 2 ตำแหน่ง
+Output Supply 24V
+ตั้งค่าการทำงานด้วย Remote IF

@@ -1,0 +1,19 @@
+﻿TGM-62064 4I2D1R 1IP_CNT 1OP_AL  4I2D1R 1IP_Timer 3OP_AL
+
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง Counter 2 หลัก
+Counter Input Sensor PNP, NPN, Contact
+Reset Input Contact 1 Channel
+สามารตั้งค่า ตั้วคูณ/ตัวหาร ได้ 
+ตั้งค่าการทำงานด้วย Remote IF
+
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง Timer 4 หลัก นาที 2 หลัก วินาที 2 หลัก
+Counter Input Sensor PNP,NPN,Contact
+แสดงเวลา [MM : SS] [นาที : วินาที]   [00 : 00] - [99 : 59]
+เป็นนาฬิกาจับเวลา ตั้งนับขึ้นหรือนับลงได้
+	เมื่อ แตะ Contact Input1 ค้าง นาฬิกาจะเริ่มนับขึ้นทุกๆ 1 วินาที และเมื่อปลด Contact Input 1 ออก นาฬิกาจะหยุดนับเวลา
+	เมื่อ แตะ Contact Input2 ค้าง นาฬิกาจะเริ่มนับลงทุกๆ 1 วินาที และเมื่อปลด Contact Input 2 ออก นาฬิกาจะหยุดนับเวลา
+	หาก Input 1 และ Input 2 แตะพร้อมกันจะไม่นับ
+	เมื่อ แตะ Contact Reset 1 ครั้ง นาฬิกาจะถูก Reset เป็น ค่า Parameter เริ่มต้น สามารถตั้งได้
+สามารถตั้งค่า Set Point ได้ 3 ช่อง
+สามารถตั้งค่า/แก้ไขเวลา ได้ด้วยรีโมท
+ตั้งค่าการทำงานด้วย Remote IF

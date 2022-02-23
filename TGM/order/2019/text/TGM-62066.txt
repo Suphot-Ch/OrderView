@@ -1,0 +1,7 @@
+﻿TGM-62058\TGM-62066 2I4D2R 1IP_CNT 2OP_AL TL
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง 
+TARGET แผนการทำงาน มี Function Cycle Time
+ACTUAL Counter Sensor NPN. PNP, Contact
+Alarm 1 ทำงานเมื่อ ACTUAL < TARGET
+Alarm 2 ทำงานเมื่อ ACTUAL = TARGET
+ตั้งค่าการทำงานด้วย Remote IF

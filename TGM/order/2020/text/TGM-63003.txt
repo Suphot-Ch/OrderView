@@ -1,0 +1,4 @@
+﻿TGM-63003 8I2D1R 2IP_BCD
+7 Segment 8"  2 หลัก
+แสดงผลได้ตั้งแต่ 0 ถึง F 
+รับอินพุต BCD 2 Channel

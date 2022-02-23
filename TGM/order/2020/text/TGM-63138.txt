@@ -1,0 +1,16 @@
+﻿TGM-63137 8I7D1R 1IP_CNT [UP,DW]
+DISPLAY 7 Segment
+SIZE 8" สีแดง
+INPUT
+- Counter npn pnp 1 ch
+- Reset 1 ch
+- Supply 220VAC
+OUTPUT
+- source 12VDC / 2A
+FUNCTION
+- สามารถตั้งค่า ตัวคูณตันหารได้ 1 ถึง 9999
+- สามารถตั้งค่า การนับขึ้น/ลง ได้
+- สามารถ Reset Counter ได้ผ่าน Switch บนตัวเครื่อง
+- สามารถแสดงผลได้ -1999999 ถึง 9999999
+ตัวเครื่องประกอบด้วย
+   (1) ชุด Display TGM สำหรับแสดงผลขนาดใหญ่

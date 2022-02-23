@@ -1,0 +1,10 @@
+﻿TGM-63084 8I5D2R RS485
+- 7 Segment Size 8" สีแดง 5 หลัก
+- Communication Modbus RTU RS485
+- สามารถตั้งค่าการทำงานผ่าน Remote ได้
+- Supply 220VAC 
+RS485	- สามารถตั้งค่า Baud rate ได้ 4800 9600 19200 38400 57600
+	- สามารถตั้งค่า Parity ได้ none odd even
+MODBUS	- สามารถตั้งค่า Slave Address ได้ 1-240
+
+ติดตั้ง ห่วงสำหรับแขวน

@@ -1,0 +1,7 @@
+﻿TGM-62107 4I2D2R 8IP_CNT Score Board
+แสดงผลด้วยตัวเลข 7 SEGMENT แสดงเป็น Score Board
+รับอินพุต Contact Switch 8 Channel
+สามารถตั้งค่า/แก้ไข Board ผ่าน Remote IR ได้
+SCORE : รับอินพุต Contact UP/Down แก้ไขผ่าน Remote ได้ 
+SET : รับอินพุต Contact UP/Down แก้ไขผ่าน Remote ได้
+TIME (Hr/Mn) : แสดงเป็นนาฬิกาเวลาปัจจุบัน แสดงได้ 00:00 – 23:59

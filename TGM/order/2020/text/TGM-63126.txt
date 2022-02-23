@@ -1,0 +1,13 @@
+﻿TGM-63126 4I4D1R 1AP_TC EM-N converse
+- Display 7 Segment
+- Size 2.3" สีแดง
+- Input Thermo Transmitter EM-AN-0-0-M
+- สามารถตั้งค่าการทำงานผ่าน Remote ได้
+- Input Supply 220VAC 
+- Output Supply 12VDC/2A
+- แสดงค่าที่อ่านได้ ผ่าน EM-AN-0-0-M
+- แสดงผลเป็น ทศนิยม 1 ตำแหน่ง
+- แสดงผลหลักสุดท้าย เป็น หน่วยของอุณหภูมิ
+- ตัวเครื่องประกอบด้วย
+   (1) ชุด Display TGM สำหรับแสดงผลขนาดใหญ่
+   (2) Transmitter EM-AN-0-0-M ไม่รวมราคาในแบบ

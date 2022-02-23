@@ -1,0 +1,31 @@
+﻿TGM-62092 2I6D6R 2I4D6R 1IP_CNT 1IP_TIME 3OP_AL
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง 
+M/C No.	 : แสดงเป็นตัวเลขหรือตัวอักษรรูปแบบ 7 Segment 
+Clock		 : แสดงเวลาปัจจุบัน
+STOP TIME	 : แสดงเวลา เมื่อมี Input Contact แตะค้าง
+TOTAL STOP TIME : แสดงเวลา รวมของ STOP TIME สามารถ RESET ได้ผ่าน REMOTE
+START TIME	 : แสดงเวลา เริ่มต้น ระยะเวลาการทำงานของกะ
+FINISH TIME	 : แสดงเวลา สิ้นสุด ระยะเวลาการทำงานของกะ
+PLAN		 : สามารถตั้งค่าได้ด้วยรีโมท นับขึ้นทุกๆรอบ Tact Time เมื่อมีค่ากกว่า 0
+TARGET	 : สามารถตั้งค่าได้ด้วยรีโมท นับขึ้นทุกๆรอบ Cycle Time เมื่อมีค่ากกว่า 0
+ACTUAL	 : Counter Sensor NPN. PNP, Contact 1 Channel
+		 : Reset Contact 1 Channel
+DIFF		 : ACTUAL - TARGET
+TAKT TIME	 : ตั้งค่าจากรีโมท แสดงค่าเวลาการทำงานต่อชิ้น หน่วย วินาที
+%EFF	 : แสดงเปอร์เซ็น ระหว่าง ( Actual / Target ) x 100
+Alarm	 : ทำงานเมื่อค่า %EFF อยู่ในช่วงที่กำหนด มี 3 Channel
+สามารถตั้งค่า Time On/ Time Off/ Time Reset ได้ 10 ช่วง
+สามารถเชื่อมต่อ RS485 Modbus RTU เพื่อเชื่อมต่อ Software ได้
+สามารถเก็บข้อมูลแบบ DataLog ผ่าน KM-18
+ตั้งค่าการทำงานด้วย Remote IF
+Communication
+RS485
+Baud Rate	: 4800, 9600, 19200, 38400, 57600
+Parity 	: None, Odd, Even
+Address	: Can use 1 – 254
+MODBUS RTU
+Read Support	: Holding Registers 03h
+		: Input Registers 04h
+Write Support	: Single Register 06h
+		: Multiple Registers 10h
+Size/Register	: 16bits : 2 Bytes : 1 Word

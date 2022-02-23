@@ -1,0 +1,16 @@
+﻿TGM-62063 4I4D3R 1IP_CNT 2OP_AL RS485
+7 Segment Size สีแดง 4"
+แสดงผลผ่านหน้าจอ 7 Segment สีแดง 4 หลัก
+Input Counter Sensor PNP,NPN, Contact
+Output Alarm Contact Relay 5A250VAC
+สามารถตั้งค่า ตัวคูณ/ตัวหาร และดูค่าผลลัพธ์ได้
+
+สามารถตั้งค่า Alarm Set point 1 สำหรับ Alarm PV และตั้งค่า Delay On ได้
+สามารถตั้งค่า Alarm Set point 2 สำหรับ Alarm TV
+สามารถตั้งค่า Set point 3 สำหรับ Reset PV
+
+สามารถเชื่อต่อ RS485 Modbus RTU ได้
+RS485	> Support Baud Rate 4800 9600 19200 38400 57600 
+RS485	> Support Parity none odd even
+RTU	> Support Read Function 03h 04h
+RTU	> Support Write Function 06h 10h

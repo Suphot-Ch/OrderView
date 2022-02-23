@@ -1,0 +1,4 @@
+﻿TGM-63048rev1 8I4D2R Remote
+7 Segment Size สีแดง
+แสดงผลผ่านหน้าจอ7 Segment สีแดง 4 หลัก 2 แถว
+แก้ไขตัวเลข ผ่าน Remote ไร้สาย

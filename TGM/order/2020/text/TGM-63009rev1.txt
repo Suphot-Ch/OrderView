@@ -1,0 +1,12 @@
+﻿TGM-63008 4I3D3R 1IP_CNT 1OP_AL
+7 Segment 2.3"
+สามารถเชื่องต่อ RS485 Modbus RTU ได้
+สามารถตั้งค่า ตัวเลข ผ่าน Remote ได้
+DATE / TIME วันที่และเวลา แสดงผลสลับกัน
+สามารถตั้งหน่วงเวลาการแสดงผล DATE / TIME ได้ 1 – 30s.
+ตั้งค่าการทำงานผ่าน Remote
+* Slave mode
+- สามารถตั้งค่า Address ได้ 1 ถึง 240
+- สามารถตั้งค่า Baudrate ได้ 4800 9600 19200 38400 57600 
+- สามารถตั้งค่า Parity ได้ None Odd Even
+PLAN / ACTUAL / DIFF. / OT. รับค่าผ่าน Modbus RTU

@@ -1,0 +1,5 @@
+﻿TGM-62123 8I6D1R Clock
+- 7 Segment Size 8" and 2.3" red color
+- Display Clock, Date, Month, Year(A.D.) and Day for Week
+- Can Setting Clock with Remote IR 
+- Use Supply 220V AC

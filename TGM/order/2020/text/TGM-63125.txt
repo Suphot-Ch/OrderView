@@ -1,0 +1,17 @@
+﻿TGM-63125 2I3D2R 2AP_420 EM converse TC_K 0-100 RS485 slave
+- Display 7 Segment
+- Size 2.3" สีแดง
+- Input 1 Thermocouple type K (0-100)°C 1 ch
+Converter EM-00-N-I
+- Input 2 Analog 4 – 20 mA 1 ch
+- Alarm Output Relay 2 ch
+- สามารถตั้งค่าการทำงานผ่าน Remote ได้
+- Input Supply 220VAC 
+- Output Supply 12VDC/2A
+- Input 2 : สามารถตั้งค่า Scale high Low ได้ -199 ถึง 999
+- Alarm Relay : สามารถตั้งค่า การทำงานได้ 4 รูปแบบ
+
+- สามารถเชื่อมต่อ RS485 Modbus RTU ได้ 
+- ตัวเครื่องประกอบด้วย
+   (1) ชุด Display TGM สำหรับแสดงผลขนาดใหญ่
+   (2) Converter EM-00-N-I ไม่รวมราคาในแบบ

@@ -1,0 +1,53 @@
+{
+  "ORDER": "TGM-64034",
+  "KEYWORD": "TGM-64034 4I5D1R 1AP_420",
+  "DISPLAY": {
+    "TYPE": "7 Segment",
+    "SIZE": "4\"",
+    "OTHER": ""
+  },
+  "INPUT": {
+    "TYPE": "Analog 4-20mA",
+    "OTHER": "",
+    "CHANNEL": "1"
+  },
+  "OUTPUT": {
+    "TYPE": "-",
+    "OTHER": "",
+    "CHANNEL": ""
+  },
+  "COMMUNICATION": {
+    "TYPE": "-",
+    "OTHER": "",
+    "CHANNEL": ""
+  },
+  "SUPPLY": {
+    "TYPE": "110-240 VAC/ 50-60Hz",
+    "OTHER": ""
+  },
+  "SOURCES": {
+    "TYPE": "-",
+    "OTHER": ""
+  },
+  "FUNCTION": [
+    "FUNCTION",
+    "- ตั้งค่า SCALE ได้ -19999 – 99999",
+    "- ตั้งค่าให้แสดงทศนิยมได้ สูงสุด 4 ตำแหน่ง(-1.9999 – 9.9999)",
+    "- ตั้งค่า ความเร็วในการแสดงผลได้ 250mS – 2000mS",
+    "FEATURE",
+    "- แสดงค่าที่อ่านได้จาก Input Analog 4 – 20 mA",
+    "- สูตร ",
+    "PV = [ (IN - ZERO) / (SPAN - ZERO) ] * (SLH - SLL) SLL",
+    "PV = [ (12.00 - 4.00) / (20.00 - 4.00) ] * (1000 - 0) 0",
+    "PV = 500"
+  ],
+  "BODYSIZE": "500W x 250H x 100D",
+  "DATE": "2021-03-01",
+  "SALE": {
+    "NAME": "panuphat",
+    "BRANCH": "-",
+    "CALL": "-",
+    "EMAIL": "",
+    "CUSTOMER": ""
+  }
+}

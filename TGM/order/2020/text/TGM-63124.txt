@@ -1,0 +1,12 @@
+﻿TGM-63124 2I3D1R 1AP_420 EM converse TC_K 0-500
+- Display 7 Segment
+- Size 2.3" สีแดง
+- Input Thermocouple type J ( 0-500 )°C
+- Converse with EM-01-N-I
+- สามารถตั้งค่าการทำงานผ่าน Remote ได้
+- Input Supply 220VAC 
+- Output Supply 12VDC/2A
+- สามารถตั้งค่าชดเชยได้ -199 ถึง 999
+- ตัวเครื่องประกอบด้วย
+   (1) ชุด Display TGM สำหรับแสดงผลขนาดใหญ่
+   (2) Converter EM-01-N-I (เสนอราคาเพิ่มในใบสั่งซื้อ)

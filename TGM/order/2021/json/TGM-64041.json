@@ -1,0 +1,57 @@
+{
+  "ORDER": "TGM-64041",
+  "KEYWORD": "TGM-64041 4I5D1R 1AP_420 2OP_AL",
+  "DISPLAY": {
+    "TYPE": "7 Segment",
+    "SIZE": "4\"",
+    "OTHER": ""
+  },
+  "INPUT": {
+    "TYPE": "Analog 4-20mA",
+    "OTHER": "",
+    "CHANNEL": "1"
+  },
+  "OUTPUT": {
+    "TYPE": "Relay Alarm",
+    "OTHER": "",
+    "CHANNEL": "2"
+  },
+  "COMMUNICATION": {
+    "TYPE": "-",
+    "OTHER": "",
+    "CHANNEL": ""
+  },
+  "SUPPLY": {
+    "TYPE": "110-240 VAC/ 50-60Hz",
+    "OTHER": ""
+  },
+  "SOURCES": {
+    "TYPE": "-",
+    "OTHER": ""
+  },
+  "FUNCTION": [
+    "FUNCTION",
+    "- ตั้งค่า Scale ได้ -1999 – 9999.",
+    "- ตั้งค่า ทศนิยมได้ สูงสุด 2 ตำแหน่ง (-19.99 – 99.99).",
+    "- ตั้งค่า การทำงานของ Alarm ได้ 4 Mode (แยกกัน 2 channel)",
+    "FEATURE",
+    "สูตร",
+    "PV = [ (IN - ZERO) / (SPAN - ZERO) ] * (SLH - SLL) SLL",
+    "PV = [ (12.00 - 4.00) / (20.00 - 4.00) ] * (1000 - 0) 0",
+    "PV = 500",
+    "Mode Alarm ใช้งานได้ 4 Mode",
+    ". Alarm high low",
+    ". Alarm high",
+    ". Alarm low",
+    ". Alarm high low range"
+  ],
+  "BODYSIZE": "500W x 250H x 100D",
+  "DATE": "2021-03-09",
+  "SALE": {
+    "NAME": "คุณ อรัญญา (P' เล็ก)",
+    "BRANCH": "",
+    "CALL": "0901979615",
+    "EMAIL": "",
+    "CUSTOMER": ""
+  }
+}

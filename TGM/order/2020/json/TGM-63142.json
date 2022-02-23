@@ -1,0 +1,26 @@
+{
+    "KEYWORD": "TGM-63142 4I4D3R CLOCK Temp Humi",
+    "DISPLAY": "7 Segment",
+    "SIZE": "4 Inc Red",
+    "INPUT": {
+        "TYPE": "",
+        "CH": ""
+    },
+    "OUTPUT": {
+        "TYPE": "",
+        "CH": ""
+    },
+    "COMMUNICATION": {
+        "TYPE": "Read HM-006",
+        "CH": "1"
+    },
+    "SUPPLY": "Supply 220VAC",
+    "SOURCE": "",
+    "FUNCTION": [
+        {
+            "DETAIL": "- สามารถแก้ไข/ตั้งค่า Clock ได้"
+        }
+    ],
+    "Size": "700W x 550H x 100D mm.",
+    "DATE": "28/10/2020"
+}

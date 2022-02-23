@@ -1,0 +1,13 @@
+﻿TGM-63134 8I4D1R 1AP_420
+- Display 7 Segment
+- Size 8" สีแดง
+- Input Analog 4-20mA 1 ch.
+- Input Supply 220VAC 
+- Output Supply 12VDC / 2A
+- สามารถตั้งค่าการทำงานผ่าน Remote ได้
+การตั้งค่า
+- สามารถตั้งค่า Scale High, Low ได้ -1999 - 9999
+- สามารถตั้งค่า ทศนิยมได้ 0, 0.0, 0.00
+- สามารถตั้งค่า Inverse scale ได้ 
+- ตัวเครื่องประกอบด้วย
+   (1) ชุด Display TGM สำหรับแสดงผลขนาดใหญ่

@@ -1,0 +1,61 @@
+{
+  "ORDER": "TGM-64020",
+  "KEYWORD": "TGM-64020 2I4D8R 8IP_CHT_TIMER TIMER ON OFF",
+  "DISPLAY": {
+    "TYPE": "7 Segment",
+    "SIZE": "2.3\"",
+    "OTHER": ""
+  },
+  "INPUT": {
+    "TYPE": "Contact Timer",
+    "OTHER": "",
+    "CHANNEL": "8"
+  },
+  "OUTPUT": {
+    "TYPE": "-",
+    "OTHER": "",
+    "CHANNEL": ""
+  },
+  "COMMUNICATION": {
+    "TYPE": "RS485 MB RTU Slave",
+    "OTHER": "",
+    "CHANNEL": "1"
+  },
+  "SUPPLY": {
+    "TYPE": "110-240 VAC/ 50-60Hz",
+    "OTHER": ""
+  },
+  "SOURCES": {
+    "TYPE": "-",
+    "OTHER": ""
+  },
+  "FUNCTION": [
+    "FUNCTION",
+    "- ตั้งค่า คัวคูณ/ตัวหาร Pulse Counter ได้",
+    "- ตั้งค่า Time On/Off ได้ 10 Program ผ่าน Remote",
+    "- รีเซ็ตค่า Counter / Stop Time ผ่าน Remote",
+    "FEATURE",
+    "Total Timer แสดงเวลารวมของ Input ที่รับได้ แยกกันตาม Channel",
+    "Count แสดงจำนวนครั้งที่ Input ทำงาน ",
+    "Stop Time แสดงระยะเวลาที่ Input ทำงาน นับทุกๆ 1 วินาที",
+    "การทำงาน",
+    "กรณีที่ อยู่ในเขตเวลา on – off ใดๆ",
+    "   1. หากมี Input stop ทำงาน Counter นับขึ้น และเริ่มนับเวลา Stop Time นับต่อเนื่องจากค่าเดิมท่ค้างไว้ ขึ้นทุกๆ 1 วินาที",
+    "   2. เมื่อ Input stop หยุดทำงาน หรือเวลาปัจจุบันไม่ได้อยู่ในเขตเวลาใดๆที่ตั้งค่าไว้ก่อนใช้งาน Stop Time หยุดนับและค้างค่าไว้",
+    "กรณีที่ ไม่อยู่เขตเวลา on – off ใดๆ",
+    "   Counter และ Stop Time หยุดการทำงาน และหยุดการนับค่าใดๆ",
+    "กรณีที่ กำลังออกเขตเวลา on – off ใดๆ",
+    "   Stop Time หยุดการทำงานทันทีและค้างค่าเดิมไว้",
+    "กรณีที่ กลับเข้าเขตเวลา on – off ใดๆ",
+    "   Stop Time จะยังไม่ทำงานต่อ จนกว่าจะ Hold Contact Stop อีกครั้ง"
+  ],
+  "BODYSIZE": "1050W x 1250H x 100D",
+  "DATE": "2021-02-16",
+  "SALE": {
+    "NAME": "คุณวิิรัช กิมิพันธ์",
+    "BRANCH": "ปทุุมธานี",
+    "CALL": "0901979592",
+    "EMAIL": "",
+    "CUSTOMER": ""
+  }
+}

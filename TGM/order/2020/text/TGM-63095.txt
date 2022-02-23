@@ -1,0 +1,10 @@
+﻿TGM-63095 4I4D1R 1IP_420
+Segment :- Size 4"
+	- 4 หลัก ( 4 Digit)
+INPUT:	- Counter Sensor PNP NPN contact  1  ch
+	- Reset contact 1 ch
+- สามารถตั้งค่าการทำงานผ่าน Remote ได้
+- Supply 220VAC 
+- สามารถตั้งค่า ตัวคูณตัวหารได้ 1 - 999
+- สามารถตั้งค่า ทศนิยมได้
+- สามารถเลือกนับ ขึ้น / ลง ได้ 

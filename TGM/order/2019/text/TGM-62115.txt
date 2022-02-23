@@ -1,0 +1,18 @@
+﻿TGM-62115 1I3D10R 2IP_CNT 1IP_Down Clock
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง ขนาด 1.2 นิ้ว
+Clock แสดงเวลาปัจจุบัน สามารถแก้ไข/ตั้งค่าได้
+M/C No. ตั้งค่าจาก  Remote
+Target ตั้งค่าจาก  Remote
+Actual Input Sensor NPN PNP, Contact 1 Ch. + 1 Contact Reset
+NG Input Sensor NPN PNP, Contact 1 Ch. + 1 Contact Reset
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง ขนาด 2.3 นิ้ว
+Downtime Input Contact 1 Ch
+%A Working time 		= เวลาการทำงานของเครื่องจักร ตั้งค่าจาก Remote
+%A Down time 		= รับค่าจาก Input
+%A Loading time 		= Working time - Down time
+%A 			= ( Loading time / Working time ) * 100
+%P Standard capacity	= จำนวนเป้าในการผลิต / ชั่วโมง การทำงาน ตั้งค่าจาก Remote
+%P Standard Production 	= Standard capacity * Loading time
+%P 			= ( Actual / Standard Production ) * 100
+%Q 			= ( ( Actual - NG ) / Actual ) *100
+OEE 			= %A * %C * %Q

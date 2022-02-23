@@ -1,0 +1,20 @@
+﻿TGM-63043 4I3D2R 4I2D1R 1IP_Up 1IP_Dw 1OP_AL RS485 slave
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง 
+INPUT Counter sensor[NPN PNP] 2 Channel
+INPUT Reset contact 2 Channel
+Output Set point Relay Contact 1 Channel
+RS485 Modbus RTU slave mode
+ตั้งค่าการทำงานผ่าน Remote
+TARGET : ตั้งค่า/แก้ไข เป้าหมายผ่าน Remote/Modbus
+ACTUAL : ตั้งค่า/แก้ไข ตัวเลขได้ผ่าน Remote/Modbus
+	  : แสดงผลจำนวนที่รับได้จาก INPUT Count Up 1 Channel
+	  : ตั้งค่า Alarm Set Point ได้ 1 Channel
+Diechange : ตั้งค่า/แก้ไข ตัวเลขได้ผ่าน Remote/Modbus
+	  : แสดงผลจำนวนที่รับได้จาก INPUT Count Down 1 Channel
+	  : ตั้งค่า เริ่มต้นสำหรับ Reset Count Down ได้
+RS485 Modbus RTU *Slave mode
+สามารถตั้งค่า Address ได้ 1 – 240
+สามารถตั้งค่า Baudrate ได้ 4800 9600 19200 38400 57600
+สามารถตั้งค่า Parity ได้ None Odd Even
+                 Bits fix : 8
+                 Stop bit : 1

@@ -1,0 +1,60 @@
+{
+  "ORDER": "TGM-64055",
+  "KEYWORD": "TGM-64055 4I3D7R 4I2D1R 4I4D1R 4I6D1R 6AP_420 6OP_AL CLOCK DATE RS485 master PH04 HM006 (Modify TGM-63056)",
+  "DISPLAY": {
+    "TYPE": "7 Segment",
+    "SIZE": "4\"",
+    "OTHER": ""
+  },
+  "INPUT": {
+    "TYPE": "Analog 4-20mA",
+    "OTHER": "",
+    "CHANNEL": "8"
+  },
+  "OUTPUT": {
+    "TYPE": "Relay Alarm",
+    "OTHER": "",
+    "CHANNEL": "8"
+  },
+  "COMMUNICATION": {
+    "TYPE": "RS485 MB RTU Master",
+    "OTHER": "HM-006 / PF-04",
+    "CHANNEL": "1"
+  },
+  "SUPPLY": {
+    "TYPE": "110-240 VAC/ 50-60Hz",
+    "OTHER": ""
+  },
+  "SOURCES": {
+    "TYPE": "-",
+    "OTHER": ""
+  },
+  "FUNCTION": [
+    "MODIFY : TGM-63056",
+    "DISPLAY 7 Segment SIZE 4\"",
+    "SUPPLY : 110V – 240V AC/ 50 – 60 Hz",
+    "INPUT : เพิ่ม Analog 4 – 20 mA จาก 6 เป็น 8 channels",
+    "OUTPUT: เพิ่ม Alarm Relay จาก 6 เป็น 8 channels ",
+    "COMMUNICATION",
+    ": เชื่อมต่อ RS485 Modbus RTU",
+    ": ใช้งานกับ PH-04 / HM-006",
+    "FUNCTION",
+    "- เพิ่ม Function การตั้งค่าของ Alarm จาก 6 เป็น 8 channels.",
+    "FEATURE",
+    "PCH Pressure In 1, In 2, Out 1 และ Out 2 รับอินพุต 4-20 mA",
+    "PCH Temp In 1, In 2, Out 1 และ Out 2 รับอินพุต 4-20 mA",
+    "Temp Room / Humi Room รับข้อมูล HM-006",
+    "Alarm Relay 4 Function 6 Channel Output",
+    "  : ทำงานแยกจากกันแต่ละ Channel",
+    "  : สามารถเลือก Input สำหรับ Control Alarm ได้ "
+  ],
+  "BODYSIZE": "1150W x 1400H x 100D",
+  "DATE": "2021-03-25",
+  "SALE": {
+    "NAME": "Veerasak",
+    "BRANCH": "",
+    "CALL": "",
+    "EMAIL": "",
+    "CUSTOMER": ""
+  }
+}

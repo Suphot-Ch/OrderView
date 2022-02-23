@@ -1,0 +1,20 @@
+Display : 7 Segment 2.3"  Matrix 2.3"
+Input 	: Counter Actual 1 Channel 
+	: Contact Control Lamp RBGYW
+Communication	: RS485 Modbus RTU
+	: Baud Rate 4800,9600,19200,38400,57600
+	: Parity None, Even, Odd
+M/C 	: Setting with Remote & RS485
+Part No : Setting with Remote & RS485
+SPM 	: Steps per Minute form Input
+Target 	: Setting with Remote & RS485
+Actual 	: Counter Input
+Diff. 	: Different Target & Actual
+Down Time log : Contact Control Lamp RBGYW
+D.T.L.
+Machine	: M_ 0501
+Die	: D_ 0230
+Mafl	: ML 1011
+Q Choek	: QC 0327
+Die Change	: DC 0058
+D Change	: DP 0123

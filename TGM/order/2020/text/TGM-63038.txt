@@ -1,0 +1,10 @@
+﻿TGM-63038 4I3D3R 1AP_420 2AP_PT100 RS485
+- 7 Segment Size  สีแดง 
+- รับ Input 4 – 20 mA  1 Channel
+- สามารถตั้งค่า Scale High, Scale Low 
+- รับ Input PT100 2 Channel ผ่าน TM-012
+- สามารถตั้งค่า Decimal Point ได้ 
+- สามารถเขียน/อ่านค่า ผ่าน 
+RS485 Modbus RTU
+- *Slave mode- สามารถตั้งค่า Address ได้ 1 – 240  
+- สามารถตั้งค่า Baudrate ได้ 4800 9600 19200 38400 57600

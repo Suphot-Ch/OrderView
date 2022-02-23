@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Design</title>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+table{
+  border: 1px solid black;
+}
+select{
+    background-color: #4CAF50;
+    color: white;
+    padding: 3px 4px;
+    margin: 2px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+</style>
+</head>
+<body>
+<center>
+<div>
+<table>
+<tr>
+<td>
+	<table>
+	<tr><th border: 1px solid black> colum 1 </th>
+		<th><input type="checkbox" id="ColumOne" value="En"></th></tr>
+	<tr><td> Format 1 </td>
+		<td><select id="Digit11">
+			<option value="Dx">None</option>
+			<option value="D0">Text</option>
+			<option value="D1">1 Digit</option>
+			<option value="D2">2 Digit</option>
+			<option value="D3">3 Digit</option>
+			<option value="D4">4 Digit</option>
+			<option value="D5">5 Digit</option>
+			<option value="D6">6 Digit</option>
+			<option value="D7">7 Digit</option>
+			<option value="D8">8 Digit</option>
+			<option value="D9">9 Digit</option>
+		</select></td>
+		<td><select id="Size11">
+			<option value="S1">1.2"</option>
+			<option value="S2">2.3"</option>
+			<option value="S3">4"</option>
+			<option value="S4">8"</option>
+			<option value="S5">12"</option>
+		</select></td>
+		<td><input type="input" id="Text11" placeholder="Enter Key">
+		</td>
+	</tr>
+	<tr><td> Format 2 </td>
+		<td><select id="Digit21">
+			<option value="Dx">None</option>
+			<option value="D0">Text</option>
+			<option value="D1">1 Digit</option>
+			<option value="D2">2 Digit</option>
+			<option value="D3">3 Digit</option>
+			<option value="D4">4 Digit</option>
+			<option value="D5">5 Digit</option>
+			<option value="D6">6 Digit</option>
+			<option value="D7">7 Digit</option>
+			<option value="D8">8 Digit</option>
+			<option value="D9">9 Digit</option>
+		</select></td>
+		<td><select id="Size21">
+			<option value="S1">1.2"</option>
+			<option value="S2">2.3"</option>
+			<option value="S3">4"</option>
+			<option value="S4">8"</option>
+			<option value="S5">12"</option>
+		</select></td>
+		<td><input type="input" id="Text21" placeholder="Enter Key">
+		</td>
+	</tr>
+	<tr><td> Format 3 </td>
+		<td><select id="Digit31">
+			<option value="Dx">None</option>
+			<option value="D0">Text</option>
+			<option value="D1">1 Digit</option>
+			<option value="D2">2 Digit</option>
+			<option value="D3">3 Digit</option>
+			<option value="D4">4 Digit</option>
+			<option value="D5">5 Digit</option>
+			<option value="D6">6 Digit</option>
+			<option value="D7">7 Digit</option>
+			<option value="D8">8 Digit</option>
+			<option value="D9">9 Digit</option>
+		</select></td>
+		<td><select id="Size31">
+			<option value="S1">1.2"</option>
+			<option value="S2">2.3"</option>
+			<option value="S3">4"</option>
+			<option value="S4">8"</option>
+			<option value="S5">12"</option>
+		</select></td>
+		<td><input type="input" id="Text31" placeholder="Enter Key">
+		</td>
+	</tr>
+	<tr><td> Format 4 </td>
+		<td><select id="Digit41">
+			<option value="Dx">None</option>
+			<option value="D0">Text</option>
+			<option value="D1">1 Digit</option>
+			<option value="D2">2 Digit</option>
+			<option value="D3">3 Digit</option>
+			<option value="D4">4 Digit</option>
+			<option value="D5">5 Digit</option>
+			<option value="D6">6 Digit</option>
+			<option value="D7">7 Digit</option>
+			<option value="D8">8 Digit</option>
+			<option value="D9">9 Digit</option>
+		</select></td>
+		<td><select id="Size41">
+			<option value="S1">1.2"</option>
+			<option value="S2">2.3"</option>
+			<option value="S3">4"</option>
+			<option value="S4">8"</option>
+			<option value="S5">12"</option>
+		</select></td>
+		<td><input type="input" id="Text41" placeholder="Enter Key">
+		</td>
+	</tr>
+	<tr><td> Format 5 </td>
+		<td><select id="Digit51">
+			<option value="Dx">None</option>
+			<option value="D0">Text</option>
+			<option value="D1">1 Digit</option>
+			<option value="D2">2 Digit</option>
+			<option value="D3">3 Digit</option>
+			<option value="D4">4 Digit</option>
+			<option value="D5">5 Digit</option>
+			<option value="D6">6 Digit</option>
+			<option value="D7">7 Digit</option>
+			<option value="D8">8 Digit</option>
+			<option value="D9">9 Digit</option>
+		</select></td>
+		<td><select id="Size51">
+			<option value="S1">1.2"</option>
+			<option value="S2">2.3"</option>
+			<option value="S3">4"</option>
+			<option value="S4">8"</option>
+			<option value="S5">12"</option>
+		</select></td>
+		<td><input type="input" id="Text51" placeholder="Enter Key">
+		</td>
+	</tr>
+	<tr><td> Format 6 </td>
+		<td><select id="Digit61">
+			<option value="Dx">None</option>
+			<option value="D0">Text</option>
+			<option value="D1">1 Digit</option>
+			<option value="D2">2 Digit</option>
+			<option value="D3">3 Digit</option>
+			<option value="D4">4 Digit</option>
+			<option value="D5">5 Digit</option>
+			<option value="D6">6 Digit</option>
+			<option value="D7">7 Digit</option>
+			<option value="D8">8 Digit</option>
+			<option value="D9">9 Digit</option>
+		</select></td>
+		<td><select id="Size61">
+			<option value="S1">1.2"</option>
+			<option value="S2">2.3"</option>
+			<option value="S3">4"</option>
+			<option value="S4">8"</option>
+			<option value="S5">12"</option>
+		</select></td>
+		<td><input type="input" id="Text61" placeholder="Enter Key">
+		</td>
+	</tr>
+	<tr><td> Format 7 </td>
+		<td><select id="Digit71">
+			<option value="Dx">None</option>
+			<option value="D0">Text</option>
+			<option value="D1">1 Digit</option>
+			<option value="D2">2 Digit</option>
+			<option value="D3">3 Digit</option>
+			<option value="D4">4 Digit</option>
+			<option value="D5">5 Digit</option>
+			<option value="D6">6 Digit</option>
+			<option value="D7">7 Digit</option>
+			<option value="D8">8 Digit</option>
+			<option value="D9">9 Digit</option>
+		</select></td>
+		<td><select id="Size71">
+			<option value="S1">1.2"</option>
+			<option value="S2">2.3"</option>
+			<option value="S3">4"</option>
+			<option value="S4">8"</option>
+			<option value="S5">12"</option>
+		</select></td>
+		<td><input type="input" id="Text71" placeholder="Enter Key">
+		</td>
+	</tr>
+	<tr><td> Format 8 </td>
+		<td><select id="Digit81">
+			<option value="Dx">None</option>
+			<option value="D0">Text</option>
+			<option value="D1">1 Digit</option>
+			<option value="D2">2 Digit</option>
+			<option value="D3">3 Digit</option>
+			<option value="D4">4 Digit</option>
+			<option value="D5">5 Digit</option>
+			<option value="D6">6 Digit</option>
+			<option value="D7">7 Digit</option>
+			<option value="D8">8 Digit</option>
+			<option value="D9">9 Digit</option>
+		</select></td>
+		<td><select id="Size81">
+			<option value="S1">1.2"</option>
+			<option value="S2">2.3"</option>
+			<option value="S3">4"</option>
+			<option value="S4">8"</option>
+			<option value="S5">12"</option>
+		</select></td>
+		<td><input type="input" id="Text81" placeholder="Enter Key">
+		</td>
+	</tr>
+	<tr><td> Format 9 </td>
+		<td><select id="Digit91">
+			<option value="Dx">None</option>
+			<option value="D0">Text</option>
+			<option value="D1">1 Digit</option>
+			<option value="D2">2 Digit</option>
+			<option value="D3">3 Digit</option>
+			<option value="D4">4 Digit</option>
+			<option value="D5">5 Digit</option>
+			<option value="D6">6 Digit</option>
+			<option value="D7">7 Digit</option>
+			<option value="D8">8 Digit</option>
+			<option value="D9">9 Digit</option>
+		</select></td>
+		<td><select id="Size91">
+			<option value="S1">1.2"</option>
+			<option value="S2">2.3"</option>
+			<option value="S3">4"</option>
+			<option value="S4">8"</option>
+			<option value="S5">12"</option>
+		</select></td>
+		<td><input type="input" id="Text91" placeholder="Enter Key">
+		</td>
+	</tr>
+	<tr><td> Format 10 </td>
+		<td><select id="DigitA1">
+			<option value="Dx">None</option>
+			<option value="D0">Text</option>
+			<option value="D1">1 Digit</option>
+			<option value="D2">2 Digit</option>
+			<option value="D3">3 Digit</option>
+			<option value="D4">4 Digit</option>
+			<option value="D5">5 Digit</option>
+			<option value="D6">6 Digit</option>
+			<option value="D7">7 Digit</option>
+			<option value="D8">8 Digit</option>
+			<option value="D9">9 Digit</option>
+		</select></td>
+		<td><select id="SizeA1">
+			<option value="S1">1.2"</option>
+			<option value="S2">2.3"</option>
+			<option value="S3">4"</option>
+			<option value="S4">8"</option>
+			<option value="S5">12"</option>
+		</select></td>
+		<td><input type="input" id="TextA1" placeholder="Enter Key">
+		</td>
+	</tr>
+	</table>
+</td>
+<td>
+	<table>
+	<tr><th border: 1px solid black> colum 2 </th>
+		<th><input type="checkbox" id="ColumOne" value="En"></th></tr>
+	<tr><td> Format 2 </td>
+		<td><select id="Digit12">
+			<option value="Dx">None</option>
+			<option value="D0">Text</option>
+			<option value="D1">1 Digit</option>
+			<option value="D2">2 Digit</option>
+			<option value="D3">3 Digit</option>
+			<option value="D4">4 Digit</option>
+			<option value="D5">5 Digit</option>
+			<option value="D6">6 Digit</option>
+			<option value="D7">7 Digit</option>
+			<option value="D8">8 Digit</option>
+			<option value="D9">9 Digit</option>
+		</select></td>
+		<td><select id="Size12">
+			<option value="S1">1.2"</option>
+			<option value="S2">2.3"</option>
+			<option value="S3">4"</option>
+			<option value="S4">8"</option>
+			<option value="S5">12"</option>
+		</select></td>
+		<td><input type="input" id="Text12" placeholder="Enter Key">
+		</td>
+	</tr>
+	<tr><td> Format 2 </td>
+		<td><select id="Digit22">
+			<option value="Dx">None</option>
+			<option value="D0">Text</option>
+			<option value="D1">1 Digit</option>
+			<option value="D2">2 Digit</option>
+			<option value="D3">3 Digit</option>
+			<option value="D4">4 Digit</option>
+			<option value="D5">5 Digit</option>
+			<option value="D6">6 Digit</option>
+			<option value="D7">7 Digit</option>
+			<option value="D8">8 Digit</option>
+			<option value="D9">9 Digit</option>
+		</select></td>
+		<td><select id="Size22">
+			<option value="S1">1.2"</option>
+			<option value="S2">2.3"</option>
+			<option value="S3">4"</option>
+			<option value="S4">8"</option>
+			<option value="S5">12"</option>
+		</select></td>
+		<td><input type="input" id="Text22" placeholder="Enter Key">
+		</td>
+	</tr>
+	<tr><td> Format 3 </td>
+		<td><select id="Digit32">
+			<option value="Dx">None</option>
+			<option value="D0">Text</option>
+			<option value="D1">1 Digit</option>
+			<option value="D2">2 Digit</option>
+			<option value="D3">3 Digit</option>
+			<option value="D4">4 Digit</option>
+			<option value="D5">5 Digit</option>
+			<option value="D6">6 Digit</option>
+			<option value="D7">7 Digit</option>
+			<option value="D8">8 Digit</option>
+			<option value="D9">9 Digit</option>
+		</select></td>
+		<td><select id="Size42">
+			<option value="S1">1.2"</option>
+			<option value="S2">2.3"</option>
+			<option value="S3">4"</option>
+			<option value="S4">8"</option>
+			<option value="S5">12"</option>
+		</select></td>
+		<td><input type="input" id="Text32" placeholder="Enter Key">
+		</td>
+	</tr>
+	<tr><td> Format 4 </td>
+		<td><select id="Digit42">
+			<option value="Dx">None</option>
+			<option value="D0">Text</option>
+			<option value="D1">1 Digit</option>
+			<option value="D2">2 Digit</option>
+			<option value="D3">3 Digit</option>
+			<option value="D4">4 Digit</option>
+			<option value="D5">5 Digit</option>
+			<option value="D6">6 Digit</option>
+			<option value="D7">7 Digit</option>
+			<option value="D8">8 Digit</option>
+			<option value="D9">9 Digit</option>
+		</select></td>
+		<td><select id="Size11">
+			<option value="S1">1.2"</option>
+			<option value="S2">2.3"</option>
+			<option value="S3">4"</option>
+			<option value="S4">8"</option>
+			<option value="S5">12"</option>
+		</select></td>
+		<td><input type="input" id="Text42" placeholder="Enter Key">
+		</td>
+	</tr>
+	<tr><td> Format 5 </td>
+		<td><select id="Digit52">
+			<option value="Dx">None</option>
+			<option value="D0">Text</option>
+			<option value="D1">1 Digit</option>
+			<option value="D2">2 Digit</option>
+			<option value="D3">3 Digit</option>
+			<option value="D4">4 Digit</option>
+			<option value="D5">5 Digit</option>
+			<option value="D6">6 Digit</option>
+			<option value="D7">7 Digit</option>
+			<option value="D8">8 Digit</option>
+			<option value="D9">9 Digit</option>
+		</select></td>
+		<td><select id="Size11">
+			<option value="S1">1.2"</option>
+			<option value="S2">2.3"</option>
+			<option value="S3">4"</option>
+			<option value="S4">8"</option>
+			<option value="S5">12"</option>
+		</select></td>
+		<td><input type="input" id="Text52" placeholder="Enter Key">
+		</td>
+	</tr>
+	<tr><td> Format 6 </td>
+		<td><select id="Digit62">
+			<option value="Dx">None</option>
+			<option value="D0">Text</option>
+			<option value="D1">1 Digit</option>
+			<option value="D2">2 Digit</option>
+			<option value="D3">3 Digit</option>
+			<option value="D4">4 Digit</option>
+			<option value="D5">5 Digit</option>
+			<option value="D6">6 Digit</option>
+			<option value="D7">7 Digit</option>
+			<option value="D8">8 Digit</option>
+			<option value="D9">9 Digit</option>
+		</select></td>
+		<td><select id="Size11">
+			<option value="S1">1.2"</option>
+			<option value="S2">2.3"</option>
+			<option value="S3">4"</option>
+			<option value="S4">8"</option>
+			<option value="S5">12"</option>
+		</select></td>
+		<td><input type="input" id="Text62" placeholder="Enter Key">
+		</td>
+	</tr>
+	<tr><td> Format 7 </td>
+		<td><select id="Digit72">
+			<option value="Dx">None</option>
+			<option value="D0">Text</option>
+			<option value="D1">1 Digit</option>
+			<option value="D2">2 Digit</option>
+			<option value="D3">3 Digit</option>
+			<option value="D4">4 Digit</option>
+			<option value="D5">5 Digit</option>
+			<option value="D6">6 Digit</option>
+			<option value="D7">7 Digit</option>
+			<option value="D8">8 Digit</option>
+			<option value="D9">9 Digit</option>
+		</select></td>
+		<td><select id="Size11">
+			<option value="S1">1.2"</option>
+			<option value="S2">2.3"</option>
+			<option value="S3">4"</option>
+			<option value="S4">8"</option>
+			<option value="S5">12"</option>
+		</select></td>
+		<td><input type="input" id="Text72" placeholder="Enter Key">
+		</td>
+	</tr>
+	<tr><td> Format 8 </td>
+		<td><select id="Digit82">
+			<option value="Dx">None</option>
+			<option value="D0">Text</option>
+			<option value="D1">1 Digit</option>
+			<option value="D2">2 Digit</option>
+			<option value="D3">3 Digit</option>
+			<option value="D4">4 Digit</option>
+			<option value="D5">5 Digit</option>
+			<option value="D6">6 Digit</option>
+			<option value="D7">7 Digit</option>
+			<option value="D8">8 Digit</option>
+			<option value="D9">9 Digit</option>
+		</select></td>
+		<td><select id="Size11">
+			<option value="S1">1.2"</option>
+			<option value="S2">2.3"</option>
+			<option value="S3">4"</option>
+			<option value="S4">8"</option>
+			<option value="S5">12"</option>
+		</select></td>
+		<td><input type="input" id="Text82" placeholder="Enter Key">
+		</td>
+	</tr>
+	<tr><td> Format 9 </td>
+		<td><select id="Digit92">
+			<option value="Dx">None</option>
+			<option value="D0">Text</option>
+			<option value="D1">1 Digit</option>
+			<option value="D2">2 Digit</option>
+			<option value="D3">3 Digit</option>
+			<option value="D4">4 Digit</option>
+			<option value="D5">5 Digit</option>
+			<option value="D6">6 Digit</option>
+			<option value="D7">7 Digit</option>
+			<option value="D8">8 Digit</option>
+			<option value="D9">9 Digit</option>
+		</select></td>
+		<td><select id="Size11">
+			<option value="S1">1.2"</option>
+			<option value="S2">2.3"</option>
+			<option value="S3">4"</option>
+			<option value="S4">8"</option>
+			<option value="S5">12"</option>
+		</select></td>
+		<td><input type="input" id="Text92" placeholder="Enter Key">
+		</td>
+	</tr>
+	<tr><td> Format 10 </td>
+		<td><select id="DigitA2">
+			<option value="Dx">None</option>
+			<option value="D0">Text</option>
+			<option value="D1">1 Digit</option>
+			<option value="D2">2 Digit</option>
+			<option value="D3">3 Digit</option>
+			<option value="D4">4 Digit</option>
+			<option value="D5">5 Digit</option>
+			<option value="D6">6 Digit</option>
+			<option value="D7">7 Digit</option>
+			<option value="D8">8 Digit</option>
+			<option value="D9">9 Digit</option>
+		</select></td>
+		<td><select id="Size11">
+			<option value="S1">1.2"</option>
+			<option value="S2">2.3"</option>
+			<option value="S3">4"</option>
+			<option value="S4">8"</option>
+			<option value="S5">12"</option>
+		</select></td>
+		<td><input type="input" id="TextA2" placeholder="Enter Key">
+		</td>
+	</tr>
+	</table>
+</td>
+<td>
+	<table>
+	<tr><th border: 1px solid black> colum 3 </th>
+		<th><input type="checkbox" id="Colum3" value="En"></th></tr>
+	<tr><td> Format 1 </td>
+		<td><select id="Digit13">
+			<option value="Dx">None</option>
+			<option value="D0">Text</option>
+			<option value="D1">1 Digit</option>
+			<option value="D2">2 Digit</option>
+			<option value="D3">3 Digit</option>
+			<option value="D4">4 Digit</option>
+			<option value="D5">5 Digit</option>
+			<option value="D6">6 Digit</option>
+			<option value="D7">7 Digit</option>
+			<option value="D8">8 Digit</option>
+			<option value="D9">9 Digit</option>
+		</select></td>
+		<td><select id="Size11">
+			<option value="S1">1.2"</option>
+			<option value="S2">2.3"</option>
+			<option value="S3">4"</option>
+			<option value="S4">8"</option>
+			<option value="S5">12"</option>
+		</select></td>
+		<td><input type="input" id="Text13" placeholder="Enter Key">
+		</td>
+	</tr>
+	<tr><td> Format 2 </td>
+		<td><select id="Digit23">
+			<option value="Dx">None</option>
+			<option value="D0">Text</option>
+			<option value="D1">1 Digit</option>
+			<option value="D2">2 Digit</option>
+			<option value="D3">3 Digit</option>
+			<option value="D4">4 Digit</option>
+			<option value="D5">5 Digit</option>
+			<option value="D6">6 Digit</option>
+			<option value="D7">7 Digit</option>
+			<option value="D8">8 Digit</option>
+			<option value="D9">9 Digit</option>
+		</select></td>
+		<td><select id="Size11">
+			<option value="S1">1.2"</option>
+			<option value="S2">2.3"</option>
+			<option value="S3">4"</option>
+			<option value="S4">8"</option>
+			<option value="S5">12"</option>
+		</select></td>
+		<td><input type="input" id="Text23" placeholder="Enter Key">
+		</td>
+	</tr>
+	<tr><td> Format 3 </td>
+		<td><select id="Digit33">
+			<option value="Dx">None</option>
+			<option value="D0">Text</option>
+			<option value="D1">1 Digit</option>
+			<option value="D2">2 Digit</option>
+			<option value="D3">3 Digit</option>
+			<option value="D4">4 Digit</option>
+			<option value="D5">5 Digit</option>
+			<option value="D6">6 Digit</option>
+			<option value="D7">7 Digit</option>
+			<option value="D8">8 Digit</option>
+			<option value="D9">9 Digit</option>
+		</select></td>
+		<td><select id="Size11">
+			<option value="S1">1.2"</option>
+			<option value="S2">2.3"</option>
+			<option value="S3">4"</option>
+			<option value="S4">8"</option>
+			<option value="S5">12"</option>
+		</select></td>
+		<td><input type="input" id="Text33" placeholder="Enter Key">
+		</td>
+	</tr>
+	<tr><td> Format 4 </td>
+		<td><select id="Digit43">
+			<option value="Dx">None</option>
+			<option value="D0">Text</option>
+			<option value="D1">1 Digit</option>
+			<option value="D2">2 Digit</option>
+			<option value="D3">3 Digit</option>
+			<option value="D4">4 Digit</option>
+			<option value="D5">5 Digit</option>
+			<option value="D6">6 Digit</option>
+			<option value="D7">7 Digit</option>
+			<option value="D8">8 Digit</option>
+			<option value="D9">9 Digit</option>
+		</select></td>
+		<td><select id="Size11">
+			<option value="S1">1.2"</option>
+			<option value="S2">2.3"</option>
+			<option value="S3">4"</option>
+			<option value="S4">8"</option>
+			<option value="S5">12"</option>
+		</select></td>
+		<td><input type="input" id="Text43" placeholder="Enter Key">
+		</td>
+	</tr>
+	<tr><td> Format 5 </td>
+		<td><select id="Digit53">
+			<option value="Dx">None</option>
+			<option value="D0">Text</option>
+			<option value="D1">1 Digit</option>
+			<option value="D2">2 Digit</option>
+			<option value="D3">3 Digit</option>
+			<option value="D4">4 Digit</option>
+			<option value="D5">5 Digit</option>
+			<option value="D6">6 Digit</option>
+			<option value="D7">7 Digit</option>
+			<option value="D8">8 Digit</option>
+			<option value="D9">9 Digit</option>
+		</select></td>
+		<td><select id="Size11">
+			<option value="S1">1.2"</option>
+			<option value="S2">2.3"</option>
+			<option value="S3">4"</option>
+			<option value="S4">8"</option>
+			<option value="S5">12"</option>
+		</select></td>
+		<td><input type="input" id="Text53" placeholder="Enter Key">
+		</td>
+	</tr>
+	<tr><td> Format 6 </td>
+		<td><select id="Digit63">
+			<option value="Dx">None</option>
+			<option value="D0">Text</option>
+			<option value="D1">1 Digit</option>
+			<option value="D2">2 Digit</option>
+			<option value="D3">3 Digit</option>
+			<option value="D4">4 Digit</option>
+			<option value="D5">5 Digit</option>
+			<option value="D6">6 Digit</option>
+			<option value="D7">7 Digit</option>
+			<option value="D8">8 Digit</option>
+			<option value="D9">9 Digit</option>
+		</select></td>
+		<td><select id="Size11">
+			<option value="S1">1.2"</option>
+			<option value="S2">2.3"</option>
+			<option value="S3">4"</option>
+			<option value="S4">8"</option>
+			<option value="S5">12"</option>
+		</select></td>
+		<td><input type="input" id="Text63" placeholder="Enter Key">
+		</td>
+	</tr>
+	<tr><td> Format 7 </td>
+		<td><select id="Digit73">
+			<option value="Dx">None</option>
+			<option value="D0">Text</option>
+			<option value="D1">1 Digit</option>
+			<option value="D2">2 Digit</option>
+			<option value="D3">3 Digit</option>
+			<option value="D4">4 Digit</option>
+			<option value="D5">5 Digit</option>
+			<option value="D6">6 Digit</option>
+			<option value="D7">7 Digit</option>
+			<option value="D8">8 Digit</option>
+			<option value="D9">9 Digit</option>
+		</select></td>
+		<td><select id="Size11">
+			<option value="S1">1.2"</option>
+			<option value="S2">2.3"</option>
+			<option value="S3">4"</option>
+			<option value="S4">8"</option>
+			<option value="S5">12"</option>
+		</select></td>
+		<td><input type="input" id="Text73" placeholder="Enter Key">
+		</td>
+	</tr>
+	<tr><td> Format 8 </td>
+		<td><select id="Digit83">
+			<option value="Dx">None</option>
+			<option value="D0">Text</option>
+			<option value="D1">1 Digit</option>
+			<option value="D2">2 Digit</option>
+			<option value="D3">3 Digit</option>
+			<option value="D4">4 Digit</option>
+			<option value="D5">5 Digit</option>
+			<option value="D6">6 Digit</option>
+			<option value="D7">7 Digit</option>
+			<option value="D8">8 Digit</option>
+			<option value="D9">9 Digit</option>
+		</select></td>
+		<td><select id="Size11">
+			<option value="S1">1.2"</option>
+			<option value="S2">2.3"</option>
+			<option value="S3">4"</option>
+			<option value="S4">8"</option>
+			<option value="S5">12"</option>
+		</select></td>
+		<td><input type="input" id="Text83" placeholder="Enter Key">
+		</td>
+	</tr>
+	<tr><td> Format 9 </td>
+		<td><select id="Digit93">
+			<option value="Dx">None</option>
+			<option value="D0">Text</option>
+			<option value="D1">1 Digit</option>
+			<option value="D2">2 Digit</option>
+			<option value="D3">3 Digit</option>
+			<option value="D4">4 Digit</option>
+			<option value="D5">5 Digit</option>
+			<option value="D6">6 Digit</option>
+			<option value="D7">7 Digit</option>
+			<option value="D8">8 Digit</option>
+			<option value="D9">9 Digit</option>
+		</select></td>
+		<td><select id="Size11">
+			<option value="S1">1.2"</option>
+			<option value="S2">2.3"</option>
+			<option value="S3">4"</option>
+			<option value="S4">8"</option>
+			<option value="S5">12"</option>
+		</select></td>
+		<td><input type="input" id="Text93" placeholder="Enter Key">
+		</td>
+	</tr>
+	<tr><td> Format 10 </td>
+		<td><select id="DigitA3">
+			<option value="Dx">None</option>
+			<option value="D0">Text</option>
+			<option value="D1">1 Digit</option>
+			<option value="D2">2 Digit</option>
+			<option value="D3">3 Digit</option>
+			<option value="D4">4 Digit</option>
+			<option value="D5">5 Digit</option>
+			<option value="D6">6 Digit</option>
+			<option value="D7">7 Digit</option>
+			<option value="D8">8 Digit</option>
+			<option value="D9">9 Digit</option>
+		</select></td>
+		<td><select id="Size11">
+			<option value="S1">1.2"</option>
+			<option value="S2">2.3"</option>
+			<option value="S3">4"</option>
+			<option value="S4">8"</option>
+			<option value="S5">12"</option>
+		</select></td>
+		<td><input type="input" id="TextA3" placeholder="Enter Key">
+		</td>
+	</tr>
+	</table>
+</td>
+</tr>
+</table>
+</div>
+</center>
+<script>
+
+
+
+</script>
+</body>
+</html>

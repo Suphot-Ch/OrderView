@@ -1,0 +1,21 @@
+﻿TGM-63050 2I4D2R 5D1R 4I5D2R 4D2R 1IP_CNT 1OP_AL4F Break On Off
+- 7 Segment Size  2.3" 4" สีแดง
+- Input sensor[PNP, NPN] Counter 1 Channel
+- Input Contact Reset 1 Channel
+- Output Alarm 4 function Relay 1 Output
+- สามารถเชื่อมต่อ RS485 Modbus RTU 
+- SMT : แสดงค่าที่ตั้งจากรีโมท
+- CLOCK : แสดงเวลาปัจจุบัน
+- TARGET : 
+- PLAN : นับขึ้นทีละ 1 ตามเวลา TAKT TIME
+- ACTUAL : แสดงค่าที่ Counter นับได้จาก INPUT
+- %DIFF : (ACTUAL / PLAN) x 100
+- TAKT TIME : ตั้งค่าจากรีโมท
+- สามารถตั้งค่า Break On/Off ได้ 10 function
+- สามารถมารถ เลือก Alarm ได้ 4 function
+
+- ติดตั้ง TL60-2B0-P3B3-RG
+
+RS485 Modbus RTU
+- *Slave mode- สามารถตั้งค่า Address ได้ 1 – 240  
+- สามารถตั้งค่า Baudrate ได้ 4800 9600 19200 38400 57600

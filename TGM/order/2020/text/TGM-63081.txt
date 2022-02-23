@@ -1,0 +1,15 @@
+﻿TGM-63081 2I4D1R 1AP_420 1OP_AL
+- Segment  2.3 นิ้ว 4 หลัก
+- ติดสติกเกอร์ Kg 
+- input Analog 4-20 mA 1 channel
+- Output Alarm 1 channel
+- Input Analog
+- สามารถตั้งค่า Scale High Low ได้
+- สามารถตั้งค่า Inverse Scale ได้
+- สามารถตั้งค่าทศนิยมได้
+- Output Alarm
+- สามารถตั้งค่าการทำงานได้ 4 function
+   1. Alarm high, low
+   2. Alarm high
+   3. Alarm low
+   4. Alarm high, low range

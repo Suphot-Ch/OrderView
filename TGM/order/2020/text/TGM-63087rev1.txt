@@ -1,0 +1,16 @@
+﻿TGM-63087 2I4D1R 1IP_CNT TIME_OnOff
+Segment :- Size 2.3"
+	- 4 หลัก ( 4 Digit)
+INPUT:	- Counter senser npn pnp  1 ch
+	- Contact Reset Counter 1 ch
+	- Contact Reset All 1 ch
+- สามารถตั้งค่าการทำงานผ่าน Remote ได้
+- Supply 220VAC 
+FINAL :	- ตั้งค่าจาก Remote ตั้งได้ 0-9999
+TARGET:	- แก้ไขคาได้จาก Remote 
+	- สามารถตั้งค่า Cycle time target ได้ เช่น ตั้ง Cycle 10 Sec. Target จะนับขึ้น +1 ทุกๆ 10 วินาที
+ACTUAL:	- แสดงค่าที่รับได้ INPUT
+TIMER MODE
+TIME ON:	- สามารถตั้งเวลาเปิกการทำงานได้ 5 ช่วง
+TIME OFF:- สามารถตั้งเวลาเปิกการทำงานได้ 5 ช่วง
+	- INPUT enable timer mode 1 ch

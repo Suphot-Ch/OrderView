@@ -1,0 +1,8 @@
+﻿TGM-63047 8I3D1R 1AP_TC_K 1OP_AL Rain Protect Install Sensor
+7 Segment Size สีแดง
+แสดงผลผ่านหน้าจอ7 Segment สีแดง 3 หลัก
+Input Thermo coupie type k ผ่าน IM-A
+ติดตั้งกล่องป้องกัน Terminal จากละอองน้ำ
+ปิดช่องต่างๆ ที่อาจทำให้ละอองน้ำทำให้วงจรและอุปกรณ์ภายในเสียหาย
+มี Contact Alarm Output Relay 4 Function
+ติดตั้ง TSK-01(M6)wire 0.5 CM

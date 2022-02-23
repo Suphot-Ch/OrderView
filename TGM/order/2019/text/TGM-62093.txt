@@ -1,0 +1,8 @@
+﻿TGM-62093 4I5D2R 1AP_420 4I3D1R 1IP_RPM
+- 7 Segment Size 4" สีแดง 5 หลัก
+- RPM Input Sensor PNP, NPN, Contact Switch 2 Channel 
+- Analog 4-20mA 1 Channel
+- TARGET	: แสดงค่า เป้าหมายแก้ไขค่าได้ด้วย Remote
+- ACTUAL	: แสดงต่าที่รับได้จาก Input Analog
+- RPM		: แสดงความเร็วที่วัดได้ เมตร ต่อ นาที Input RPM
+- Function Scale High Low / Multiply Divisor

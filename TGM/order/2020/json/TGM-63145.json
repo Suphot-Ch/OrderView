@@ -1,0 +1,30 @@
+{
+    "KEYWORD": "TGM-63145 8I3D1R 1AP_420 1OP_AL Rain Protect",
+    "DISPLAY": "7 Segment",
+    "SIZE": "8 INC",
+    "INPUT": {
+        "TYPE": "Analog 4-20 mA",
+        "CH": "1"
+    },
+    "OUTPUT": {
+        "TYPE": "Alarm Relay",
+        "CH": "1"
+    },
+    "COMMUNICATION": {
+        "TYPE": "",
+        "CH": ""
+    },
+    "SUPPLY": "110-240 VAC",
+    "SOURCE": "",
+    "FUNCTION": [
+        {
+            "DETAIL": "- สามารถตั้งค่า Scale high low ได้  -199 – 999"
+        },
+        {
+            "DETAIL": "- สามารถตั้งค่า Alarm ได้ 4 function "
+        }
+    ],
+    "Size": "750W x 300H x 100D mm.",
+    "DATE": "02/11/2020",
+    "PRICE": "16700"
+}

@@ -1,0 +1,11 @@
+﻿TGM-63040 8I4D1R RS485 ASCII
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง 
+Communication	: RS485 Modbus ASCII 1 Channel
+		: Setting Address 1 – 255
+		: Setting Baud rate 4800, 9600, 19200, 38400, 57600
+		: Setting Parity none, Even, Odd
+Modbus ASCII Support
+	: 03H Read Holding Registers
+	: 04H Read Input Registers
+	: 06H Preset Single Register 
+	: 10H Preset Multi Registers

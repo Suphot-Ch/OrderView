@@ -1,0 +1,12 @@
+﻿TGM-63008 4I3D3R 1IP_CNT 1OP_AL
+7 Segment 2.3"  3 หลัก
+แสดงผลได้ตั้งแต่ -199 ถึง 999
+INPUT Counter [sensor npn pnp] 1 Channel
+INPUT Reset [contact switch] 1 Channel
+INPUT Downtime [contact switch] 1 Channel
+OUTPUT Setpoint Alarm [NC-NO-COM] 1 Channel
+สามารถตั้งค่า ตัวคูณตัวหารได้
+สามารถตั้งค่า ให้นับขึ้น หรือลงได้
+Function นับเวลาเพิ่มขึ้นทุกๆ 1 วินาที
+     สามารถกดดูเวลาได้ผ่าน Remote
+ตั้งค่าการทำงานผ่าน Remote

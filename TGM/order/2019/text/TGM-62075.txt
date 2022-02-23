@@ -1,0 +1,12 @@
+﻿TGM-62075 2I6D3R 3IP_CNT Date 4I6D3R Total
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง 
+LINE 1 2.3": รับอินพุต Sensor PNP, NPN, Contact 1 Ch + Reset 1 Ch
+LINE 2 2.3": รับอินพุต Sensor PNP, NPN, Contact 1 Ch + Reset 1 Ch
+LINE 3 2.3": รับอินพุต Sensor PNP, NPN, Contact 1 Ch + Reset 1 Ch
+ACTUAL 4": ผลรวมของ Input ทั้ง 3 Ch
+%EFF 4": [ Actual / Target ] x 100 
+CLOCK 2.3": แสดงเวลาปัจจุบัน
+DATE 2.3": แสดงวันที่ปัจจุบัน
+สามารถตั้งค่า ตัวคูณตัวหารได้ แยกกัน 3 Ch 
+สามารถตั้งค่า ทศนิยมได้
+ตั้งค่าการทำงานด้วย Remote IF 

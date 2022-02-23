@@ -1,0 +1,17 @@
+﻿TGM-62111 2I6D4R 1IP_CNT Todayplan
+แสดงผลด้วยตัวเลข 7 SEGMENT สีแดง ขนาด 2.3 นิ้ว
+Today Plan	: รับข้อมูลการตั้งค่า ผ่านรีโหมด
+Target	: รับข้อมูลการตั้งค่า ผ่านรีโหมด และมีโหมดการเพิ่มค่าทุกๆรอบ Cycle time
+Time 	: แสดงเวลาปัจจุบัน เมื่อเริ่มต้นการทำงานจะแสดงเป็น นาฬิกานับถอยหลัง ตามค่าเป้าเวลาที่ตั้ง
+Actual	: แสดงค่าที่รับได้จาก INPUT 1 Channel
+Diff.	: แสดงค่าผลต่าง Actual - Target
+ALARM	 1	: ทำงานเมื่อ ACTUAL มากกว่าหรือเท่ากับ Set Point 1
+ALARM	 2	: ทำงานเมื่อ ACTUAL มากกว่าหรือเท่ากับ Set Point 2
+ALARM	 3	: ทำงานเมื่อ ACTUAL มากกว่าหรือเท่ากับ TARGET
+สามารถตั้งเวลาเปิด/ปิดหน้าจอได้ Time On / Time Off 10 Program
+Function Sum Time นับเวลาการทำงานของ บอร์ด
+สามารถเชื่อมต่อ RS485 ได้ 1 Channel 
+Address	: ตั้งค่า ได้  1-255 
+Baud Rate	: ตั้งค่า ได้ 4800, 9600, 19200, 38400, 57600
+Data Format	: Value 32 Bits
+Protocol	: Modbus RTU read(0x03,0x04) , write(0x10)

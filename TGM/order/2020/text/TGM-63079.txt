@@ -1,0 +1,10 @@
+﻿TGM-63079 4I3D1R 2IP_CNT 3OP_AL TL
+- Segment  4 นิ้ว 3 หลัก
+- input เป็น  npn, pnp,  2 channel
+- input ทั้ง 2  สามารถนับขึ้น หรือ ลง ได้โดยการตั้งค่า
+- input เพิ่มฟังก์ชั่น ตัว คูน ตัว หาร
+- Alarm Output 3 channel
+- Output supply 12VDC
+- Input supply 220vac มีสวิตซ์ on/off
+- อุปกรณ์เสริม ยึดติดตั้ง เป็น ฉาก 90 องศา ซ้ายขวา 
+- ติดตั้งทาวเวอร์ไลท์ ให้ลูกค้าไปเรย รุ่น TL40-3B0-P1B2-GR

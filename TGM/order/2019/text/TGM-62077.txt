@@ -1,0 +1,11 @@
+﻿TGM-62077 1I3D1R 1AP_TC_K
+7 Segment Size สีแดง 1.2"
+Input Thermo coupie type k ผ่าน EM 0 - 100 C
+แสดงผลผ่านหน้าจอ7 Segment สีแดง 3 หลัก
+สามารถตังค่า Set Point Alarm Output 1 Channel
+Alarm Limit 4 Function
+   0 >> OFF Mode
+   1 >> Value High and Low Limit
+   2 >> Value High Limit
+   3 >> Value Low Limit
+   4 >> High and Low Limit Range 

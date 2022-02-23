@@ -1,0 +1,13 @@
+﻿TGM-63096 4I5D1R KW RS485 slave
+Segment :- Size 4"
+	- 5 หลัก ( 5 Digit)
+INPUT:	- RS485 Modbus RTU
+- สามารถตั้งค่าการทำงานผ่าน Remote ได้
+- Supply 220VAC 
+- สามารถตั้งค่า Baud rate ได้ 4800 9600 1900 38400 57600
+- สามารถตั้งค่า Parity ได้ None Odd Even
+- สามารถตั้งค่า Slave Address ได้ 1-240
+- รองรับ  x03 Read Holding Registers
+              x04 Read Input Registers
+              x06 Pre set Single Register
+              x10 Pre set Multi Registers

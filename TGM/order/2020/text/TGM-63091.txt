@@ -1,0 +1,11 @@
+﻿TGM-63090 8I4D2R 2AP_420 CLOCK
+Segment :- Size 8"
+	- 4 หลัก ( 4 Digit) / 2 หลัก ( 2 Digit)
+INPUT:	- 4-20mA  2 Ch
+- สามารถตั้งค่าการทำงานผ่าน Remote ได้
+- Supply 220VAC 
+CLOCK :	 - แสดงเวลาปัจจุบัน HH:MM
+	 - สามารถแก้ไขตั้งค่าเวลาได้
+TEMP : 	 - แสดงค่าที่รับได้จาก Input 1
+HUMIDITY:- แสดงค่าที่รับได้จาก Input 2
+	 - สามารถตั้งค่า Scale High Low ได้ 0 - 99

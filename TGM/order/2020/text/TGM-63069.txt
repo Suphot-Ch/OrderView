@@ -1,0 +1,7 @@
+﻿TGM-63069 1I3D1R 1IP_CNT
+แสดงผลผ่านหน้าจอ 7 Segment สีแดง 3 หลัก
+Counter Input sensor [npn pnp], Contact 1 Channel
+Reset Counter Contact 1 Channel
+ตั้งค่าการทำงาน ผ่านรีโมท
+สามารถตั้งค่า ตัวคูณ/ตัวหารได้
+สามารถตั้งค่า ทศนิยมได้

@@ -1,0 +1,18 @@
+﻿TGM-62065 4I3D1R 1AP_TC_K 2OP_AL TL RS485
+7 Segment Size สีแดง
+แสดงผลผ่านหน้าจอ7 Segment สีแดง 3 หลัก
+Input Thermo coupie type k ผ่าน IM-A
+สามารถตั้งค่า Set Point Alarm Output 2 Channel
+สามารถปิด Alarm ได้ผ่าน Input Contact
+สามารถเชื่อมต่อ RS485 Modbus RTU ได้
+Alarm Limit 4 Function
+0 >> OFF Mode
+1 >> Value High and Low Limit
+2 >> Value High Limit
+3 >> Value Low Limit
+4 >> High and Low Limit Range 
+RS485 Modbus RTU
+RS485 Support Baud rate 4800 9600 19200 38400 57600 
+RS485 Support Parity none odd even
+RTU Support Write 06h 10h
+RTU Support Read 03h 04h

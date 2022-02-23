@@ -1,0 +1,48 @@
+{
+  "ORDER": "TGM-64021",
+  "KEYWORD": "TGM-64021 2I3D1R 1AP_PT100 TM-012 -100 200",
+  "DISPLAY": {
+    "TYPE": "7 Segment",
+    "SIZE": "2.3\"",
+    "OTHER": ""
+  },
+  "INPUT": {
+    "TYPE": "Analog 4-20mA",
+    "OTHER": "TM-012-RTD",
+    "CHANNEL": "1"
+  },
+  "OUTPUT": {
+    "TYPE": "-",
+    "OTHER": "",
+    "CHANNEL": ""
+  },
+  "COMMUNICATION": {
+    "TYPE": "-",
+    "OTHER": "",
+    "CHANNEL": ""
+  },
+  "SUPPLY": {
+    "TYPE": "110-240 VAC/ 50-60Hz",
+    "OTHER": ""
+  },
+  "SOURCES": {
+    "TYPE": "-",
+    "OTHER": ""
+  },
+  "FUNCTION": [
+    "FUNCTION",
+    "- กำหนด SCALE การรับ INPUT ที่ – 100 ถึง 200 ºC",
+    "- แสดงผลค่าที่รับได้จาก INPUT TM-012-RTD",
+    "FEATURE",
+    "- แสดงค่าอุณหภูมิ – 100 ถึง 200 ºC ผ่านอุปกรณ์แปลงสัญญาณ TM-012-RTD"
+  ],
+  "BODYSIZE": "250W x 150H x 100D",
+  "DATE": "2021-02-16",
+  "SALE": {
+    "NAME": "คุณบัญฑิต",
+    "BRANCH": "สำนักงานใหญ่",
+    "CALL": "0908808240",
+    "EMAIL": "",
+    "CUSTOMER": ""
+  }
+}
